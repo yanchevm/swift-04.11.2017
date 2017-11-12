@@ -1,3 +1,3 @@
 # Java Homeworks
 
-## [1. Data types, Variables, Operators](DataTypesAndVariablesHomework)
+## [1. Data types, Variables, Operators](DataTypesAndVariablesHomework/src)
