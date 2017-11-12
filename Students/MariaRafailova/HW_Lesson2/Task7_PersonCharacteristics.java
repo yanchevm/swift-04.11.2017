@@ -1,5 +1,6 @@
 package com.company;
 
+import java.time.Year;
 import java.util.Scanner;
 
 public class Task7_PersonCharacteristics {
@@ -19,7 +20,7 @@ public class Task7_PersonCharacteristics {
         System.out.println("Profession:");
         String profession = sc.next();
 
-        int old = 2017 - birthYear;
+        int old = Year.now().getValue() - birthYear;
 
         System.out.println(firstName+" "+ lastName+" is " +old +" years old. His weight is " +kg+" and he is "+
                 height + " cm tall. He is a student.");

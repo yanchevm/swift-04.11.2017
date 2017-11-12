@@ -9,17 +9,12 @@ public class Task2_LeapYear {
         System.out.println("Please enter a year: ");
         int year = sc.nextInt();
 
-        if(year%100 == 0 && year%400 == 0){
-            System.out.println("true");
-            return;
-        }
-        if(year%4 == 0 && year%100 != 0){
+        if((year%4 == 0 && year%100 != 0)||(year%100 == 0 && year%400 == 0)){
             System.out.println("true");
         }
         else {
             System.out.println("false");
         }
-
 
     }
 }
