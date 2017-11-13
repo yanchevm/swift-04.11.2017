@@ -1,4 +1,4 @@
-package com.swift.academy.homework;
+package com.swift.academy.homework.Task_0;
 
 public class Task0c_ReadAge {
     public static void main(String[] args) {

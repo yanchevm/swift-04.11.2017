@@ -1,4 +1,4 @@
-package com.swift.academy.homework;
+package com.swift.academy.homework.Task_0;
 
 import java.util.Scanner;
 

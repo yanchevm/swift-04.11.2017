@@ -1,4 +1,4 @@
-package com.swift.academy.homework;
+package com.swift.academy.homework.Task_0;
 
 public class Task0e_ReadNNumbersOnNewLines {
     public static void main(String[] args) {

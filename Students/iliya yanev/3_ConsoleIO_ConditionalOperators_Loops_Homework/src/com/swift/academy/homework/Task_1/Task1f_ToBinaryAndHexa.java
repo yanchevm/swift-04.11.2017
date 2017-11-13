@@ -1,7 +1,6 @@
-package com.swift.academy.homework;
+package com.swift.academy.homework.Task_1;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.swift.academy.homework.Task_0.Task0a_ReadInt;
 
 public class Task1f_ToBinaryAndHexa {
     public static void main(String[] args) {
