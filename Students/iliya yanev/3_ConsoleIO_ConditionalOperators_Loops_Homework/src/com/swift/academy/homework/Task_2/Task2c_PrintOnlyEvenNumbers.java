@@ -4,7 +4,7 @@ import com.swift.academy.homework.Task_0.Task0a_ReadInt;
 
 import java.util.Scanner;
 
-public class Task2aPrintSumOfN {
+public class Task2c_PrintOnlyEvenNumbers {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -15,19 +15,18 @@ public class Task2aPrintSumOfN {
             count = Task0a_ReadInt.validateNumber();
         }
 
-        int sum = 0;
         System.out.println("Enter separated numbers: ");
-        String input = sc.nextLine();
+        String input = sc.nextLine().trim();
         String[] numbers = input.split(" ");
-
-        for (int i = 0; i < count; i++) {
+        System.out.print("Even numbers in sequence: ");
+        for (String number:numbers) {
             try {
-                sum += Integer.parseInt(numbers[i]);
-            } catch (NumberFormatException e) {
-                System.out.printf("%s is not an integer", numbers[i]);
-                System.out.println();
-            }
+                int parsedNum = Integer.parseInt(number);
+                if (parsedNum % 2 == 0) {
+                    System.out.print(parsedNum + " ");
+                    System.out.println();
+                }
+            } catch (NumberFormatException e) {}
         }
-        System.out.println("Sum: " + sum);
     }
 }

@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c60d81e0-a43b-4ce8-b7ab-cb2ffac10270" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/swift/academy/homework/Task0a_ReadInt.java" afterPath="$PROJECT_DIR$/src/com/swift/academy/homework/Task_0/Task0a_ReadInt.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/swift/academy/homework/Task0b_ReadLine.java" afterPath="$PROJECT_DIR$/src/com/swift/academy/homework/Task_0/Task0b_ReadLine.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/swift/academy/homework/Task0c_ReadAge.java" afterPath="$PROJECT_DIR$/src/com/swift/academy/homework/Task_0/Task0c_ReadAge.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/swift/academy/homework/Task0d_ReadNNumbers.java" afterPath="$PROJECT_DIR$/src/com/swift/academy/homework/Task_0/Task0d_ReadNNumbers.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/swift/academy/homework/Task0e_ReadNNumbersOnNewLines.java" afterPath="$PROJECT_DIR$/src/com/swift/academy/homework/Task_0/Task0e_ReadNNumbersOnNewLines.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/swift/academy/homework/Task1a_PrintFirstDigit.java" afterPath="$PROJECT_DIR$/src/com/swift/academy/homework/Task_1/Task1a_PrintFirstDigit.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/swift/academy/homework/Task1b_PrintMirrorNumber.java" afterPath="$PROJECT_DIR$/src/com/swift/academy/homework/Task_1/Task1b_PrintMirrorNumber.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/swift/academy/homework/Task1c_PrintSumOfDigits.java" afterPath="$PROJECT_DIR$/src/com/swift/academy/homework/Task_1/Task1c_PrintSumOfDigits.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/swift/academy/homework/Task1d_PrintAllDivisors.java" afterPath="$PROJECT_DIR$/src/com/swift/academy/homework/Task_1/Task1d_PrintAllDivisors.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/swift/academy/homework/Task1e_IsPrime.java" afterPath="$PROJECT_DIR$/src/com/swift/academy/homework/Task_1/Task1e_IsPrime.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/swift/academy/homework/Task1f_ToBinaryAndHexa.java" afterPath="$PROJECT_DIR$/src/com/swift/academy/homework/Task_1/Task1f_ToBinaryAndHexa.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/swift/academy/homework/Task_0/Task0a_ReadInt.java" afterPath="$PROJECT_DIR$/src/com/swift/academy/homework/Task_0/Task0a_ReadInt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/swift/academy/homework/Task_0/Task0c_ReadAge.java" afterPath="$PROJECT_DIR$/src/com/swift/academy/homework/Task_0/Task0c_ReadAge.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/swift/academy/homework/Task_0/Task0d_ReadNNumbers.java" afterPath="$PROJECT_DIR$/src/com/swift/academy/homework/Task_0/Task0d_ReadNNumbers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/swift/academy/homework/Task_0/Task0e_ReadNNumbersOnNewLines.java" afterPath="$PROJECT_DIR$/src/com/swift/academy/homework/Task_0/Task0e_ReadNNumbersOnNewLines.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/swift/academy/homework/Task_2/Task2aPrintSumOfN.java" afterPath="$PROJECT_DIR$/src/com/swift/academy/homework/Task_2/Task2aPrintSumOfN.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,12 +23,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Task2aPrintSumOfN.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/swift/academy/homework/Task_2/Task2aPrintSumOfN.java">
+      <file leaf-file-name="Task2b_PrintReversedSequence.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/swift/academy/homework/Task_2/Task2b_PrintReversedSequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="408">
+              <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task2c_PrintOnlyEvenNumbers.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/swift/academy/homework/Task_2/Task2c_PrintOnlyEvenNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,7 +80,12 @@
         <option value="$PROJECT_DIR$/src/com/swift/academy/homework/Task1d_PrintAllDivisors.java" />
         <option value="$PROJECT_DIR$/src/com/swift/academy/homework/Task1f_ToBinaryAndHexa.java" />
         <option value="$PROJECT_DIR$/src/com/swift/academy/homework/Task_0/Task0a_ReadInt.java" />
+        <option value="$PROJECT_DIR$/src/com/swift/academy/homework/Task_0/Task0c_ReadAge.java" />
+        <option value="$PROJECT_DIR$/src/com/swift/academy/homework/Task_0/Task0e_ReadNNumbersOnNewLines.java" />
         <option value="$PROJECT_DIR$/src/com/swift/academy/homework/Task_2/Task2aPrintSumOfN.java" />
+        <option value="$PROJECT_DIR$/src/com/swift/academy/homework/Task_0/Task0d_ReadNNumbers.java" />
+        <option value="$PROJECT_DIR$/src/com/swift/academy/homework/Task_2/Task2b_PrintReversedSequence.java" />
+        <option value="$PROJECT_DIR$/src/com/swift/academy/homework/Task_2/Task2c_PrintOnlyEvenNumbers.java" />
       </list>
     </option>
   </component>
@@ -120,27 +132,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="homework" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="3_ConsoleIO_ConditionalOperators_Loops_Homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3_ConsoleIO_ConditionalOperators_Loops_Homework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="Task_0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3_ConsoleIO_ConditionalOperators_Loops_Homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3_ConsoleIO_ConditionalOperators_Loops_Homework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="Task_1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3_ConsoleIO_ConditionalOperators_Loops_Homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3_ConsoleIO_ConditionalOperators_Loops_Homework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="Task_2" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -171,15 +162,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task2aPrintSumOfN">
-    <configuration name="Task1c_PrintSumOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Task2c_PrintOnlyEvenNumbers">
+    <configuration name="Task0d_ReadNNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.swift.academy.homework.Task_0.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.swift.academy.homework.Task_1.Task1c_PrintSumOfDigits" />
+      <option name="MAIN_CLASS_NAME" value="com.swift.academy.homework.Task_0.Task0d_ReadNNumbers" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -191,52 +182,14 @@
       <module name="3_ConsoleIO_ConditionalOperators_Loops_Homework" />
       <envs />
     </configuration>
-    <configuration name="Task1d_PrintAllDivisors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Task0e_ReadNNumbersOnNewLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.swift.academy.homework.Task_0.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.swift.academy.homework.Task_1.Task1d_PrintAllDivisors" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="3_ConsoleIO_ConditionalOperators_Loops_Homework" />
-      <envs />
-    </configuration>
-    <configuration name="Task1e_IsPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.swift.academy.homework.Task_0.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.swift.academy.homework.Task_1.Task1e_IsPrime" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="3_ConsoleIO_ConditionalOperators_Loops_Homework" />
-      <envs />
-    </configuration>
-    <configuration name="Task1f_ToBinaryAndHexa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.swift.academy.homework.Task_0.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.swift.academy.homework.Task_1.Task1f_ToBinaryAndHexa" />
+      <option name="MAIN_CLASS_NAME" value="com.swift.academy.homework.Task_0.Task0e_ReadNNumbersOnNewLines" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -256,6 +209,44 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.swift.academy.homework.Task_2.Task2aPrintSumOfN" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="3_ConsoleIO_ConditionalOperators_Loops_Homework" />
+      <envs />
+    </configuration>
+    <configuration name="Task2b_PrintReversedSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.swift.academy.homework.Task_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.swift.academy.homework.Task_2.Task2b_PrintReversedSequence" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="3_ConsoleIO_ConditionalOperators_Loops_Homework" />
+      <envs />
+    </configuration>
+    <configuration name="Task2c_PrintOnlyEvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.swift.academy.homework.Task_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.swift.academy.homework.Task_2.Task2c_PrintOnlyEvenNumbers" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -348,19 +339,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Task1c_PrintSumOfDigits" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Task1d_PrintAllDivisors" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Task1e_IsPrime" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Task1f_ToBinaryAndHexa" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Task2aPrintSumOfN" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Task0d_ReadNNumbers" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Task0e_ReadNNumbersOnNewLines" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Task2aPrintSumOfN" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Task2b_PrintReversedSequence" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Task2c_PrintOnlyEvenNumbers" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Task2aPrintSumOfN" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Task1f_ToBinaryAndHexa" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Task1e_IsPrime" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Task1d_PrintAllDivisors" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Task1c_PrintSumOfDigits" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Task2c_PrintOnlyEvenNumbers" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Task2b_PrintReversedSequence" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Task2aPrintSumOfN" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Task0e_ReadNNumbersOnNewLines" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Task0d_ReadNNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -387,15 +378,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -403,7 +393,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22552083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22552083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -417,13 +407,42 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39872748" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22552083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -445,7 +464,7 @@
         <state relative-caret-position="204">
           <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -466,28 +485,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swift/academy/homework/Task_0/Task0a_ReadInt.java">
+    <entry file="file://$PROJECT_DIR$/src/com/swift/academy/homework/Task_0/Task0b_ReadLine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/swift/academy/homework/Task_0/Task0c_ReadAge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="85">
+          <caret line="5" column="79" lean-forward="false" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swift/academy/homework/Task_0/Task0e_ReadNNumbersOnNewLines.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="180">
+          <caret line="2866" column="18" lean-forward="false" selection-start-line="2866" selection-start-column="18" selection-end-line="2866" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/swift/academy/homework/Task_0/Task0a_ReadInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -500,25 +525,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swift/academy/homework/Task_1/Task1b_PrintMirrorNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/com/swift/academy/homework/Task_0/Task0e_ReadNNumbersOnNewLines.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swift/academy/homework/Task_1/Task1c_PrintSumOfDigits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        <state relative-caret-position="204">
+          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/swift/academy/homework/Task_1/Task1d_PrintAllDivisors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="60">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -542,27 +559,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swift/academy/homework/Task_0/Task0b_ReadLine.java">
+    <entry file="file://$PROJECT_DIR$/src/com/swift/academy/homework/Task_1/Task1b_PrintMirrorNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/swift/academy/homework/Task_1/Task1c_PrintSumOfDigits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/swift/academy/homework/Task_0/Task0d_ReadNNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="17" column="44" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="17" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/swift/academy/homework/Task_2/Task2aPrintSumOfN.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="442">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="28" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/swift/academy/homework/Task_2/Task2b_PrintReversedSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/swift/academy/homework/Task_2/Task2c_PrintOnlyEvenNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
