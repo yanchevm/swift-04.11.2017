@@ -10,6 +10,7 @@ public class Task1c_PrintSumOfDigits {
         char[] numberAsCharArray = Integer.toString(inputNumber).toCharArray();
         int sum = 0;
         for (int number:numberAsCharArray) {
+            // Милен: БРАВО. Много добре си се сетил
             sum += number - '0';
         }
         System.out.println("Sum of digits: " + sum);
