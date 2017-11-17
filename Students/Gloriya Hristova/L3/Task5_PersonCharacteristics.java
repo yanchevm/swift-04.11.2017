@@ -34,8 +34,8 @@ public class Task5_PersonCharacteristics {
         }
         
         //System.out.print("Year of birth: ");
-        
-            year = input.nextInt();
+        do{
+            year = input.nextInt();}while(year<1910&&year>today);
             int age = today - year;
             
         //System.out.print("Weight: ");
