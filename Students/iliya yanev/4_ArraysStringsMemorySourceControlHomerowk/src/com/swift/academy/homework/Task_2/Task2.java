@@ -12,13 +12,14 @@ public class Task2 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter size: ");
-        int size = Task0b_ReadArray.validateNumber();
+        int size = Task0b_ReadArray.readNumberFromConsole();
         while (size < 1) {
             System.out.print("Please enter a positive number: ");
-            size = Task0b_ReadArray.validateNumber();
+            size = Task0b_ReadArray.readNumberFromConsole();
         }
         System.out.print("Enter numbers separated by whitespace: ");
         String input = sc.nextLine().trim();
+
         String[] numbersAsString = input.split(" ");
         int[] numbers = new int[size];
 

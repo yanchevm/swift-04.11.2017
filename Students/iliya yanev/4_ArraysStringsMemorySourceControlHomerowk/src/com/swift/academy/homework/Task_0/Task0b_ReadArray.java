@@ -8,14 +8,15 @@ public class Task0b_ReadArray {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a size for the array: ");
-        int count = validateNumber();
+        int count = readNumberFromConsole();
         while (count < 1) {
             System.out.print("Please enter a positive number: ");
-            count = validateNumber();
+            count = readNumberFromConsole();
         }
 
         System.out.print("Enter numbers separated by whitespace: ");
         String input = sc.nextLine().trim();
+
         String[] numbersAsString = input.split(" ");
         int[] arr = new int[count];
         for (int i = 0; i < count; i++) {
@@ -36,7 +37,7 @@ public class Task0b_ReadArray {
         }
     }
 
-    public static int validateNumber() {
+    public static int readNumberFromConsole() {
         Scanner sc = new Scanner(System.in);
 
         boolean exit = false;

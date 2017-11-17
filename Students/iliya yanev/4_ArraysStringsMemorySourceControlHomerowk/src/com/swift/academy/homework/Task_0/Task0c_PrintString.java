@@ -8,6 +8,7 @@ public class Task0c_PrintString {
 
         System.out.print("String: ");
         String input = sc.nextLine().trim();
+
         char[] letters = input.toCharArray();
         for(char c: letters) {
             System.out.println(c);

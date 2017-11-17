@@ -5,10 +5,10 @@ import com.swift.academy.homework.Task_0.Task0b_ReadArray;
 public class Task1d_PrintMatrix {
     public static void main(String[] args) {
         System.out.print("Enter array size: ");
-        int size = Task0b_ReadArray.validateNumber();
+        int size = Task0b_ReadArray.readNumberFromConsole();
         while (size < 1) {
             System.out.print("Please enter a positive number: ");
-            size = Task0b_ReadArray.validateNumber();
+            size = Task0b_ReadArray.readNumberFromConsole();
         }
 
         int arr[][] = spiral(size);
