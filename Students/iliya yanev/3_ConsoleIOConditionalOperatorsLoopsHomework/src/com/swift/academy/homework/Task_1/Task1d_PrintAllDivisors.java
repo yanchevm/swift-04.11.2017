@@ -20,6 +20,7 @@ public class Task1d_PrintAllDivisors {
         }
         System.out.println();
 
+        // Милен: БРАВО! Много добре си се сетил
         //faster
         List divisors = new ArrayList();
         System.out.print("Number's divisors are: ");

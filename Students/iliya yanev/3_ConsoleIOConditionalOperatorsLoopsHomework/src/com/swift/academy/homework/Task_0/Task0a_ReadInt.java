@@ -10,6 +10,9 @@ public class Task0a_ReadInt {
         System.out.println("Result: " + ++myNumber);
     }
 
+    // Милен: Какво прави този метод ?
+    // Валидира число или чете, валидира и връща число ?
+    // Аз бих го кръстил - readNumberFromConsole
     public static int validateNumber() {      // Validation to make sure a valid number is entered
         Scanner sc = new Scanner(System.in);
 
@@ -26,5 +29,7 @@ public class Task0a_ReadInt {
             }
         }
         return number;
+
+        // Милен: Добра практика е след използването на скенера, да го затваряш
     }
 }
