@@ -34,6 +34,7 @@ public class Task4b_PrintCountOfWords {
                 }
             }
         }
+        //Милен: БРАВО за решенито. Отново, можеш ли да се досетиш за решение с използването на масив ?
 
         System.out.println(count);
     }

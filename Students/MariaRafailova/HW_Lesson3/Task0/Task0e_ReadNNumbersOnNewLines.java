@@ -11,6 +11,7 @@ public class Task0e_ReadNNumbersOnNewLines {
 
         int[] arr = new int[n];
 
+	// Милен: БРАВО, много добре си се сетила
         System.out.println("Please enter "+n +" numbers:");
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();

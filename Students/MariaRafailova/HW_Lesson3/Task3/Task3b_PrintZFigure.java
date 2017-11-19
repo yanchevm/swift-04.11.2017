@@ -25,6 +25,8 @@ public class Task3b_PrintZFigure {
         for (int i = 0; i < n; i++) {
             System.out.print("*");
         }
+
+	//Милен: БРАВО!
         System.out.println();
     }
 }

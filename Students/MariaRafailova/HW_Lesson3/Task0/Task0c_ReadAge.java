@@ -7,7 +7,8 @@ public class Task0c_ReadAge {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter the age: ");
         int years = sc.nextInt();
-
+	
+	// Милен: Хубаво е тук да слагаш и една проверка дали годините въведени от потребителя са валидни
         if(years >= 18){
             System.out.println("Adult");
         } else {

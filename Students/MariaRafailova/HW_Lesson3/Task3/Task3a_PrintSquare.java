@@ -25,6 +25,8 @@ public class Task3a_PrintSquare {
         for (int i = 0; i < n; i++) {
             System.out.print("*");
         }
+
+	// Милен: БРАВО за алгоритъма ! А можеш ли да се досетиш за оптимизация ? Можеш да включиш if-ове :)
         System.out.println();
 
     }

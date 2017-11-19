@@ -11,6 +11,8 @@ public class Task1c_PrintSumOfDigits {
 
         int mod;
         int sum = 0;
+
+	//Милен: БРАВО! А има ли конкретна причина да избереш do-while ? Можеше ли да стане с while ?
         do{
             mod = num%10;
             sum +=mod;
