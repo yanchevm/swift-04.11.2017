@@ -21,6 +21,7 @@ public class Task2g_LargestSumSubsequence {
         int maxStartInd = 0;
         int maxEndInd =0;
         int maxSum = 0;
+	//Милен: БРАВО, много добре си се сетила
         for (int i = 0; i < n-1; i++) {
             indStart = i;
             for (int j = n-1; j >= i; j--) {

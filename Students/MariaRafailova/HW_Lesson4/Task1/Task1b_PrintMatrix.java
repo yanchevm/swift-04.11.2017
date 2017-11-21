@@ -10,7 +10,8 @@ public class Task1b_PrintMatrix {
         int n = sc.nextInt();
 
         int[][] arr = new int[n][n];
-
+	
+	//Милен: БРАВО! Много добре си се сетила
         int count = 1;
         for (int c = 0; c < n; c++){
             if(c == 0 || c%2 == 0){

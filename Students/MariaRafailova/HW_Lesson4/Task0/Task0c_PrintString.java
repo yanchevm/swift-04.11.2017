@@ -9,6 +9,7 @@ public class Task0c_PrintString {
         System.out.println("Please enter some text: ");
         String input = sc.nextLine();
 
+	//Милен: БРАВО!
         for (int i = 0; i < input.length() ; i++) {
             if (input.charAt(i) != ' '){
                 System.out.println(input.charAt(i));

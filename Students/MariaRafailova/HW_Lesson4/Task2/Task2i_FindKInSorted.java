@@ -20,7 +20,7 @@ public class Task2i_FindKInSorted {
             arr[i] = sc.nextInt();
         }
 
-        int result = Arrays.binarySearch(arr, k);
+        int result = Arrays.binarySearch(arr, k); //БРАВО!
        if(result >=0){
            System.out.println(result);
        } else {

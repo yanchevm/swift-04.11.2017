@@ -16,6 +16,7 @@ public class Task2d_PrintSplitIndex {
             arr[i] = sc.nextInt();
         }
 
+	//Милен: БРАВО!
         int index = 0;
         for (int i = 0; i < n; i++) {
             int sum1 = 0;
