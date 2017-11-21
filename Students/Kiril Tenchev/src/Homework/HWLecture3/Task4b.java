@@ -7,7 +7,7 @@ public class Task4b {
         String str =sc.nextLine();
         int count=0;
         for (int i = 0; i <=str.length()- 1; i++) {
-            if(str.charAt(i)==' '){
+            if(str.charAt(i)==' '){ //Милен: Можеш ли да оптимизираш алгоритъма ?
                 count++;
             }
             else if(str.charAt(i)==','){

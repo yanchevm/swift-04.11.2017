@@ -5,7 +5,7 @@ public class Task4c {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter sentences:");
         String str=sc.nextLine();
-        String[] sSentence = str.split("[\\.\\?\\!]");
+        String[] sSentence = str.split("[\\.\\?\\!]"); //Милен: БРАВО!
         for (int i = 0; i <= sSentence.length-1 ; i++) {
             System.out.println(sSentence[i]);
 

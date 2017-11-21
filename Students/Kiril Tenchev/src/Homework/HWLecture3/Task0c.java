@@ -8,7 +8,7 @@ public class Task0c {
         if(age<0){
             System.out.println("Incorrect input!");
         }
-        else if(age>=0&&age<18){
+        else if(age>=0&&age<18){ //Милен: Имаш ли нужда от аге>=0 тук ? Ще стигнеш ли до тук ако не е ?
             System.out.println("Underage");
         }
         else{

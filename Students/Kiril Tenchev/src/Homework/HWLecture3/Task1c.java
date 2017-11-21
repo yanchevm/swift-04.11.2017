@@ -6,6 +6,8 @@ public class Task1c {
         System.out.print("Enter number: ");
         int num =sc.nextInt();
         int sum = 0;
+
+        //Милен: БРАВО!
         while (num > 0) {
             sum = sum + num % 10;
             num = num / 10;
