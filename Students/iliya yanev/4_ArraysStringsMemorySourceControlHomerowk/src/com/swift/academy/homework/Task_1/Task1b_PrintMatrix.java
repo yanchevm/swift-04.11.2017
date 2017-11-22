@@ -11,6 +11,7 @@ public class Task1b_PrintMatrix {
             size = Task0b_ReadArray.readNumberFromConsole();
         }
         int arr[][] = new int[size][size];
+        //Милен: БРАВО, алгоритъма е правилен
         for (int i = 0; i < arr[0].length; i++) {
             for (int j = 0; j < arr[1].length; j++) {
                     if (j % 2 == 0) {

@@ -22,6 +22,7 @@ public class Task1d_PrintMatrix {
 
     }
 
+    // Милен: Отново, много добре
     private static int[][] spiral(int size) {
         int[][] arr = new int[size][size];
         int insideCells = (int)Math.ceil((size / 2.0));

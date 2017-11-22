@@ -8,6 +8,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Task2 {
+
+    //Милен: Нямам забележки - БРАВО!
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

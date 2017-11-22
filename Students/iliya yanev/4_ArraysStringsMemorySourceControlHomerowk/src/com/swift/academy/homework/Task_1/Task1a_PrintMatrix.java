@@ -10,6 +10,7 @@ public class Task1a_PrintMatrix {
             System.out.print("Please enter a positive number: ");
             size = Task0b_ReadArray.readNumberFromConsole();
         }
+        //Милен: БРАВО!
         int arr[][] = new int[size][size];
         for (int i = 0; i < arr[0].length; i++) {
             for (int j = 0; j < arr[1].length; j++) {

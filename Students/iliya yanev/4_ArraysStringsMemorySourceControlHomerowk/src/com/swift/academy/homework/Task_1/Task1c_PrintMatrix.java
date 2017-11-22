@@ -22,6 +22,8 @@ public class Task1c_PrintMatrix {
        }
     }
 
+
+    //Милен: Много добър подход
     private static int[][] diagonal(int[][] input) {
         int count = 1;
         int numRows = input.length;
