@@ -21,6 +21,7 @@ public class Task2c_PrintOnlyEvenNumbers {
                array[i] = input.nextInt();
                
          }
+	//Милен: БРАВО!
            for(int i = 0; i <n; i++){
                if(array[i]%2==0){
                    System.out.print(array[i]+" ");

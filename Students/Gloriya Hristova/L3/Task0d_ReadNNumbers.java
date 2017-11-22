@@ -18,6 +18,7 @@ public class Task0d_ReadNNumbers {
       System.out.println("Numbers: int or double? ");
         answer = input.nextLine();
         
+	//Милен: Много добре си се сетила за конструкцията.
         do{   
 
          System.out.println("Enter number of entries: ");

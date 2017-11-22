@@ -17,6 +17,7 @@ public class Task4b_PrintCountOfWords {
 String[] wordArray = txt.trim().split("\\s+");
      int wordCount = wordArray.length;
     
+//Милен: Какво можеш да използваш вместо много на брой if - ове ?
      if (txt.contains("0")){
          wordCount--;
      }
