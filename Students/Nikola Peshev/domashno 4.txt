@@ -1,0 +1,106 @@
+Task 0
+a)
+import java.util.Scanner;
+public class Person {
+	public Scanner sc=new Scanner(System.in);
+	private int age;
+	private String name;
+	public static void main(String[] args){
+		Person person1=new Person("");
+		person1.setName();
+		person1.printString();
+		Person person2=new Person();
+		person2.setName();
+		person2.setAge();
+		person2.printString();
+		Person noName=new Person();
+		noName.printString();
+	}
+	private Person(){
+		name="No Name";
+		this.age=-1;
+	}
+	private Person(String newName){
+		this.name=newName;
+	}
+	private Person(String name,int age){
+		this.name=name;
+		this.age=age;
+	}
+	private String setName(){
+		System.out.println("Enter name!");
+		name=sc.nextLine();
+		return name;
+	}
+	private  int setAge(){
+		System.out.println("Enter age!");
+		age=sc.nextInt();
+		return age;
+	}
+	private void printString(){
+		if(this.age>0){
+			System.out.printf("Hello, I am "+this.name+".I am %d years old!%n",this.age);
+		}else if(this.age==-1){
+			System.out.println("I am John Doe!");
+		}else {
+			System.out.println("Hello, I am "+this.name+".");
+		}
+	}
+}
+b)
+import java.util.Scanner;
+public class Car {
+	public Scanner sc=new Scanner(System.in);
+	private String name;
+	private int i;
+	private double sum=0;
+	private String model;
+	private int hp;
+	private final short year=2017;
+	private int age;
+	public static void main(String[] args){
+		Car car=new Car();
+		car.getInformation();
+		car.calcInsurance();
+	}
+	private void getInformation(){
+		System.out.println("Enter car name!");
+		name=sc.nextLine();
+		System.out.println("Enter car model!");
+		model=sc.nextLine();
+		System.out.println("Enter car horsepower!");
+		hp=sc.nextInt();
+		System.out.println("Enter car age!");
+		age=sc.nextInt();
+	}
+	private int insuranceCategory(int age){
+		
+		if(year-age<=8){
+			return i=1;
+		}else if(year-age>8 && year-age<=15){
+			return i=2;
+		}else if(year-age>15 && year-age<=25){
+			return i=3;
+		}else{
+			return i=4;
+		}
+	}
+	private void calcInsurance(){
+		insuranceCategory(age);
+		if(i==1){
+			sum=150;
+		}else if(i==2){
+			sum=200;
+		}else if(i==3){
+			sum=300;
+		}else{
+			sum=500;
+		}
+		if(hp<=80){
+			sum=sum+(sum*0.2);
+		}else if(hp>=140){
+			sum=sum+(sum * 0.45);
+		}
+		System.out.println(sum);
+	}
+}

@@ -14,7 +14,8 @@ public class Task3d_BracketMatching {
         System.out.println(str2.equals("")? true : false);
 
     }
-
+	
+	// Милен: Какво използваш тук ?
     public static String reduceStr (String str){
         String newStr = str.replace("()", "").replace("[]", "").
                 replace("{}", "");

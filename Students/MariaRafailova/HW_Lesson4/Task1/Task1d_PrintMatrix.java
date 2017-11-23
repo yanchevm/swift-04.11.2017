@@ -10,6 +10,7 @@ public class Task1d_PrintMatrix {
         System.out.print("Please enter the dimension of the matrix: ");
         int n = sc.nextInt();
 
+	// Милен: Браво!
         int arr[][] = new int[n][n];
         int k=1, c1=0, c2=n-1, r1=0, r2=n-1; //k- broiach na chislata, c- broiach za kolona, r - broiach za red
 

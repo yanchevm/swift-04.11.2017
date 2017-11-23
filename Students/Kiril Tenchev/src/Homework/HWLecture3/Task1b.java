@@ -6,8 +6,9 @@ public class Task1b {
         int num, reverse = 0;
         System.out.print("Enter the number to reverse: ");
         num = sc.nextInt();
-        while( num != 0 )
-        {
+
+        // Милен: БРАВО! Много добре си се досетил.
+        while( num != 0 ) {
             reverse *=  10;
             reverse +=  num%10;
             num /=10;

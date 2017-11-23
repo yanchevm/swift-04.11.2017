@@ -12,7 +12,7 @@ public class Task1d_PrintAllDivisors {
        num= input.nextInt();
        System.out.println("Divisors:\t");
        for(int i =1; i<=num; i++){
-         if(num%i==0){
+         if(num%i==0){ //Милен: БРАВО!
              System.out.print(i+" ");
          }
        }

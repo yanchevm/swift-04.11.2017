@@ -7,14 +7,14 @@ public class Task0b_ReadArray {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Please enter a number:  ");
-        String num = sc.nextLine();
+        String num = sc.nextLine(); //Милен: Щом искаш число, използвай nextInt
 
         System.out.println("Please enter "+num +" numbers, separated by space:");
         String str = sc.nextLine();
 
         String[] strArr = str.split(" ");
 
-        int[] intArr = new int[Integer.parseInt(num)];
+        int[] intArr = new int[Integer.parseInt(num)]; //Милен: Щеше да си спестиш преобразуването :)
 
         for (int i = 0; i < intArr.length; i++) {
             intArr[i] = Integer.parseInt(strArr[i]);

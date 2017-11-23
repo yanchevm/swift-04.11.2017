@@ -11,7 +11,7 @@ public class Task1b_PrintMirrorNumber {
       
        num = input.nextLine();
        System.out.println("Mirror number:");
-       for(int j=num.length()-1;j>=0;j--){
+       for(int j=num.length()-1;j>=0;j--){ //Милен: Много добре си се досетила
           System.out.print( num.charAt(j));
        }
        

@@ -9,7 +9,7 @@ public class Task1a_PrintMatrix {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Please enter the dimension of the matrix: ");
-        int n = sc.nextInt();
+        int n = sc.nextInt(); //Милен: Тук добре си се сетила за nextInt :)
 
         int[][] arr = new int[n][n];
 

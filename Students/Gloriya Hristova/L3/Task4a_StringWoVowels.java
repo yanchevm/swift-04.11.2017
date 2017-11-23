@@ -12,6 +12,8 @@ String str;
 System.out.println("String:");
 str = input.nextLine();
 
+//Милен: БРАВО, добре решение. 
+// Подреждай кода!
 if(str.contains("a")){
 str=str.replace("a","");
 }

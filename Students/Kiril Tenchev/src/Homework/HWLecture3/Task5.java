@@ -32,6 +32,7 @@ public class Task5 {
             }
         }
         for (int i = 0; i <pers ; i++){
+            //Милен: Пробвай да го направиш с printf
             if(yearsOld[i]<18) {
                 System.out.println(name[i] + " " + lastName[i] + " is " + yearsOld[i] + " years old." + "His/Her weight is " + weight[i]
                         + " kg and he/she is " + height[i] + " cm tall." + "He/She is a " + profession[i] + "." + name[i] + " " + lastName[i] + " is under-aged");

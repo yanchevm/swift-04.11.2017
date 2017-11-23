@@ -19,7 +19,7 @@ public class Task2c_PrintClusterCount {
         int count = 0;
         for (int i = 0; i < n-1; i++) {
             if (arr[i] == arr[i+1]){
-                if(i!=0 && (arr[i] == arr[i-1])){
+                if(i!=0 && (arr[i] == arr[i-1])){ //Милен: БРАВО!
                     continue;
                 }
                 count++;

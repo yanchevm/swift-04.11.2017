@@ -10,7 +10,7 @@ public class Task4d {
         Integer sum = 0;
         for(int i=0;i<numbers.length;i++){
            if(numbers[i].trim().length()!=0){
-               Integer value=Integer.valueOf(numbers[i].trim());
+               Integer value=Integer.valueOf(numbers[i].trim()); //Милен: Можеш ли да го напишеш без да тряба да тримваш два пъти ?
             sum+=value;
            }
         }

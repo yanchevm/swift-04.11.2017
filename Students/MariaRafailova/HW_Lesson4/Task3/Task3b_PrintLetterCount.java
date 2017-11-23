@@ -11,7 +11,7 @@ public class Task3b_PrintLetterCount {
         String str = sc.nextLine().toLowerCase();
 
         char[] arr = str.toCharArray();
-        Arrays.sort(arr);
+        Arrays.sort(arr); //Милен: Много добре си се досетила - БРАВО!
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] != 0) {
                int count =1;

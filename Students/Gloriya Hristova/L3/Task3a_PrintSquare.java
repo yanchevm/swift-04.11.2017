@@ -11,6 +11,7 @@ public class Task3a_PrintSquare {
       char symbol = '*';
       char [][] square;
       square  = new char[length][length];
+	//Милен: Алгоритъма е правилен, браво!
       for(int i =0; i<length; i++){
           if(i==0||i==length-1){
               

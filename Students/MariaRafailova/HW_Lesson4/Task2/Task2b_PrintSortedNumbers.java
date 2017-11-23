@@ -18,6 +18,7 @@ public class Task2b_PrintSortedNumbers {
             arr[i] = sc.nextInt();
         }
 
+	//Милен: БРАВО! Знаеш ли как се казва сортирането което си приложила ? 
         for (int i = 0; i<arr.length; i++)
         {
             for (int j = 0; j<arr.length; j++)

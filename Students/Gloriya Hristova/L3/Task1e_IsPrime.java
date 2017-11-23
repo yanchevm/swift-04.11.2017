@@ -5,7 +5,7 @@ import java.util.Scanner;
 class Fun{
    public static void IsPrime(int x){
        int counter=0;
- 
+ 	//Милен: Интересно решение :). А можеш ли да оптимизираш алгоритъма ?
        for(int i =1; i<=x; i++){
          if(x%i==0){
              counter++;
@@ -27,6 +27,6 @@ public class Task1e_IsPrime {
        System.out.println("Enter number: ");
        int num;
        num= input.nextInt();
-       Fun.IsPrime(num);
+       Fun.IsPrime(num); //Милен: БРАВО за решението!
     }
 }

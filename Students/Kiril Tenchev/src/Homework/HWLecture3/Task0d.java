@@ -7,6 +7,7 @@ public class Task0d {
         System.out.println("Enter number: ");
         int num=sc.nextInt();
         System.out.println("Enter number separeted ba space: ");
+        //Милен: БРАВО!
         int arr[]=new int[num];
         for(int i=0;i<num;i++){
             arr[i]=sc.nextInt();

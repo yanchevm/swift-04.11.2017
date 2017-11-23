@@ -13,6 +13,7 @@ public class Task4d_SumOfNumbersInString {
        txt = input.nextLine();
        int sum=0;
    
+	//Милен: Алгоритъма е правилен - БРАВО!
      String[] wordArray = txt.trim().split("\\s+");
      int wordCount = wordArray.length;
      

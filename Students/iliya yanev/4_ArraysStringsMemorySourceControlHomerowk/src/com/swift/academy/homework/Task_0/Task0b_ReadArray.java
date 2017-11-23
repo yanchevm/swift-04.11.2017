@@ -21,7 +21,9 @@ public class Task0b_ReadArray {
         int[] arr = new int[count];
         for (int i = 0; i < count; i++) {
             try {
+//Милен: Все още не сме взели за колекции
                 arr[i] = Integer.parseInt(numbersAsString[i]);                      //аз тук бих използвал лист пред масив, защото ако не успеем да парснем някоя стойност
+
             } catch (NumberFormatException e) {                                     //ще останем с нулева стойност в масива, но в условието пише масив.
                 System.out.printf("%s is not an integer", numbersAsString[i]);
                 System.out.println();

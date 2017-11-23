@@ -15,7 +15,7 @@ public class Task3c_CaesarCipher {
 
         char[] arr = str.toCharArray();
         if(enDec.equals("encode")){
-            for (int i = 0; i < str.length(); i++) {
+            for (int i = 0; i < str.length(); i++) { //Милен: Можеш ли оптимизираш алгоритъма ? 
                 if((str.charAt(i)>='a' && str.charAt(i)<'z') || (str.charAt(i)>='A' && str.charAt(i)<'Z')){
                     int num = (int)str.charAt(i)+1;
                     arr[i]= (char)num;

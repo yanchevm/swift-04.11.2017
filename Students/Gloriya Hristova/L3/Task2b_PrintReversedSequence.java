@@ -21,7 +21,7 @@ public class Task2b_PrintReversedSequence {
                array[i] = input.nextInt();
                
            }
-         for(int i = n-1; i >=0; i--){
+         for(int i = n-1; i >=0; i--){ //Милен: БРАВО!
             System.out.print(array[i]+" ");
         }
 } 

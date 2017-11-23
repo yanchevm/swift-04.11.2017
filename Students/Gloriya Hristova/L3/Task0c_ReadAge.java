@@ -14,6 +14,8 @@ public class Task0c_ReadAge{
         System.out.println("Does the number refer to someone's age? ");
         answer = text.nextLine();
         
+	//Милен: БРАВО!
+	// Подреждай кога за да бъде по-четим :) 
         switch(answer){
             case "Yes":
             case "y":

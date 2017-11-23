@@ -28,6 +28,7 @@ do{
                array[i] = input.nextInt();
           
          }
+	//Милен: БРАВО!
          for(int i = 0; i <n; i++){
             System.out.print(array[i]+" "); 
          }}else{

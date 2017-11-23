@@ -21,7 +21,7 @@ public static void main (String [] args){
          }while(N<=0);
          System.out.println("Enter numbers: ");
          for(int i = 0; i <N; i++){
-               
+               //Милен: С този подход, имаш ли нужда от масива ?
                array[i] = input.nextInt();
                sum+=array[i];
          }System.out.println("Sum of numbers: "+sum);  

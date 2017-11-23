@@ -30,9 +30,9 @@ public class Task3c_CaesarCipher {
                 if (c >= 'a' && c <= 'z') {
                     c += 1;
                     if (c > 'z') {
-                        c -= 26;
+                        c -= 26; //Милен: Добро решение
                     } else if (c < 'a') {
-                        c += 26;
+                        c += 26; //Милен: Добро решение
                     }
                 }
             } else if (Character.isUpperCase(c)) {
