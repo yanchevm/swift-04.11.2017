@@ -1,0 +1,689 @@
+Task 0
+a)
+public class Task {
+	public static void main(String[] args){
+		int arr[]={5,9,11,3,6,4,7};
+		for(int i=0;i<arr.length;i++){
+			System.out.println(arr[i]);
+		}
+    }
+}
+b)
+import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete N!");
+		int n=sc.nextInt();
+		int arr[]=new int[n];
+		for(int i=0;i<n;i++){
+			System.out.printf("Vuvedete element[%d]:%n",i);
+			arr[i]=sc.nextInt();
+		}
+		for(int i=0;i<n;i++){
+			if(i==n-1){
+				System.out.printf("%d",arr[n-1]);
+				break;
+			}
+			System.out.printf("%d ,", arr[i]);
+		}
+    }
+}
+c)
+import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete String!");
+		String s=sc.nextLine();
+		for(char c: s.toCharArray()){
+			System.out.println(c);
+		}
+	}
+}
+d)
+public class Task {
+	public static void main(String[] args){
+		int arr[][]=new int[4][4];
+		int number=0;
+		for(int i=0;i<arr.length;i++){
+			for(int j=0;j<arr.length;j++){
+				arr[i][j]=++number;
+			}
+		}
+		for(int i=0;i<arr.length;i++){
+			for(int j=0;j<arr.length;j++){
+				System.out.printf("%4d", arr[i][j]);
+			}
+			System.out.println();
+		}
+	}
+}
+Task 1
+a)
+import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete N!");
+		int n=sc.nextInt();
+		int arr[][]=new int[n][n];
+		int number=1;
+		for(int i=0;i<arr.length;i++){
+			for(int j=0;j<arr.length;j++){
+				arr[j][i]=number++;
+			}
+		}
+		for(int i=0;i<arr.length;i++){
+			for(int j=0;j<arr.length;j++){
+				System.out.printf("%4d", arr[i][j]);
+			}
+			System.out.println();
+		}
+	}
+}
+b)
+import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete N!");
+		int n=sc.nextInt();
+		int arr[][]=new int[n][n];
+		int x=1,dir=1;
+		int row=0,col=0;
+		while(x<=n*n){
+			arr[row][col]=x++;
+			if(!(0<=row+dir)){
+				col++;
+				dir=1;
+			}else if(!(row+dir<n)){
+				col++;
+				dir=-1;
+			}else{
+				row+=dir;
+			}
+		}
+		for(int i=0;i<arr.length;i++){
+			for(int j=0;j<arr.length;j++){
+				System.out.printf("%4d", arr[i][j]);
+			}
+			System.out.println();
+		}
+	}
+}
+c)
+import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete N!");
+		int n=sc.nextInt();
+		int arr[][]=new int[n][n];
+		int x=1,dircol=1;
+		int dirrow=-1;
+		int row=0,col=0;
+		while(x<=n*n){
+			arr[row][col]=x++;
+			int newrow=row+dirrow;
+			int newcol=col+dircol;
+			if(newrow<0){
+				dirrow=1;
+				dircol=-1;
+				newrow=row;
+			}
+			if(newcol<0){
+				dirrow=-1;
+				dircol=1;
+				newcol=col;
+			}
+			if(newrow>=n){
+				dirrow=-1;
+				dircol=1;
+				newrow=row;
+				newcol=col+1;
+			}
+			if(newcol>=n){
+				dirrow=1;
+				dircol=-1;
+				newcol=col;
+				newrow=row+1;
+			}
+			row=newrow;
+			col=newcol;
+		}
+		for(int i=0;i<arr.length;i++){
+			for(int j=0;j<arr.length;j++){
+				System.out.printf("%4d", arr[i][j]);
+			}
+			System.out.println();
+		}
+	}
+}
+d)
+import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete N!");
+		int n=sc.nextInt();
+		int arr[][]=new int[n][n];
+		int x=0;
+		int row=0,col=0;
+		int lqva=0,gorna=0;
+		int dqsna=n;
+		int dolna=n;
+		while(x < n*n){
+			for(col = lqva; col < dqsna; col++){
+				arr[gorna][col]= ++x;
+			}
+			gorna++;
+			for(row = gorna;row <dolna;row++){
+				arr[row][dqsna-1]= ++x;
+			}
+			dqsna--;
+			for(col=dqsna-1;col>lqva;col--){
+				arr[dolna-1][col]= ++x;
+			}
+			dolna--;
+			for(row=dolna;row>=gorna;row--){
+				arr[row][lqva]= ++x;
+			}
+			lqva++;
+		}	
+		for(int i=0;i<arr.length;i++){
+			for(int j=0;j<arr.length;j++){
+				System.out.printf("%4d", arr[i][j]);
+			}
+			System.out.println();
+		}
+	}
+}
+Task 2
+a)
+import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete N!");
+		int n=sc.nextInt();
+		int big=0;
+		for(int i=0;i<n;i++){
+			System.out.print("Vuvedete chislo!");
+			int a=sc.nextInt();
+			if(big>a){
+				a=big;
+			}else{
+				big=a;
+			}
+		}
+		System.out.println(big);
+	}
+}
+b)
+import java.util.Scanner;
+import java.util.Arrays;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete N!");
+		int n=sc.nextInt();
+		int arr[]=new int[n];
+		for(int i=0;i<n;i++){
+			System.out.print("Chislo?");
+			arr[i]=sc.nextInt();
+		}
+		Arrays.sort(arr);
+		for(int i=0;i<n;i++){
+			System.out.printf("%4d",arr[i]);
+		}
+		
+	}
+}
+c)
+import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete N!");
+		int n=sc.nextInt();
+		int count=0;
+		boolean cluster=false;
+		int old=0;
+		for(int i=0;i<n;i++){
+			System.out.print("Chislo?");
+			int a=sc.nextInt();
+			if(old==a){
+				if(!cluster){
+					count++;			
+				}
+				cluster=true;
+			}else{
+				cluster=false;
+			}
+			old=a;
+		}
+		System.out.print(count);
+	}
+}
+d)
+import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete N!");
+		int n=sc.nextInt();
+		int arr[]=new int[n];
+		int sum=0;
+		int suma[]=new int[n];
+		for(int i=0;i<n;i++){
+			System.out.print("Chislo?");
+			arr[i]=sc.nextInt();
+			sum+=arr[i];
+			suma[i]=sum;			
+		}
+		if(sum%2==0){
+			for(int i=0;i<n;i++){
+				if(suma[i]*2==sum){
+					System.out.print(i);
+				}
+			}
+		}else{
+			System.err.print("NO!");
+		}
+	}
+}
+e)
+import java.util.Scanner;
+public class Task {
+	public static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args){
+	System.out.print("Vuvedete broi chisla!");
+	int numberCount = sc.nextInt();
+        int[] numbers = new int[numberCount];
+        numbers[0] = sc.nextInt();
+        int currentIdx = 0;
+        int currentLength = 1;
+        int longestSeqIdx = 0;
+        int longestLength = 1;
+        for(int i = 1; i < numberCount; i++){
+            numbers[i] = sc.nextInt();
+            if(numbers[i] > numbers[i - 1]) {
+                currentLength++;
+            } else{
+                if(longestLength < currentLength) {
+                    longestSeqIdx = currentIdx;
+                    longestLength = currentLength;
+                }
+                currentIdx = i;
+                currentLength = 1;
+            }
+        }
+        if(longestLength < currentLength) {
+            longestSeqIdx = currentIdx;
+            longestLength = currentLength;
+        }
+        for(int i = 0; i < longestLength; i++){
+            System.out.print(numbers[longestSeqIdx + i] + " ");
+        }
+    }
+}
+f)
+import java.util.Scanner;
+public class Task {
+	public static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args){
+	System.out.print("Vuvedete broi chisla!");
+        int numberCount = sc.nextInt();
+        int[] numbers = new int[numberCount];
+        System.out.print("Vuvedete kolko chisla ni trqbvat!");
+        int k = sc.nextInt();
+        int currentSum = 0;
+        int largestSum = Integer.MIN_VALUE;
+        int largestSumIdx = 0;
+        for(int i = 0; i < numberCount; i++){
+            numbers[i] = sc.nextInt();
+            currentSum += numbers[i];
+            if(i >= k){
+                currentSum -= numbers[i - k];
+                if(largestSum < currentSum) {
+                    largestSum = currentSum;
+                    largestSumIdx = i - k + 1;
+                }
+            }
+        }
+        for(int i = 0; i < k; i++){
+            System.out.print(numbers[i + largestSumIdx] + " ");
+        }
+        System.out.println();
+    }
+}
+g)
+import java.util.Scanner;
+public class Task {
+	public static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args){
+	System.out.print("Vuvedete broi chisla!");
+        int numberCount = sc.nextInt();
+        int[] numbers = new int[numberCount];
+        numbers[0] = sc.nextInt();
+        int currentMax = numbers[0];
+        int globalMax = numbers[0];
+        int currentStart = 0;
+        int bestSumIdxStart = 0;
+        int bestSumIdxEnd = 0;
+        for(int i = 1; i < numberCount; i++){
+            numbers[i] = sc.nextInt();
+            currentMax += numbers[i];
+            if (currentMax < 0){
+                currentStart = i + 1;
+                currentMax = 0;
+            }
+            if (globalMax < currentMax) {
+                globalMax = currentMax;
+                bestSumIdxStart = currentStart;
+                bestSumIdxEnd = i;
+            }
+        }
+        for(int i = bestSumIdxStart; i <= bestSumIdxEnd ; i++){
+            System.out.print(numbers[i] + " ");
+        }
+        System.out.println();
+    }
+}
+h)
+import java.util.Scanner;
+public class Task {
+	public static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args){
+	System.out.print("Vuvedete broi chisla!");
+	int numberCount = sc.nextInt();
+        int result = 0;
+        for(int i = 0 ; i < numberCount; i++){
+           result ^= sc.nextInt(); 
+        }
+        System.out.println(result);
+    }
+}
+i)
+import java.util.Scanner;
+public class Task {
+	public static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args){
+	System.out.print("Vuvedete broi chisla!");
+	int numberCount = sc.nextInt();
+        int[] numbers = new int[numberCount];
+        int k = sc.nextInt();
+        for(int i = 0; i < numberCount; i++){
+            numbers[i] = sc.nextInt();
+        }
+        int idx = -1;
+        int start = 0;
+        int end = numberCount - 1;
+        while(start <= end){
+            int current = (start + end) / 2;
+            if(numbers[current] == k){
+                idx = current;
+                break;
+            } else if(numbers[current] < k){
+                start = current + 1;
+            } else{
+                end = current - 1;
+            }
+        }
+        System.out.println(idx != -1 ? idx : "NO");
+    }
+}
+Task 3
+a)
+import java.util.Scanner;
+public class Task {
+	public static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args){
+		boolean palindrom=false;
+		System.out.println("Vuvedete String!");
+		String s=sc.nextLine();
+		char[] duma=s.toCharArray();
+		if(duma.length%2==0){
+			for(int i=0;i<duma.length / 2 - 1;i++){
+				if(duma[i]!=duma[duma.length-i-1]){
+					palindrom=false;
+				}else{
+					palindrom=true;
+				}
+			}			
+		}else{
+			for(int i=0;i<(duma.length-1)/2-1;i++){
+				if(duma[i]!=duma[duma.length-i-1]){
+					palindrom=false;
+				}else{
+					palindrom=true;
+				}
+			}
+		}
+		System.out.println(palindrom);
+			
+	}
+}
+b)
+import java.util.Scanner;
+public class Task {
+	public static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args){
+		System.out.println("Vuvedete String!");
+		String s=sc.nextLine();
+		int w,i,j,k,c=0;
+		char[] ch=new char[s.length()];
+		for(w=0;w<s.length();w++)
+			ch[w]=s.charAt(w);
+		for(i=0;i<w;i++){
+			char a=ch[i];
+		for(j=i+1;j<w;j++){
+			if(ch[j]==a){
+				for(k=j;k<(w-1);k++)
+					ch[k]=ch[k+1];
+					w--;
+					j=i;
+				}
+			}
+		}
+		int[] t=new int[w];
+		for(i=0;i<w;i++){
+			for(j=0,c=0;j<s.length();j++){
+				if(ch[i]==s.charAt(j))
+					c++;
+				}
+			t[i]=c;
+			System.out.println(ch[i]+"("+c+")");
+		}	
+	}
+}
+c)
+import java.util.Scanner;
+public class Task {
+	public static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args){
+	System.out.println("Vuvedete String!");
+        String str = sc.nextLine();
+        String operation = sc.nextLine();
+        if(operation.equals("encode")){     
+            for(char c : str.toCharArray()){
+                if(Character.isLetter(c)){
+                    char nextLetter = (char)(c + 1);
+                    if(c == 'z'){
+                        nextLetter = 'a';
+                    }
+                    System.out.print(nextLetter);
+                } else{
+                    System.out.print(c);
+                }
+            }
+        } else if(operation.equals("decode")){
+            for(char c : str.toCharArray()){
+            	if(Character.isLetter(c)){
+                    char nextLetter = (char)(c - 1);
+                    if(c == 'a'){
+                        nextLetter = 'z';
+                    }
+                    System.out.print(nextLetter);
+                } else{
+                    System.out.print(c);
+                }
+            }
+        } else {
+            System.out.println("Wrong command [encode/decode].");
+        }
+        System.out.println();
+	}
+}
+d)
+import java.util.Scanner;
+public class Task {
+	public static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args){
+	System.out.println("Vuvedete skobi!");
+	String str = sc.nextLine();
+        int len = str.length();
+        if(len % 2 != 0){
+            System.out.println(false);
+            return;
+        }
+        boolean[] matched = new boolean[len];
+        for(int i = 1 ; i < len; i++){
+            char source = str.charAt(i);
+            char match;
+            if(source == ')') {
+                match = '(';
+            } else if(source == ']'){
+                match = '[';
+            } else if(source == '}'){
+                match = '{';
+            } else {
+                continue;
+            }
+            for(int j = i - 1; j >= 0 ; j-- ){
+                if(!matched[j]) {
+                    char target = str.charAt(j);
+                    if(target != match){
+                        System.out.println(false);
+                        return;
+                    } else{
+                        matched[i] = matched[j] = true;
+                        break;
+                    }
+                }
+            }            
+        }
+        System.out.println(true);
+	}
+}
+e)
+import java.util.Scanner;
+public class Task {
+	public static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args){
+	System.out.println("Vuvedete Stringove!");
+	String source = sc.nextLine();
+        String target = sc.nextLine();        
+        int lastIdx = -1;
+        for(int i = 0; i < target.length(); i++){
+            char targetChar = target.charAt(i);
+            
+            lastIdx = source.indexOf(targetChar, lastIdx + 1);
+            if(lastIdx == -1){
+                System.out.println(false);
+                return;
+            }
+        }       
+        System.out.println(true);
+    }
+}
+f)
+import java.util.Scanner;
+public class Task {
+	public static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args){
+		System.out.println("Vuvedete Stringove!");
+		String source = sc.nextLine();
+        String target = sc.nextLine();
+        int srcLen = source.length();
+        int trgLen = target.length();
+        int bestMatchLen = 0;
+        int bestMatchSrcIdx = 0;
+        boolean b = true;
+        if(b){
+            for(int i = 0; i < srcLen; i++){
+                for(int len = srcLen - i; len >= 1; len--){
+                    String substr = source.substring(i, i + len);
+                   
+                    if(target.contains(substr)) {
+                        if(bestMatchLen < len){
+                            bestMatchLen = len;
+                            bestMatchSrcIdx = i;
+                        }
+                    }
+                }
+            }
+        } else {            
+            int[][] matrix = new int[srcLen + 1][trgLen + 1];
+            for(int i = 1; i <= srcLen; i++){
+                for(int j = 1; j <= trgLen; j++){
+                    if(source.charAt(i - 1) == target.charAt(j - 1)){
+                        matrix[i][j] = 1 + matrix[i - 1][j - 1];
+                        if(bestMatchLen < matrix[i][j]){
+                            bestMatchLen = matrix[i][j];
+                            bestMatchSrcIdx = i - bestMatchLen;
+                        }
+                    }
+                }
+            }
+        }
+        if(bestMatchLen > 0){
+            System.out.println(source.substring(bestMatchSrcIdx, bestMatchSrcIdx + bestMatchLen));
+        } else{
+            System.out.println("(no common substring)");
+        }
+    }
+}
+Task 4
+import java.util.Scanner;
+public class Task {
+	public static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args){
+	final short currentYear = 2017;
+        final short numberOfGrades = 4;
+        int n = sc.nextInt();
+        sc.nextLine();
+        for(int i = 0; i < n ; i++){
+        	System.out.print("Vuvedete infoormaciqta za choveka!");
+            String line = sc.nextLine();
+            String[] split = line.split(";");
+            String firstName = split[0].trim();
+            String lastName = split[1].trim();
+            char gender = split[2].trim().toCharArray()[0];
+            short yearBorn = Short.parseShort(split[3].trim());            
+            float weight = Float.parseFloat(split[4].trim());            
+            short height = Short.parseShort(split[5].trim());
+            String occupation = split[6].trim();
+            float[] grades = new float[numberOfGrades];
+            float avgGrade = 0;
+            for(int idx = 0; idx < numberOfGrades ; idx++){
+                grades[idx] = Float.parseFloat(split[idx + 7].trim());
+                avgGrade += grades[idx];
+            }
+            avgGrade /= numberOfGrades;
+            short age = (short)(currentYear - yearBorn);
+            String heOrShe = Character.toLowerCase(gender) == 'm' ? "He" : "She";
+            String hisOrHer = Character.toLowerCase(gender) == 'm' ? "His" : "Her";
+            String result = String.format("%s %s is %d years old.", firstName, lastName, age);
+            result += String.format(" %s was born in %d.", heOrShe, yearBorn);
+            result += String.format(" %s weight is %.1f and %s is %d cm tall.", hisOrHer, weight, heOrShe.toLowerCase(), height);
+            result += String.format(" %s is a %s with an average grade of %.3f.", heOrShe, occupation, avgGrade);
+            System.out.print(result);
+            if(age < 18) {
+                System.out.printf(" %s %s is under-aged.", firstName, lastName);
+            }
+            System.out.println();
+        }
+	}
+}
