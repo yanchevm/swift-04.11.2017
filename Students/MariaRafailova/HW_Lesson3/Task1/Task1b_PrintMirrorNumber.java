@@ -10,6 +10,7 @@ public class Task1b_PrintMirrorNumber {
         int num = sc.nextInt();
 
         int mod;
+	// Милен: БРАВО! 
         do{
             mod = num%10;
             System.out.print(mod);

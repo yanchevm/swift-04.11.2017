@@ -59,7 +59,7 @@ public class Task5_PersonCharacteristics {
             int old = Year.now().getValue() - birthYear;
 
             System.out.println(firstName+" "+ lastName+" is " +old +" years old. His weight is " +kg+" and he is "+
-                    height + " cm tall. He is a "+ profession);
+                    height + " cm tall. He is a "+ profession);  //Милен: Може да използваш printf 
 
             if(old < 18){
                 System.out.printf("%s %s is under-aged.", firstName, lastName);

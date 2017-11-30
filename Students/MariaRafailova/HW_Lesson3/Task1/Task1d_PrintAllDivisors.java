@@ -7,7 +7,8 @@ public class Task1d_PrintAllDivisors {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter a number: ");
         int n = sc.nextInt();
-
+	
+	// Милен: БРАВО!
         for (int i = 1; i <= n; i++) {
             if(n%i == 0){
                 System.out.print(i+" ");

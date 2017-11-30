@@ -1,0 +1,435 @@
+Task 0
+a)import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete chislo!");
+		int n=sc.nextInt();
+		System.out.println(n+1);	
+	}
+}
+b)
+import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete neshto!");
+		String n=sc.nextLine();
+		System.out.println(n);
+	}
+}
+c)
+import java.util.Scanner;
+public class Taskx {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete godini!");
+		int n=sc.nextInt();
+		if(n>18){
+			System.out.println("Pulnoleten!");
+		}else if(n==18){
+			System.out.println("Tochno na 18! :)");
+		}else if(n<18){
+			System.out.println("Nepulnoleten! :(");
+		}		
+	}
+}
+d)
+import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete broi chisla!");
+		int n=sc.nextInt();
+		int arr[]=new int[n];
+		System.out.print("Vuvedete chisla!");
+		for(int i=0;i<n;i++){
+			arr[i]=sc.nextInt();
+		}
+		for(int j=0;j<n;j++){
+			System.out.printf("%d %n", arr[j]);
+			
+		}
+	}
+}
+e)
+import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete broi chisla!");
+		int n=sc.nextInt();
+		int arr[]=new int[n];
+		System.out.print("Vuvedete chisla!");
+		for(int i=0;i<n;i++){
+			arr[i]=sc.nextInt();
+		}
+		for(int j=0;j<n;j++){
+			System.out.printf("%d ", arr[j]);
+			
+		}
+	}
+}
+Task 1
+a)
+import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete chislo!");
+		int n=sc.nextInt();
+		String s=Integer.toString(n);
+		char c=s.charAt(0);
+		System.out.println(c);
+	}
+}
+b)
+import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete chislo!");
+		int n=sc.nextInt();
+		int reverse=0;
+		while(n!=0){
+			reverse=reverse*10;
+			reverse=reverse +n%10;
+			n=n/10;
+		}
+		System.out.println(reverse);
+	}
+}
+c)
+import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete chislo!");
+		int n=sc.nextInt();
+		String s=String.valueOf(n);
+		int sum=0;
+		for(int i=0;i<s.length();i++){
+			String a=String.valueOf(s.charAt(i));
+			int b=Integer.parseInt(a);
+			sum=sum+b;	
+		}
+		System.out.println(sum);
+	}
+}
+d)
+import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete chislo!");
+		int n=sc.nextInt();
+		for(int i=1;i<=n;i++){
+			if(n%i==0){
+				System.out.print(i+" ");
+			}
+		}
+	}
+}
+e)
+import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete chislo!");
+		int n=sc.nextInt();
+		int i=2;
+		while(i<=n-1){
+			if(n%i==0){
+				System.out.println(false);
+				break;
+			}
+			i++;
+		}
+		if(i==n){
+			System.out.println(true);			
+		}
+	}
+}
+f)
+import java.util.Scanner;
+import java.math.BigInteger;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete chislo!");
+		int n=sc.nextInt();
+		String s=String.valueOf(n);
+		BigInteger hex=new BigInteger(s,10);
+		System.out.println(hex.toString(2));
+		System.out.println(hex.toString(16));
+	}
+}
+Task 2
+a)
+import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete broi chisla koito 6te smqtame!");
+		int n=sc.nextInt();
+		while(n<=0){
+			System.out.println("Vuvedete broi chisla koito 6te smqtame!");
+			n=sc.nextInt();
+		}
+		int sum=0;
+		for(int i=0;i<n;i++){
+			System.out.println("Vuvedete chislo!");
+			int k=sc.nextInt();
+			sum+=k;
+		}
+		System.out.println(sum);
+	}
+
+}
+
+b)
+import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete broi chisla koito 6te izpolzvame!");
+		int n=sc.nextInt();
+		while(n<=0){
+			System.out.println("Vuvedete broi chisla koito 6te smqtame!");
+			n=sc.nextInt();
+		}
+		int[] arr=new int[n];
+		for(int i=0;i<n;i++){
+			System.out.println("Vuvedete chislo!");
+			arr[i]=sc.nextInt();
+		}
+		for(int j=0;j<n;j++){
+			System.out.printf("%d ",arr[n-j-1]);
+		}
+	}
+
+}
+c)
+import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete broi chisla koito 6te izpolzvame!");
+		int n=sc.nextInt();
+		while(n<=0){
+			System.out.println("Vuvedete broi chisla koito 6te izpolzvame!");
+			n=sc.nextInt();
+		}
+		int arr[]=new int[n];
+		for(int i=0;i<n;i++){
+			System.out.println("Vuvedete chislo");
+			arr[i]=sc.nextInt();
+		}
+		for(int i=0;i<n;i++){
+			if(arr[i]%2==0){
+				System.out.print(arr[i]+" ");
+			}			
+		}
+	}
+}
+
+Task 3
+a)
+import java.util.Scanner;
+public class Task {
+	public static void  main(String[]args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete N!");
+		int n=sc.nextInt();
+		for(int i=0;i<n;i++){
+			System.out.print("* ");
+			}
+		System.out.println();
+		
+		for(int i=1;i<n-1;i++){
+			System.out.print("* ");
+			for(int j=1;j<n-1;j++){
+				System.out.print("  ");
+			}
+			System.out.println("*");
+		}
+		for(int i=0;i<n;i++){
+			System.out.print("* ");
+		}
+		System.out.println();
+	}
+}
+b)
+import java.util.Scanner;
+public class Task {
+	public static void  main(String[]args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete N!");
+		int n=sc.nextInt();
+		for(int i=0;i<n;i++){
+			System.out.print("* ");
+			}
+		System.out.println();
+		int i=0;
+		for(i=1;i<n-1;i++){
+			for(int j=0;j<n;j++){
+				if(j==n-i-1){
+					System.out.print("*");
+				}else{
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+		for(i=0;i<n;i++){
+			System.out.print("* ");
+			}
+		System.out.println();
+	}
+}
+c)
+import java.util.Scanner;
+public class Task {
+	public static void  main(String[]args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete N!");
+		int n=sc.nextInt();
+		int i=0;
+		for(i=0;i<n-2;i++){
+			for(int j=0;j<=n-4-i;j++){
+				System.out.print(" ");
+			}
+			for(int j=0;j<=2*i;j++){
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		for(i=0;i<=n-4;i++){
+			System.out.print(" ");
+		}
+		System.out.println("*");
+		for(i=0;i<=n-5;i++){
+			System.out.print(" ");
+		}
+		System.out.println("***");
+	}
+}
+Task 4
+a)
+import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete izrechenie!");
+		String s=sc.nextLine();
+		s=s.replaceAll("a", "").replaceAll("A", "");
+		s=s.replaceAll("o", "").replaceAll("O", "");
+		s=s.replaceAll("u", "").replaceAll("U", "");
+		s=s.replaceAll("i", "").replaceAll("I", "");
+		s=s.replaceAll("y", "").replaceAll("Y", "");
+		s=s.replaceAll("e", "").replaceAll("E", "");
+		System.out.println(s);
+		
+		
+	}
+}
+b)
+import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete izrechenie!");
+		String s=sc.nextLine();
+		int count =0;
+		boolean oldword=false;
+		for(char c : s.toCharArray()){
+			if(('a' <= c && c <= 'z' )||('A'<= c && c<= 'Z')){
+				if(!oldword){
+					oldword=true;
+					count++;
+				}
+				}else{
+					oldword=false;
+				}
+			}
+		System.out.println(count);
+	}
+}
+c)
+import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete izrechenie!");
+		String s=sc.nextLine();
+		for(char c: s.toCharArray()){
+			System.out.print(c);
+			if(c=='!'  || c=='.' || c=='?'){
+				System.out.println();
+			}
+		}
+	}
+}
+d)
+import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Vuvedete izrechenie!");
+		String s=sc.nextLine();
+		int sum =0;
+		int n=0;
+		for(char c: s.toCharArray()){
+			if('0'<=c && c<= '9'){
+				n=n*10+(c-'0');
+			}else{
+				sum+=n;
+				n=0;
+			}
+		}
+		sum+=n;
+		System.out.println(sum);
+	}
+}
+e)
+import java.util.Scanner;
+public class Task {
+	public static void main(String[] args){
+		final short currentYear = 2017;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Vuvedete broi na hora!");
+        int n = sc.nextInt();
+        sc.nextLine();
+        for(int i = 0; i < n ; i++){
+        	System.out.print("Purvo ime?");
+            String firstName = sc.nextLine();
+            System.out.print("Posledno ime?");
+            String lastName = sc.nextLine();
+            short yearBorn;
+            do{
+            	System.out.print("Data na rajdane?");
+                yearBorn = sc.nextShort();
+            } while( ! (1800 <= yearBorn && yearBorn <= currentYear) );
+            float weight;
+            do{
+            	System.out.print("Teglo?");
+                weight = sc.nextFloat();
+            } while( ! (30 < weight && weight < 600) );
+            short height;
+            do{
+            	System.out.print("Visochina?");
+                height = sc.nextShort();
+            } while( ! (30 < height && height < 300 ));
+            System.out.print("Profesiq?");
+            sc.nextLine();
+            String prof= sc.nextLine();
+            short age = (short)(currentYear - yearBorn);
+            System.out.printf("%s %s is %d years old. He was born in %d. " +
+                "His weight is %.2f and he is %d cm tall. He is a %s.",
+                firstName, lastName, age, yearBorn, weight, height,prof);
+            if(age < 18)
+                System.out.print(" " + firstName + " " + lastName + " is under-aged.");
+            System.out.println();
+        }
+    }
+}

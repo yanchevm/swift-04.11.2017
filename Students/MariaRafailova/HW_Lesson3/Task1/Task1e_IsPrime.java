@@ -8,6 +8,7 @@ public class Task1e_IsPrime {
         System.out.println("Please enter a number: ");
         int n = sc.nextInt();
 
+	// Милен: Можеш ли да се досетиш как да оптимизираш алгоритъма ?
         boolean prime = true;
         for (int i = 2; i < n; i++) {
             if(n%i == 0){
