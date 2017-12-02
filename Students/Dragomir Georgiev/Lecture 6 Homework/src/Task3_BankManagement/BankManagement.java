@@ -21,23 +21,23 @@ public class BankManagement {
 
             switch (parts[0]) {
                 case "OPEN":
-                    System.out.println("OPEN: ");
+                    System.out.println("Open: ");
                     bank.openAccount(parts[1], parts[2], parts[3], parts[4]);
                     break;
                 case "CLOSE":
-                    System.out.println("CLOSE: ");
+                    System.out.println("Close: ");
                     bank.closeAccount(parts[1], parts[2]);
                     break;
                 case "DEPOSIT":
-                    System.out.println("DEPOSIT: ");
+                    System.out.println("Deposit: ");
                     bank.deposit(parts[1], Double.parseDouble(parts[2]));
                     break;
                 case "WITHDRAW":
-                    System.out.println("WITHDRAW: ");
+                    System.out.println("Withdraw: ");
                     bank.withdraw(parts[1], parts[2], Double.parseDouble(parts[3]));
                     break;
                 case "TRANSFER":
-                    System.out.println("TRANSFER: ");
+                    System.out.println("Transfer: ");
                     bank.transfer(parts[1], parts[2], Double.parseDouble(parts[3]), parts[4]);
                     break;
             }
