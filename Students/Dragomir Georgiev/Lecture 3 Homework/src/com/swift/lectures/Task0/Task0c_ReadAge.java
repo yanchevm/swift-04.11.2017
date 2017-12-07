@@ -14,7 +14,7 @@ public class Task0c_ReadAge {
 
 
         double age = sc.nextDouble();
-        if (age > 0) {
+        if (age > 0) { //Милен: Ами ако годините са 1000 ?
             if (age > 18) {
                 System.out.println("You are an adult");
             } else {

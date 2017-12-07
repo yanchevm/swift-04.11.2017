@@ -10,7 +10,7 @@ public class Calculator {
         this.b = b;
     }
 
-    public double a() {
+    public double a() { //Милен: Свойствата се записват с get, set, is и след това името на характеристиката - getA, getB, setA, setB ... 
         return a;
     }
 

@@ -10,6 +10,8 @@ public class Task1a_PrintFirstDigit {
 
         int number = sc.nextInt();
 
+        // Милен: Добре, но можеш ли да се досетиш за по-лесен начин, като използваш стринг ?
+        // charAt ? - прочети документацията на този метод
         int result = Integer.parseInt(Integer.toString(number).substring(0,1));
 
         System.out.println(result);

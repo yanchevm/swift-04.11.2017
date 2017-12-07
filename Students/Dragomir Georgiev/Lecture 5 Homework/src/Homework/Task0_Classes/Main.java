@@ -16,6 +16,7 @@ public class Main {
 
         person3.sentence();
 
+        //Милен: Имената на променливите са camelCase
         Car Bugatti = new Car("Bugatti", "Veyron", 612, 2015);
 
         Bugatti.extraTaxation();

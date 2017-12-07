@@ -10,6 +10,7 @@ public class Task1c_PrintSumOfDigits {
         int number = sc.nextInt();
         sc.nextLine();
         int sum = 0;
+        //Милен: БРАВО!
         while (number > 0) {
             sum = sum + number % 10;
             number = number / 10;

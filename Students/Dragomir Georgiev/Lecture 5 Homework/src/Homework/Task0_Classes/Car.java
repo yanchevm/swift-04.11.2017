@@ -35,10 +35,11 @@ public class Car {
 //    }
 
     private int insuranceCategory() {
-        Date now = new Date();
-        int currentYear = Calendar.YEAR;
+        Date now = new Date(); //Милен: Това защо ти е ?
+        int currentYear = Calendar.YEAR; //Милен: Можеш ли да използваш тук Year ?
         int ageCar = currentYear - manufacturingYear;
         int category;
+        //Милен: БРАВО, много добре си наредил switch конструкцията
         if (ageCar <= 8) {
             category = 1;
         } else if (ageCar <= 15) {
@@ -67,6 +68,7 @@ public class Car {
             return tax;
     }
 
+    //Милен: БРАВО!
     public void extraTaxation(){
         double fullTaxation;
         if (horsePower < 80){

@@ -5,7 +5,8 @@ public class Account {
     private String name;
     private String govID;
     private double balance;
-
+	
+	//Милен: Тук трябва да бъде Credentials...
     private String password;
     private String username;
 
@@ -24,7 +25,7 @@ public class Account {
     }
 
     public void withdraw(double amount) {
-        balance += amount;
+        balance += amount; //Милен: тук сметката е грешна
         System.out.println(balance);
     }
 

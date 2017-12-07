@@ -9,7 +9,7 @@ public class Person {
     int index = 0;
 
     public Person(String name, double balance) {
-        if (!name.equals("")) {
+        if (!name.equals("")) { //Милен: Провери дали String няма метод който да върши тази работа.
             this.name = name;
         } else {
             System.out.println("Incorrect name");
@@ -23,7 +23,7 @@ public class Person {
     }
 
     public void addProduct(Product newProduct) {
-        for (int i = 0; i < products.length; i++) {
+        for (int i = 0; i < products.length; i++) { //Милен: Можеш ли да оптимизираш това ? Защо ти е цикъл само за да знаеш на кой индекс да поставиш новия продукт ?
             if (products[i] == null) {
                 products[i] = newProduct;
                 this.balance -= newProduct.getPrice();
@@ -33,7 +33,7 @@ public class Person {
     }
 
     public boolean isEmpty() {
-        if (products[0] != null) {
+        if (products[0] != null) { //Милен: Използвай products.length вмето това.
             return false;
         }
         return true;
@@ -44,8 +44,8 @@ public class Person {
         if (this.isEmpty()) {
             System.out.println("Nothing bought");
         } else {
-            for (int i = 0; i < products.length; i++) {
-                if (products[i] != null) {
+            for (int i = 0; i < products.length; i++) { 
+                if (products[i] != null) { // Използвай for-each и няма да се налага да правиш проверка за null
                     if (products[i + 1] == null) {
                         System.out.print(products[i].getName());
                     } else {

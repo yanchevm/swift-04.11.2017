@@ -9,7 +9,7 @@ public class Task0b_ReadArray {
         System.out.print("Please enter the number of elements: ");
         int number = sc.nextInt();
 
-        int[] arr = new int[100];
+        int[] arr = new int[100]; //Милен: Защо не използваш number за големи на масива ?
 
         System.out.print("Please enter " + number + " numbers:");
 

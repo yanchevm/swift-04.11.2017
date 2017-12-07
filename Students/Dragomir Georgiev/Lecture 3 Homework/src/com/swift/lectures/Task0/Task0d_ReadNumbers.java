@@ -9,6 +9,9 @@ public class Task0d_ReadNumbers {
 
         int firstRow = sc.nextInt();
 
+        //Милен: Това не е условието на задачата!
+        // Трябва след като прочетеш първата цифта, да прочетеш втори ред с числа
+        // с брой равен на първата цифра и да ги отпечаташ :)
         for (int i = 1; i < (firstRow + 1); i++) {
             System.out.println(i);
 

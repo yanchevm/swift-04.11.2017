@@ -11,6 +11,7 @@ public class Task1b_PrintMirrorNumber {
         int number = sc.nextInt();
         int reverse = 0;
 
+        //Милен - БРАВО!
         while (number != 0) {
             reverse = reverse * 10;
             reverse = reverse + (number % 10);

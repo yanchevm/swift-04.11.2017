@@ -8,6 +8,7 @@ public class Task0a_CreateArray {
         int length = myArray.length;
         int index = 0;
 
+        //Милен: БРАВО!
         while (index < length) {
             System.out.println(myArray[index]);
             index++;

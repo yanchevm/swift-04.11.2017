@@ -21,6 +21,9 @@ public class Person {
         this.age = age;
     }
 
+    //
+    //Милен: Липсват свойства за промяна на двете характеристики !
+
     public String getName() {
         return name;
     }
@@ -29,6 +32,7 @@ public class Person {
         return age;
     }
 
+    //Милен: Браво!
     public void sentence() {
         if (age == -1 && name.equals("No name")) {
             System.out.println("I am John Doe");

@@ -20,6 +20,7 @@ public class Credentials {
         return password;
     }
 
+    //Милен: Никаде не запазваш потребителското име и парола.
     public String enroll(String enrollUsername, String enrollPassword) {
         if (enrollPassword.equals(password) && enrollUsername.equals(username)) {
             System.out.println("ENROLL success");
@@ -30,9 +31,10 @@ public class Credentials {
         }
     }
 
+    //Милен: Каде запазваш старите пароли ? 
     public String chpass(String chpassUser, String chpassOldPass, String chpassNewPass) {
         if (chpassUser.equals(username) && chpassOldPass.equals(password)) {
-            password = chpassNewPass.replace(password, chpassNewPass);
+            password = chpassNewPass.replace(password, chpassNewPass); //Милен: Защо е това ? 
             System.out.printf("CHPASS success. New password - %s %n", password);
             return "success";
         } else {

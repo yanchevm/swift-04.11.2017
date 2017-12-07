@@ -18,6 +18,9 @@ public class Bank {
 
     public void closeAccount(String username, String password) {
         for (int i = 0; i < accounts.length; i++) {
+	//Милен: Тук може да изнесеш accounts[i] в една промелнива и да я използваш нея.
+	//Пример: Accounts account = accounts[i];
+ 
             if (accounts[i].getUsername().equals(username) && accounts[i].getPassword().equals(password)) {
                 accounts[i] = null;
                 System.out.println("Success");

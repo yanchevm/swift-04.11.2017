@@ -10,6 +10,6 @@ public class Task0a_ReadInt {
 
 
         int a = sc.nextInt();
-        System.out.println((a + 1));
+        System.out.println((a + 1)); //Милен: Имаш ли нужда тук от скоби ?
     }
 }

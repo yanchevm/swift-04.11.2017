@@ -10,6 +10,7 @@ public class Task4a_StringToVowels {
         String word = sc.nextLine();
         String result = "";
 
+        //Милен: БРАВО, добро решение !
         for (int i = 0; i < word.length(); i++) {
             switch (word.charAt(i)) {
                 case 'a':

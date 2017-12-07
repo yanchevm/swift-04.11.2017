@@ -13,12 +13,12 @@ public class BankManagement {
         String operation = sc.nextLine();
 
         while (true) {
-            if (operation.equals("END")) {
+            if (operation.equals("END")) { //Милен: Защо не използваш това условие за цикъла ?
                 break;
             }
             String[] parts = operation.split("");
 
-
+	//Милен: БРАВО, добре си се справил!
             switch (parts[0]) {
                 case "OPEN":
                     System.out.println("Open: ");

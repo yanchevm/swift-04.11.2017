@@ -11,6 +11,7 @@ public class Task4c_PrintEverySentence {
 
         String text = sc.nextLine();
 
+        //Милен: Добро решение. А можеш ли да се досетиш за второ с употребата на split() ?
         for (int i = 0; i < text.length(); i++) {
             System.out.print(text.charAt(i));
             if (text.charAt(i) == '.' || text.charAt(i) == '?' || text.charAt(i) == '!') {

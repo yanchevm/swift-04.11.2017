@@ -10,6 +10,7 @@ public class Task0e_ReadNNumbersOnNewLines {
 
         int firstRow = sc.nextInt();
 
+        //Милен: Отново, не е условието на задачата!
         for (int i = 1; i < (firstRow + 1); i++) {
             System.out.print(i + " ");
         }

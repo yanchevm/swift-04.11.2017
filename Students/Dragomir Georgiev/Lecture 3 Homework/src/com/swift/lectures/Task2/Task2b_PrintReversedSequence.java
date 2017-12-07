@@ -11,9 +11,11 @@ public class Task2b_PrintReversedSequence {
 
         int opposite = 0;
 
+        //Милен: Защо не инициализираш i = 0 ? По този начин, няма да има нужда да прибавяш 1 към numbers :)
         for (int i = 1; i < (number + 1); i++) {
             System.out.println(i + " ");
         }
+        //Милен: Отново, условието !
         while (number != 0) {
             opposite = opposite * 10;
             opposite = opposite + (number % 10);

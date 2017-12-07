@@ -7,7 +7,8 @@ public class Task1d_PrintAllDivisors {
         Scanner sc = new Scanner(System.in);
 
         int number = sc.nextInt();
-        int divisor = 1;
+        int divisor = 1; //Милен: Имаш ли нужда от divisor ?
+                        // Можеш ли да използваш i вместо това?
 
         for (int i = 1; i <= number; i++) {
             if (number % divisor == 0) {
