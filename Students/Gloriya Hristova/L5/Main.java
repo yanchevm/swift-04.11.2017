@@ -8,11 +8,11 @@ class Car {
   int horsepow, yearOfProd,age;
   double tax;
   int insuranceCat;
-  int today = Year.now().getValue();
-  int age(int yearOfProd) {
+  int today = Year.now().getValue(); //Милен: БРАВО!
+  int age(int yearOfProd) { //Милен: Отделяй методите от характеристиките с празен ред
       age=today- yearOfProd;
-          return age;}
-  void insuranceCategory(int age){
+          return age;} //Милен: Затварящата скоба тряба да бъде на нов ред!
+  void insuranceCategory(int age){ //Милен: Нов ред
       if(age<=8){
           insuranceCat=1;
       }
@@ -26,7 +26,7 @@ class Car {
           insuranceCat=4;
       }System.out.println(insuranceCat);
   }
-  double tax(int insuranceCat){
+  double tax(int insuranceCat){ //Милен: Нов ред преди началото на метода
       switch(insuranceCat){
           case 1: tax =150;break;
           case 2: tax =200;break;
@@ -40,8 +40,8 @@ class Car {
               tax*=1.45;
           }
       
-  return tax;}
-  void setCarSpecifications(String brand, String model, int horsepow, int yearOfProd){
+  return tax;} //Милен: :) скобата на нов ред 
+  void setCarSpecifications(String brand, String model, int horsepow, int yearOfProd){ //Милен: Идеята не е лоша, но е по-добре да бъде конструктор.
       
            this.brand =brand;
            this.model=model;
