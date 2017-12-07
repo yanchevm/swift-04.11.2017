@@ -17,11 +17,11 @@ public class Car {
     }
 
     public int insuranceCategory() {
-        int age = Year.now().getValue() - yearOfManufacture;
+        int age = Year.now().getValue() - yearOfManufacture; //Милен: БРАВО!
         if (age < 8) {
             return 1;
         }
-        else if (age >= 8 && age < 15) {
+        else if (age >= 8 && age < 15) { //Милен: Има ли нужда да проверяваш, че age > 8 ? Ако е по-малко нямаше да стигнеш тук.
             return 2;
         }
         else if (age >= 15 && age < 25) {
@@ -32,6 +32,7 @@ public class Car {
         }
     }
 
+    //Милен: БРАВО!
     public double tax() {
         int category = insuranceCategory();
         double tax = 0.0;
