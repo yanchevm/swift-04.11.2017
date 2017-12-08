@@ -6,7 +6,7 @@ public class Task0c {
         System.out.print("Enter something: ");
         String str=sc.nextLine();
         for (int i = 0; i < str.length(); i++) {
-            if(str.charAt(i)!=' ')
+            if(str.charAt(i)!=' ') //Милен: Слагай скоби - по-добре се чете
                 System.out.println(str.charAt(i));
 
         }

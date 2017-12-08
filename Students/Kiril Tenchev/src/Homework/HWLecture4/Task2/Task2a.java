@@ -4,6 +4,8 @@ import java.util.Random;
 public class Task2a {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        //Милен: Използваш добър подход за напълване на масива.
+        // Условието е да се чете от конзолата, но и така е добре!
         Random rand = new Random();
         System.out.print("Enter size: ");
         int size = sc.nextInt();

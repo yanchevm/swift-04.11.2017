@@ -13,6 +13,7 @@ public class Task1d {
         int rowLength=mass.length-1;
         int colStart=0;
         int colLength=mass[0].length-1;
+        //Милен: Супер!
         while(rowStart<=rowLength&&colStart<=colLength){
             for (int i = rowStart; i <=colLength ; i++) {
                 mass[rowStart][i]=p++;

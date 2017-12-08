@@ -7,6 +7,7 @@ public class Task1b {
         int size=sc.nextInt();
         int[][] mass=new int[size][size];
         int k=1;
+        //Милен: БРАВО! Подреждай кода!
         for (int i = 0; i <size ; i++) {
             if(i%2==0) {
                 for (int j = 0; j <size ; j++) {
