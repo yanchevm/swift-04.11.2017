@@ -23,7 +23,7 @@ public class Bank {
         String str = sc.nextLine();
 
         while (true){
-            if(str.equals("END")){
+            if(str.equals("END")){ //Милен: Подходящо ЛУ за while цикъла :)
                 break;
             }
 

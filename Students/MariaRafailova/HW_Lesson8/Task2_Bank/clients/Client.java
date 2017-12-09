@@ -11,4 +11,6 @@ public abstract class Client {
     public String getName() {
         return name;
     }
+    
+    //public abstract String type(); - по-добре вместо това с type - 1, 2...
 }

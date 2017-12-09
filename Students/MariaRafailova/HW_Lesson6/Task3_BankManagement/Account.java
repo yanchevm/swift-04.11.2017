@@ -4,7 +4,8 @@ public class Account {
     private String name;
     private String govId;
     private double balance; //lv
-
+    
+    //Милен: Това трябва да е обект от тип Credentials
     private String password;
     private String username;
 
@@ -16,7 +17,7 @@ public class Account {
     }
 
     public void deposit(double amount){
-        if(amount>0){
+        if(amount>0){ //Милен: БРАВО!
             this.balance += amount;
         }
     }
@@ -29,7 +30,7 @@ public class Account {
 
     public boolean hasAccess(String password){
 
-        return this.password.equals(password)? true: false;
+        return this.password.equals(password)? true: false; //Милен: БРАВО!
     }
 
     public void printInfo(){
@@ -53,7 +54,7 @@ public class Account {
         return username;
     }
 
-    public String getPassword(){
+    public String getPassword(){ 
         return  this.password;
     }
 

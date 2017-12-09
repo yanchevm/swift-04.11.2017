@@ -10,6 +10,7 @@ public class Truck extends Car{
 
     @Override
     public double getSalePrice(){
+        //Милен: БРАВО!
         if(weight>2000){
             return (this.getRegularPrice() - this.getRegularPrice()*0.1);
         }

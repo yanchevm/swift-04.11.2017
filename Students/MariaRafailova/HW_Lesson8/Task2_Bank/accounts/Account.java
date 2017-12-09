@@ -17,6 +17,8 @@ public abstract class Account {
         this.owner = owner;
         this.balance = balance;
         this.montlyInterestRate = montlyInterestRate;
+        //Милен: Защо не използваш класа Random ?
+        // Ще свърши по-добра работа :)
         this.iban = createIBAN();
     }
 
@@ -55,6 +57,9 @@ public abstract class Account {
 
     public abstract void info(int months);
 
+    //Милен
+    //public abstract String type(); Това може да го използваш вместо type и числата която ползваш 1, 2,3 ...
+    
     @Override
     public String toString() {
         return ("balance=" + balance);

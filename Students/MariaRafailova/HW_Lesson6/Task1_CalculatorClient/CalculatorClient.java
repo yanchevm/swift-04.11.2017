@@ -16,6 +16,9 @@ public class CalculatorClient {
             //String cal = arr[0];
             double a = Double.parseDouble(arr[1]);
             double b = Double.parseDouble(arr[2]);
+            
+            //Милен: Добре си го направила, но е хубаво да правиш проверката 
+            // преди а, b инициализацията. Какво щестане ако потребителя въведе 2 числа вместо 3 ?
             if(arr.length == 3){
                 switch (arr[0]){
                     case "sum":
@@ -28,6 +31,7 @@ public class CalculatorClient {
                         System.out.printf("%.3f%n",calculator.divide(a,b));break;
                     case "per":
                         System.out.printf("%.3f%n",calculator.percentage(a,b));break;
+                //Милен: Какво ще се случи ако потребителя въведе невалидна команда ? 
                 }
             }
             System.out.println("Please write a type of calculation and two numbers, separated by space: ");

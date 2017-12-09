@@ -1,5 +1,6 @@
 package Task1_School;
 
+//Милен: Това не е условието на задачата. Помисли го пак :) 
 public class Class {
     private String name;
 

@@ -28,10 +28,12 @@ public class Market {
         System.out.println("Enter Buying operations in format: \"PersonName ProductName\"");
         String strBuy = sc.nextLine();
         do {
-            if(strBuy.equals("END")){
+            if(strBuy.equals("END")){ //Милен: Това е подходящо условие за while цикъла. Защо не ползваш направо него ?
                 break;
             }
           String[] arrBuy = strBuy.split(" ");
+            //Милен: Този вариант е крайно неоптимален! Какво ще стане ако утре добавим и презиме ? 
+            // Можеш ли да измислиш начин да го оптимизираш ?
             if(arrBuy.length == 2){
                 for (int i = 0; i < persons.length; i++) {
                     if (persons[i].getName().equals(arrBuy[0])){

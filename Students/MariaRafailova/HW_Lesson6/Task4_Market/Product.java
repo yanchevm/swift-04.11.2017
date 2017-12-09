@@ -5,7 +5,7 @@ public class Product {
     private double price;
 
     public Product(String name, double price){
-        if(!name.equals("")){
+        if(!name.equals("")){ //Милен: Има по-лесен начин, който се предоставя от класа Стринг.
             this.name = name;
         }else {
             System.err.println("Name can’t be empty.");
