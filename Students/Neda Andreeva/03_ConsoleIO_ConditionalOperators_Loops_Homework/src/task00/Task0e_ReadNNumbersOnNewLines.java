@@ -14,6 +14,7 @@ public class Task0e_ReadNNumbersOnNewLines {
         else {
             String result = "";
             System.out.print("Please, enter a sequence of numbers: ");
+            //Милен: Това не е условието на задачата :)
             for (int i = 0; i < n; i++) {
                 int number = sc.nextInt();
         

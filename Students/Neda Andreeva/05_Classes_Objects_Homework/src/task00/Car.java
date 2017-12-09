@@ -71,10 +71,10 @@ public class Car {
 		if (age >= 0 && age <= 8) {
 			tax = 150.0;
 		}
-		else if (age > 8 && age <= 15) {
+		else if (age > 8 && age <= 15) { //Милен: Имаш ли нужда от проверката age > 8 ? Ако е по-малко, ще стигне ли до тук ?
 			tax = 200.0;
 		}
-		else if (age > 15 && age <= 25) {
+		else if (age > 15 && age <= 25) { //Милен: Същото и тук
 			tax = 300.0;
 		}
 		else {

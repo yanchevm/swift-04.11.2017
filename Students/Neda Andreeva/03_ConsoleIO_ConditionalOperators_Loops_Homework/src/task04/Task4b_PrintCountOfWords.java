@@ -10,6 +10,8 @@ public class Task4b_PrintCountOfWords {
 		String text = sc.next();
 		byte result = 0;
 		for (int i = 0; i < text.length() - 1; i++) {
+                    //Милен: Разгледай методите на стринг. Там може да намериш някой по-подходящ 
+                    // да свърши тази работа. 
 			if ((text.charAt(i) >= 65 && text.charAt(i) <= 90) ||
 				(text.charAt(i) >= 97 && text.charAt(i) <= 122)) {
 				if ((text.charAt(i+1) >= 65 && text.charAt(i+1) <= 90) ||

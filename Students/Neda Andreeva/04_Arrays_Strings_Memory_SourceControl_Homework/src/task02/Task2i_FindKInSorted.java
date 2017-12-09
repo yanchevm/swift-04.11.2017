@@ -3,6 +3,7 @@ package task02;
 import java.util.Scanner;
 
 public class Task2i_FindKInSorted {
+    //Милен: БРАВО!
 	public static int binarySearch(int arr[], int from, int to, int element) {
 		if (from < to) {
 			int middle = from + ((to - from) / 2);

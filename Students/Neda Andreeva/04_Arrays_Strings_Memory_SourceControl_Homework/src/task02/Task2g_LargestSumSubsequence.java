@@ -26,6 +26,7 @@ public class Task2g_LargestSumSubsequence {
 			int countElementsInCurrentSequence = 0;
 			int currentSum = 0;
 			
+                        //Милен: БРАВО!
 			for (int i = 0; i < number; i++) {
 				currentSum = 0;
 				
