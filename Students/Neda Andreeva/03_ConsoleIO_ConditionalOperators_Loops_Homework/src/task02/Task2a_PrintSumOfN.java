@@ -14,7 +14,7 @@ public class Task2a_PrintSumOfN {
         }
         else {
             int sum = 0;
-    
+            
             System.out.print("Please, enter a sequence of numbers: ");
             for (int i = 0; i < n; i++) {
                 int number = sc.nextInt();

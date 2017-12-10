@@ -17,7 +17,7 @@ class Person{
         this.name =name;
         this.age=age;
         }
-        public void setPersonalCh(String name,int age){
+        public void setPersonalCh(String name,int age){ //Милен: С какво този метод се различава от предходния конструктор ? 
             this.name =name;
             this.age=age;
         }
@@ -27,7 +27,9 @@ class Person{
         String getName(){
             return name;
         }
-        static void printPersonalCh(String name,int age){
+	//Милен: Липсват свойства за age.
+
+        static void printPersonalCh(String name,int age){ //Милен: Тези двете характеристики ги имаш вече в класа, защо ги подаваш отново ?
             if(name==null){
              System.out.println("I am John Doe.");   
             }else{
@@ -50,7 +52,7 @@ public class Task0_Classes {
         x = input.nextLine();
         System.out.println("Age: ");
         y = input.nextInt();
-        john.setPersonalCh(x,y);
+        john.setPersonalCh(x,y); //Милен: Няма смисъл от това :)
         john.printPersonalCh(x,y);
     }
     

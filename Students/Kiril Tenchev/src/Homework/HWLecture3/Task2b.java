@@ -6,7 +6,7 @@ public class Task2b {
         System.out.print("How many numbers do you want: ");
         int size=Integer.parseInt(sc.nextLine()); //Милен: Защо четеш стринг, като веднага след това го обръщаш в число ?
         String str=sc.nextLine();
-        String []nums=str.split(" ");
+        String [] nums=str.split(" ");
         if(nums.length!=size){
             System.out.println("Illegal number of elements");
         }

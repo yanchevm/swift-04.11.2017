@@ -15,7 +15,7 @@ public class Person {
     }
 
     Person(String name, int age){
-        if(!name.equals("") && (age>0 && age<120)){
+        if(!name.equals("") && (age>0 && age<120)){ //Милен: Много хубави setters си направил. Защо не ги изолзваш тук вместо да правиш отново проверката?
             this.name = name;
             this.age = age;
         }
