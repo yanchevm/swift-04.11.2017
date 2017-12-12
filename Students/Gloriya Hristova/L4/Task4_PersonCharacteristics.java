@@ -71,7 +71,7 @@ public class Task4_PersonCharacteristics {
          
          average =sum/4;
         
-        String w = String.format("%.1f", weight);//native izpolzvane na vunshna biblioteka za java
+        String w = String.format("%.1f", weight);
         String avg= String.format("%.3f", average);
         int age = today - year;
         
