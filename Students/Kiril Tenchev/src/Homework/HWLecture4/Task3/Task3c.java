@@ -10,6 +10,8 @@ public class Task3c {
         System.out.print("What do you want to do encode/decode: ");
         String chose = sc.nextLine();
         char [] arr = new char[str.length()];
+        //Милен: Избягвай правенето на толкова големи if-else стейтмънти.
+        // Може да го разделиш на два метода.
         if (chose.equals("encode")){
             for (int i = 0; i <str.length() ; i++) {
                 if((str.charAt(i)>='a'||str.charAt(i)<='z'||str.charAt(i)>='A'||str.charAt(i)<='Z')){

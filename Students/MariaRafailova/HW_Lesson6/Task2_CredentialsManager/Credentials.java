@@ -2,8 +2,10 @@ package Task2_CredentialsManager;
 
 public class Credentials {
     private String username;
-    private String password1;
-    private boolean wrongPass2 = false;
+    private String password1; //Милен: Защо има 1 в края ?
+    private boolean wrongPass2 = false; //Милен: Интересно решение :) 
+                                        // Според мен нямаш нужда от това. Защо функцията setPassword 
+                                        // не я направиш да връща true/false ?
 
     String[] passwords = new String[100];
 
@@ -26,6 +28,7 @@ public class Credentials {
         }
     }
 
+    //Милен: Аз бих го кръстил isValidPassword :)
     public boolean checkPassword(String password){
         if (this.password1.equals(password)){
             return true;

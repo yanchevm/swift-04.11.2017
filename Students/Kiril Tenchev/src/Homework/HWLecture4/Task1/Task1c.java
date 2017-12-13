@@ -8,6 +8,8 @@ public class Task1c {
         int[][] mass=new int[size][size];
         int p=1;
 
+        //Милен: Добре си го направил. Като резултат не се получава точно това което се иска,
+        // но е добре!
         for( int k = 0 ; k < size * 2 ; k++ ) {
             for( int j = 0 ; j <=k ; j++ ) {
                 int i = k - j;

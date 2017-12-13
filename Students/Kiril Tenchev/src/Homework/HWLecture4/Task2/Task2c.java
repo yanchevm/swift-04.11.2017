@@ -33,6 +33,7 @@ public class Task2c {
             System.out.print(arr[i]+",");
 
         }
+        //Милен: Алгоритъма е правилен!
         int count=0;
         for (int i = 0; i < size-2; i++) {
 

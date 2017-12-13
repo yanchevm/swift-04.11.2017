@@ -19,6 +19,7 @@ public class Task3f_LongestCommonSubstring {
 			for (int j = i + 1; j < text1.length(); j++) {
 				String currentString = text1.substring(i, j);
 				
+                                //Милен: Добро решение
 				if (text2.contains(currentString)) {
 					if (maxLenght < currentString.length()) {
 						maxLenght = currentString.length();

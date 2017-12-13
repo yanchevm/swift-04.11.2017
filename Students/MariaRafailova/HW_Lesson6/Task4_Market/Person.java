@@ -6,7 +6,7 @@ public class Person {
     private Product[] products = new Product[100];
 
     public Person(String name, double balance) {
-        if(!name.equals("")){
+        if(!name.equals("")){ //Милен: Стринг има един подходящ медот за тази проверка. 
             this.name = name;
         }else {
             System.err.println("Name can’t be empty.");
@@ -16,7 +16,7 @@ public class Person {
             this.balance = balance;
         }else {
             System.err.println("Balance can’t be negative.");
-            return;
+            return; //Милен: Нямаш нужда от това тук. Така или иначе, това е последния ред :)
         }
     }
 
@@ -44,10 +44,11 @@ public class Person {
         } else {
             for (int i = 0; i < products.length ; i++) {
                 if (products[i] != null){
-                    if (products[i+1] == null){
+                    if (products[i+1] == null){ //Милен: Това защо е ?
                         System.out.print(products[i].getName());
                     }else{
-                        System.out.print(products[i].getName() + ", ");
+                        System.out.print(products[i].getName() + ", "); //Тук очакваш да дойдеш когато 
+                        // products[i] е null. Товага какво ще стане когато му извикаш метода ?
                     }
                 }
             }

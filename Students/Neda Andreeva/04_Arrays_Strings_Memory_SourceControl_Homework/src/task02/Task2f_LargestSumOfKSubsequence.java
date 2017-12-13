@@ -9,6 +9,9 @@ public class Task2f_LargestSumOfKSubsequence {
 		System.out.print("Please, enter a positive number: ");
 		int number = sc.nextInt();
 		
+                //Милен: Избягвай да пишеш толкова големи if-else конструкции.
+                // Тук при положение, че имаш грешка, можеш направо да разпечаташ съобщението и да напишеш return
+                // По този начин, няма да имаш толкова голям else :)
 		if (number <= 0) {
 			System.err.println("ERROR! You must enter a positive number!");
 		} else {

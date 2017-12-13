@@ -16,6 +16,8 @@ public class CredentialsManager {
         while(!input.equals("END")){
             String[] parts = input.split(" ");
 
+            //Милен: Тук, по-подходяща е switch констрикцията.
+            // Ясно е, че може да влезне само в един от всички ифове нали ?
             if(parts[0].equals("ENROLL")){
                 cr[index] = new Credentials(parts[1],parts[2]);
                 index++;

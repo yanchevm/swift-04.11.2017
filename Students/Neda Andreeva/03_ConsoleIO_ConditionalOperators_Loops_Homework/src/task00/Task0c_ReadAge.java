@@ -9,7 +9,7 @@ public class Task0c_ReadAge {
         System.out.print("Please, enter your age: ");
         byte age = sc.nextByte();
 
-        if (age > 0) {
+        if (age > 0) { //Милен: Какво ще стане ако въведените години са 1000 ?
             if (age < 18) {
                 System.out.println("You are underage!");
             } else {

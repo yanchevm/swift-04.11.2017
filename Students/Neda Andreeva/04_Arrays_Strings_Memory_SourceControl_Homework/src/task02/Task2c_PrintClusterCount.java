@@ -24,6 +24,7 @@ public class Task2c_PrintClusterCount {
 			int currentElement = arr[0];
 			
 			for (int i = 1; i < number; i++) {
+                            //Милен: Опитай да оптимизираш този алгоритъм
 				if (i < number - 1) {
 					if (currentElement == arr[i]) {
 						currentClusterElementsCount++;

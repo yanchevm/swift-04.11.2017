@@ -10,6 +10,7 @@ public class Task1b_PrintMirrorNumber {
         int number = sc.nextInt();
         int mirrorNumber = 0;
 
+        //Милен: БРАВО! Алгоритъма е правилен
         while (number != 0) {
             byte currentDigit = (byte)(number % 10);
             mirrorNumber = ((10 * mirrorNumber) + currentDigit);

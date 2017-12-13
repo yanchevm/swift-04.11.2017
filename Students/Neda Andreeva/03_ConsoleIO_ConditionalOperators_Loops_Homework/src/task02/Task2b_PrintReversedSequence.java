@@ -17,7 +17,7 @@ public class Task2b_PrintReversedSequence {
             System.out.print("Please, enter a sequence of numbers: ");
             for (int i = 0; i < n; i++) {
                 int number = sc.nextInt();
-                reversedSquence = number + " " + reversedSquence;
+                reversedSquence = number + " " + reversedSquence; //Милен: БРАВО, много добро решение!
             }
     
             System.out.println(reversedSquence);

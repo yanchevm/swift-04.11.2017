@@ -9,7 +9,7 @@ public class Task3d {
         System.out.println(CheckParentesis(str));
 
     }
-    public static boolean CheckParentesis(String str)
+    public static boolean CheckParentesis(String str) //Милен: Методите започват с малка буква и отварящата скоба е на същия ред!
     {
         if (str.isEmpty())
             return true;

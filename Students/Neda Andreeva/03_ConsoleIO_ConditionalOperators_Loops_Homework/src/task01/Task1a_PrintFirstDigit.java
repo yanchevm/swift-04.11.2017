@@ -10,6 +10,7 @@ public class Task1a_PrintFirstDigit {
         int number = sc.nextInt();
         byte currentDigit = 0;
 
+        //Милен: БРАВО!
         while (number != 0) {
             currentDigit = (byte)(number % 10);
             number /= 10;

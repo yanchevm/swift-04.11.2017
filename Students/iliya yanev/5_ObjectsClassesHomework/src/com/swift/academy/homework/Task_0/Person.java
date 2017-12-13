@@ -37,7 +37,8 @@ public class Person {
     public String getName() {
         return name;
     }
-
+	
+//Милен: БРАВО!
     public void setName(String name) {
         if (name.matches("^[A-Za-z]+((\\s)?((\\'|\\-|\\.)?([A-Za-z])+))*$")) {                // matches a correct name format
             this.name = name;

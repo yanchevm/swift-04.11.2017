@@ -15,13 +15,13 @@ public class Car {
         this.yearManufacture = yearManufacture;
     }
 
-    public String insuranceCategory(int yearManufact) {
+    public String insuranceCategory(int yearManufact) { //Милен: Ако няма да се извиква от другаде освен този клас, какъв модификатор за достъп ще му сложиш ?
         int years = Year.now().getValue()- yearManufact;
         if (years <=8){
             return "category 1";
-        } else if (years>8 && years<=15){
+        } else if (years>8 && years<=15){ //Милен: Имаш ли нужда от проверка дали years > 8 тук ? Ще стигнеш ли до втория иф ако е по-малко ?
             return "category 2";
-        }else  if (years>15 && years<25){
+        }else  if (years>15 && years<25){ //Милен: Тук отново
             return "category 3";
         } else {
             return "category 4";

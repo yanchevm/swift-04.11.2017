@@ -7,6 +7,7 @@ public class Task0b {
         int size=sc.nextInt();
         sc.nextLine();
         int arr[]=new int [size];
+        //Милен: Браво, добро решение!
         Scanner numSC=new Scanner(sc.nextLine());
         for (int i = 0; i <size ; i++) {
             if(numSC.hasNextInt()){

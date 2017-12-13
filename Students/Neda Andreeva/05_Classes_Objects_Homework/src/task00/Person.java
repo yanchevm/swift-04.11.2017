@@ -10,6 +10,8 @@ public class Person {
 	}
 	
 	Person(String name) {
+            //Милен: Защо не използваш тук направо сетърите които си направила :) 
+            // Така ще избегнеш дуплицирането на код
 		if (name.matches("[a-zA-Z]*")) {
 			this.name = name;
 		}
@@ -20,6 +22,7 @@ public class Person {
 	}
 	
 	Person(String name, byte age) {
+            //Милен: Същото и тук
 		if (name.matches("[a-zA-Z]*")) {
 			this.name = name;
 		}
