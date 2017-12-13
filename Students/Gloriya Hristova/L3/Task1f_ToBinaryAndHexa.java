@@ -23,24 +23,26 @@ class Functions{
         char result=0; 
         while(x > 0)
         {
-           
-           
-           if(x%16 ==0){result ='0';}
-           if(x%16 ==1){result ='1';}
-           if(x%16 ==2){result ='2';}
-           if(x%16 ==3){result ='3';}
-           if(x%16 ==4){result ='4';}
-           if(x%16 ==5){result ='5';}
-           if(x%16 ==6){result ='6';}
-           if(x%16 ==7){result ='7';}
-           if(x%16 ==8){result ='8';}
-           if(x%16 ==9){result ='9';}
-           if(x%16 ==10){result ='A';}
-           if(x%16 ==11){result ='B';}
-           if(x%16 ==12){result ='C';}
-           if(x%16 ==13){result ='D';}
-           if(x%16 ==14){result ='E';}
-           if(x%16 ==15){result ='F';}
+           switch(x%16){
+          
+               case 0:result ='0';break;
+               case 1:result ='1';break;
+               case 2:result ='2';break;
+               case 3:result ='3';break;
+               case 4:result ='4';break;
+               case 5:result ='5';break;
+               case 6:result ='6';break;
+               case 7:result ='7';break;
+               case 8:result ='8';break;
+               case 9:result ='9';break;
+               case 10:result ='A';break;
+               case 11:result ='B';break;
+               case 12:result ='C';break;
+               case 13:result ='D';break;
+               case 14:result ='E';break;
+               case 15:result ='F';break;
+        
+           }
            x = x/16;
        
            str.append(result);
