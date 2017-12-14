@@ -4,55 +4,44 @@ import java.util.Scanner;
 
 public class Task3f_LongestCommonSubstring {
     
-
-  public static void main(String [] args ){
-      Scanner input = new Scanner (System.in);
-      StringBuilder objective =new  StringBuilder();
-      String text, str, letter, line, commonLine="",swap; 
-      text = input.nextLine();
-      int max =0;
-      int i=0;
-   int len;
-   str = input.nextLine();
-      if (str.length()>text.length()){
-          swap=str;
-          str =text;
-          text = swap;
-      }
-      
-      
-      String[] main = new String[str.length()];//
-   for(int k=0;k<str.length();k++){//
-       
-    for(i=k+commonLine.length(); i<str.length();i++){
-       
-        char l =str.charAt(i);
-        letter = new StringBuilder().append(l).toString();
-        if(text.contains(letter)){
-            objective.append(str.charAt(i));
-            line = objective.toString();
-            len = line.length();
-            
-            if(text.contains(line)){
-                if(max<len){
-                max=len;
-                commonLine =line;
-                //main[i]=commonLine;//
-            }
-            
-        }
-        }
-        
-    }
-   main[k]=commonLine;
-   k++;
-   i+=commonLine.length();
-   }
-   for(int k=0;k<str.length();k++ ){
-       System.out.println(main[k]);
-   }
-    System.out.println("Longest common substring:" + commonLine);
-  }
-  }
+ private static String longestCommonSubstring(String str1, String str2){
+     
+    int start = 0;
+    int max = 0;
     
+    for (int i = 0; i < str1.length(); i++){
+        
+        for (int j = 0; j < str2.length(); j++){
+            int x = 0;
+            while(str1.charAt(i + x) == str2.charAt(j + x)){
+                x++;
+                if(((i + x) >= str1.length()) || ((j + x) >= str2.length())){
+                    break;
+                }
+            }
+            if (x > max){
+                max = x;
+                start = i;
+            }
+         }
+    }
+    return str1.substring(start, (start + max));
+}
+    
+   public static void main(String [] args){
+       
+        Scanner input = new Scanner(System.in);
+        String text1,text2;
+        
+       
+        
+        System.out.println("Enter strings: ");
+        text1 = input.nextLine();
+        text2 = input.nextLine();
+        
+        System.out.println(longestCommonSubstring(text1,text2));
+            
+           
+   }
+}
 
