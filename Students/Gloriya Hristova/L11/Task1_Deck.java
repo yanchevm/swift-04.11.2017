@@ -95,7 +95,7 @@ class Card implements Comparable<Card>{
     int indexOf(String rank){
         switch(rank){
             case "Two": index = 0;break;
-            case "Thre": index = 1;break;
+            case "Three": index = 1;break;
             case "Four": index = 2;break;
             case "Five": index = 3;break;
             case "Six": index = 4;break;
