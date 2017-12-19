@@ -91,7 +91,7 @@ public class Task {
 		System.out.println("Vuvedete chislo!");
 		int n=sc.nextInt();
 		int reverse=0;
-		while(n!=0){
+		while(n!=0){ //Милен: БРАВО!
 			reverse=reverse*10;
 			reverse=reverse +n%10;
 			n=n/10;
@@ -108,6 +108,7 @@ public class Task {
 		int n=sc.nextInt();
 		String s=String.valueOf(n);
 		int sum=0;
+		//Милен: БРАВО! Алгоритъма е правилен. Може да пробваш с вариянта с деленето както си направил в условие b
 		for(int i=0;i<s.length();i++){
 			String a=String.valueOf(s.charAt(i));
 			int b=Integer.parseInt(a);
@@ -138,6 +139,7 @@ public class Task {
 		System.out.println("Vuvedete chislo!");
 		int n=sc.nextInt();
 		int i=2;
+		//Милен: БРАВО, добро решение!
 		while(i<=n-1){
 			if(n%i==0){
 				System.out.println(false);
@@ -172,6 +174,7 @@ public class Task {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Vuvedete broi chisla koito 6te smqtame!");
 		int n=sc.nextInt();
+		//Милен: Проверката е супер!
 		while(n<=0){
 			System.out.println("Vuvedete broi chisla koito 6te smqtame!");
 			n=sc.nextInt();
@@ -203,7 +206,7 @@ public class Task {
 			System.out.println("Vuvedete chislo!");
 			arr[i]=sc.nextInt();
 		}
-		for(int j=0;j<n;j++){
+		for(int j=0;j<n;j++){ //Милен: Защо не пробваш да тръгнеш от последния елемент ? Какво ще се получи тогава ?
 			System.out.printf("%d ",arr[n-j-1]);
 		}
 	}
@@ -225,6 +228,7 @@ public class Task {
 			System.out.println("Vuvedete chislo");
 			arr[i]=sc.nextInt();
 		}
+		//Милен: БРАВО!
 		for(int i=0;i<n;i++){
 			if(arr[i]%2==0){
 				System.out.print(arr[i]+" ");
@@ -317,11 +321,12 @@ public class Task {
 Task 4
 a)
 import java.util.Scanner;
-public class Task {
+public class Task {	
 	public static void main(String[] args){
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Vuvedete izrechenie!");
 		String s=sc.nextLine();
+		//Милен: БРАВО!
 		s=s.replaceAll("a", "").replaceAll("A", "");
 		s=s.replaceAll("o", "").replaceAll("O", "");
 		s=s.replaceAll("u", "").replaceAll("U", "");
@@ -343,7 +348,7 @@ public class Task {
 		int count =0;
 		boolean oldword=false;
 		for(char c : s.toCharArray()){
-			if(('a' <= c && c <= 'z' )||('A'<= c && c<= 'Z')){
+			if(('a' <= c && c <= 'z' )||('A'<= c && c<= 'Z')){ //Милен: Тук може да използваш и цифровата равностойност. Ще стане по-лесно!
 				if(!oldword){
 					oldword=true;
 					count++;
@@ -362,6 +367,7 @@ public class Task {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Vuvedete izrechenie!");
 		String s=sc.nextLine();
+		//Милен: Добро решение!
 		for(char c: s.toCharArray()){
 			System.out.print(c);
 			if(c=='!'  || c=='.' || c=='?'){
@@ -381,7 +387,7 @@ public class Task {
 		int n=0;
 		for(char c: s.toCharArray()){
 			if('0'<=c && c<= '9'){
-				n=n*10+(c-'0');
+				n=n*10+(c-'0'); //Милен: БРАВО!
 			}else{
 				sum+=n;
 				n=0;
