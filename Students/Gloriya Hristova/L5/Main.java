@@ -4,15 +4,39 @@ import java.time.Year;
 import java.util.Scanner;
 
 class Car {
-  String brand, model;
-  int horsepow, yearOfProd,age;
-  double tax;
-  int insuranceCat;
-  int today = Year.now().getValue(); //Милен: БРАВО!
-  int age(int yearOfProd) { //Милен: Отделяй методите от характеристиките с празен ред
+    
+    String brand, model;
+    int horsepow, yearOfProd,age;
+    double tax;
+    int insuranceCat;
+    int today = Year.now().getValue();
+    
+    public Car(){
+        Scanner input = new Scanner(System.in);
+        System.out.print("Car brand: ");
+            brand = input.nextLine();
+            this.brand =brand;
+            
+            System.out.print("Car model: ");
+            model = input.nextLine();
+            this.model=model;
+            
+            System.out.print("Year of production: ");
+            yearOfProd = input.nextInt();
+            this.yearOfProd= yearOfProd;
+            
+            System.out.print("Horsepower: ");
+            horsepow = input.nextInt();
+            this.horsepow=horsepow;
+  }
+  
+  int age(int yearOfProd){
       age=today- yearOfProd;
-          return age;} //Милен: Затварящата скоба тряба да бъде на нов ред!
-  void insuranceCategory(int age){ //Милен: Нов ред
+          return age;
+  }
+  
+  void insuranceCategory(int age){
+      
       if(age<=8){
           insuranceCat=1;
       }
@@ -24,9 +48,10 @@ class Car {
       }
          if(age>25){
           insuranceCat=4;
-      }System.out.println(insuranceCat);
+      }//System.out.println(insuranceCat);
   }
-  double tax(int insuranceCat){ //Милен: Нов ред преди началото на метода
+  
+  double tax(int insuranceCat){
       switch(insuranceCat){
           case 1: tax =150;break;
           case 2: tax =200;break;
@@ -40,31 +65,14 @@ class Car {
               tax*=1.45;
           }
       
-  return tax;} //Милен: :) скобата на нов ред 
-  void setCarSpecifications(String brand, String model, int horsepow, int yearOfProd){ //Милен: Идеята не е лоша, но е по-добре да бъде конструктор.
-      
-           this.brand =brand;
-           this.model=model;
-           this.horsepow=horsepow;
-           this.yearOfProd= yearOfProd;
-            
-        }
+  return tax;
+  }
+  
 }
 
 public class Main {
    public static void main(String [] args){
        Car vehicle = new Car();
-       System.out.print("Car brand: ");
-            Scanner input = new Scanner(System.in);
-            vehicle.brand = input.nextLine();
-            System.out.print("Car model: ");
-            vehicle.model = input.nextLine();
-            System.out.print("Year of production: ");
-            vehicle.yearOfProd = input.nextInt();
-            System.out.print("Horsepower: ");
-            vehicle.horsepow = input.nextInt();
-       vehicle.setCarSpecifications(vehicle.brand,vehicle.model,vehicle.horsepow,vehicle.yearOfProd);
-       
        
        int x;
        x=vehicle.age(vehicle.yearOfProd);
