@@ -6,7 +6,7 @@ public class Task1a_PrintFirstDigit {
         Scanner scanner = new Scanner(System.in);
 
         String Number = scanner.nextLine();
-        char firstDigit = Number.charAt(0);
+        char firstDigit = Number.charAt(0); //Милен: БРАВО!
         System.out.println(firstDigit);
 
     }

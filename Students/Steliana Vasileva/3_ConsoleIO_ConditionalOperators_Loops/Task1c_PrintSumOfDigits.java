@@ -10,6 +10,7 @@ public class Task1c_PrintSumOfDigits {
 
         int sum = 0;
         for (int i=0; i < number.length(); i++) {
+		//Милен: Алгоритъма не е правилен! number.charAt(i) връща уникод числото а не числовата равностойност. Пример: а -> 61, '1' -> 31 и т.н. 
             int numericValue = (int)(number.charAt(i));
           sum += numericValue;
         }

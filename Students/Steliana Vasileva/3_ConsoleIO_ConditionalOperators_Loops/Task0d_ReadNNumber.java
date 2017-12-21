@@ -6,6 +6,7 @@ public class Task0d_ReadNNumber {
         Scanner scanner = new Scanner(System.in);
         int numberOfDigits = scanner.nextInt();
         for(int i=0; i<numberOfDigits; i++ ){
+			//Милен: Името с малка буква
             int Number = scanner.nextInt();
             System.out.println(Number);
         }
