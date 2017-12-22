@@ -18,6 +18,7 @@ public class Task2b_PrintSortedNumbers {
             arr[i] = sc.nextInt();
         }
 
+            //Милен: Можеш ли да ми кажеш как се нарича това сортиране ?
             for (int i = 0; i < arr.length; i++) {
                 for (int j = 0; j < arr.length; j++) {
                     if (arr[i] < arr[j]) {
@@ -28,6 +29,6 @@ public class Task2b_PrintSortedNumbers {
             }
         }
 
-        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr)); //Милен: Използваш Arrays, браво!
     }
 }

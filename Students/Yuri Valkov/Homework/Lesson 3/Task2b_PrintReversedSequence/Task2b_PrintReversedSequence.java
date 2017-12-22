@@ -10,8 +10,8 @@ public class Task2b_PrintReversedSequence {
             System.out.println("Please enter the numbers: ");
                 for( int i =0; i < num; i++) {
                     int number = sc.nextInt();
-                    mirror = number + " " + mirror;
-                }
+                    mirror = number + " " + mirror; //Милен: БРАВО, оригинал решение!
+                } 
             System.out.println(mirror);
 
     }

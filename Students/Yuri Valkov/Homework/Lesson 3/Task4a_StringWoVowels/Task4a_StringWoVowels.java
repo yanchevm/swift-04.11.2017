@@ -10,7 +10,8 @@ public class Task4a_StringWoVowels {
         String text = sc.nextLine();
 
         for (int i = 0; i < text.length(); i++) {
-            switch (text.charAt(i)){
+            switch (text.charAt(i)){ //Милен: Можеш да изнесеш стойността в една променлива и да ползваш нея.
+                                     // Пример: char c = text.charAt(i);
                 case 'a':
                 case 'A':
                 case 'e':

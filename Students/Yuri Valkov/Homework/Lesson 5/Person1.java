@@ -2,7 +2,8 @@ package Task0_Classes;
 
 public class Person1 {
     public static void main(String[] args) {
-
+        
+        //Милен: Имената на променливите започват с малка буква и са camelCase !
         Person Kiril = new Person();
         Person Vasea = new Person("Vasea");
         Person Oleg = new Person("Oleg",11);

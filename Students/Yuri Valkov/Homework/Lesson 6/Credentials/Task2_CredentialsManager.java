@@ -14,6 +14,8 @@ public class Task2_CredentialsManager {
         while(!input.equals("END")){
             String[] parts = input.split(" ");
 
+            // Милен: Защо не пробваш с switch вмето толкова иф-ове ?
+            // Може също да си направиш отделни методи за всяка операция.
             if(parts[0].equals("ENROLL")){
                 cr[index] = new Credentials(parts[1],parts[2]);
                 index++;

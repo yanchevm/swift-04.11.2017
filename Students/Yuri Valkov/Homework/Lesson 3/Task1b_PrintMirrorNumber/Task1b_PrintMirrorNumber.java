@@ -8,6 +8,7 @@ public class Task1b_PrintMirrorNumber {
         System.out.println("Please, enter your number: ");
         int number = sc.nextInt();
         int mirror = 0;
+        //Милен: БРАВО!
             while (number != 0) {
                 byte digit = (byte) (number % 10);
                 mirror = ((mirror * 10)) + digit;

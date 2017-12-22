@@ -14,6 +14,6 @@ public class Task1a_PrintFirstDigit {
 
             System.out.println(firstdigit);
 
-
+        //Милен: БРАВО! Само оправи изместването 
     }
 }

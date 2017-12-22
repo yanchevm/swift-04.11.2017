@@ -12,6 +12,7 @@ public class Task4b_PrintCountOfWords {
             int q = arr.length;
                 for (int i=0; i<arr.length; i++) {
                     boolean num = false;
+                        //Милен: БРАВО, алгоритъма е правилен!
                         for ( int k =0; k< arr[i].length(); k++) {
                             switch (arr[i].charAt(k)) {
                                 case '0':

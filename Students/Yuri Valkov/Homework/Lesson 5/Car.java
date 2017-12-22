@@ -26,6 +26,7 @@ public class Car {
             return "cat 4";
         }
     }
+    //Милен: Подреждай си кода! Няма причина това да е изместено
             public double tax() {
                 double hpindex;
                     if (this.horsepower > 140) {
@@ -35,7 +36,7 @@ public class Car {
                     } else {
                         hpindex = 1;
                     }
-
+                        //Милен: Как можеш да избегнеш написването на много if-else конструкции ?
                         if (this.insurance(this.year).equals("cat 1")) {
                             return hpindex*150;
                         } else if (this.insurance(this.year).equals("cat 2")) {

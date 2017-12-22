@@ -8,6 +8,7 @@ public class Task0d_Print2dArray {
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[1].length; j++) {
                 arr[i][j] = count;
+                //Милен: Добро решение
                 if (j == arr[1].length - 1) {
                     System.out.printf("%3d%n", arr[i][j]);
                 } else {

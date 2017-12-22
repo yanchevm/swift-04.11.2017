@@ -11,7 +11,7 @@ public class Task0d_ReadNNumbers {
         System.out.print(" Enter your numbers in one line: ");
         for ( int i=0; i<numb; i++ ) {
             int number = sc.nextInt();
-            String result = "";
+            String result = ""; //Милен: Това не е вярното условие :), но си се справил добре! - БРАВО
             result += number + "\n";
             System.out.println(result);
         }

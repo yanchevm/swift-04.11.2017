@@ -16,6 +16,7 @@ public class Task2d_PrintSplitIndex {
         }
 
         int index = 0;
+        //Милен: Подреждай кода! Няма нужда тези редове да са изместени на дясно...
             for (int i = 0; i < numb; i++) {
             int sum1 = 0;
             int sum2 = 0;
@@ -30,7 +31,7 @@ public class Task2d_PrintSplitIndex {
                 break;
             }
         }
-
+        // Милен: Алгоритъма е правилен - БРАВО! Можеш ли да се досетиш за начин да го оптимизираш ?
         if(index != 0){
             System.out.println(index);
         } else {

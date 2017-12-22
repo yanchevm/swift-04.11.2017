@@ -5,6 +5,7 @@ public class Account {
     private String govId;
     private double balance; //lv
 
+    //Милен: Това тук трябва да бъде Credentials обект :), а не парола и име
     private String password;
     private String username;
 
@@ -23,7 +24,7 @@ public class Account {
 
     public void withdraw(double amount){
         if(amount>0){
-            this.balance -= amount;
+            this.balance -= amount; //Милен: Какво ще стане ако balance е 0 ?
         }
     }
 
