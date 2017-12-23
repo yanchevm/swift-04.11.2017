@@ -8,41 +8,28 @@ class Calculator{
     Scanner input = new Scanner(System.in);
     
     void setCommand(){
-         String text = input.nextLine();
-    String[] parts = text.trim().split(" ");
-    String command = parts[0];
-        while (!command.equals("END")){
+        String text="default"; 
+        while (!text.equals("END")){
+            text = input.nextLine();
+            if(text.equals("END")){
+                System.exit(0);
+            }
+            String[] parts = text.trim().split(" ");
+            String command = parts[0];
             
-             String part1 = parts[1];
-             double a = Double.parseDouble(part1);
-             String part2 = parts[2];
-             double b = Double.parseDouble(part2);
+            double a = Double.parseDouble(parts[1]);
+            double b = Double.parseDouble(parts[2]);
             
             switch(command){
                 case "SUM":sum(a,b);
-                    text =input.nextLine();
-                    parts = text.trim().split(" ");
-                    command = parts[0];
                     break;
                 case "SUB":substract(a,b); 
-                    text =input.nextLine();
-                    parts = text.trim().split(" ");
-                    command = parts[0];
                     break;
                 case "MUL":multiply(a,b); 
-                    text =input.nextLine();
-                    parts = text.trim().split(" ");
-                    command = parts[0];
                     break;
                 case "DIV":divide(a,b); 
-                    text =input.nextLine();
-                    parts = text.trim().split(" ");
-                    command = parts[0];
                     break;
                 case "PER":percentage(a,b); 
-                    text =input.nextLine();
-                    parts = text.trim().split(" ");
-                    command = parts[0];
                     break; 
                 default: System.out.println("Unknown command.");
                 }
@@ -52,8 +39,6 @@ class Calculator{
         sum = a+b;
         String num = String.format("%.3f", sum);
         System.out.println(num);
-        
-        
         return sum;
     }
     double substract(double a,double b){
