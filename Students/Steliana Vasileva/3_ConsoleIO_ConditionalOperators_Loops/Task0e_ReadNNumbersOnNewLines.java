@@ -5,12 +5,12 @@ public class Task0e_ReadNNumbersOnNewLines {
 
         Scanner sc = new Scanner(System.in);
 
-        int numberOfDigits = Integer.parseInt(sc.nextLine());
+        int numberOfDigits = Integer.parseInt(sc.nextLine()); //Милен: Сканера има метод който ще свърши това вместо теб - nextInt(); Връща направо число :)
 
         int printNumber = 0;
 
         for (int i = 0; i < numberOfDigits; i++) {
-            int number = Integer.parseInt(sc.nextLine());
+            int number = Integer.parseInt(sc.nextLine()); //Милен: Същото и тук.
 
         }
 

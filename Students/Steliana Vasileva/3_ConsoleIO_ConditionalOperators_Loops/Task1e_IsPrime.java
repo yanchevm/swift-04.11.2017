@@ -20,7 +20,7 @@ public class Task1e_IsPrime {
         } else {
             isPrime = true;
             System.out.println("true");
-            break;
+            break; //Милен: Този брейк ще спре целия цикъл. Така още при първото завършване на излезнеш, и няма да можеш да обходиш всички възможни делители.
         }
 
         }

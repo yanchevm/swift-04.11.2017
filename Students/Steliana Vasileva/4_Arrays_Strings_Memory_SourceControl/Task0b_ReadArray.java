@@ -9,7 +9,7 @@ public class Task0b_ReadArray {
         int[] newIntArray = new int[N];
 
         for (int i = 0; i < N; i++) {
-            newIntArray[i] = sc.nextInt();
+            newIntArray[i] = sc.nextInt(); //Милен: БРАВО! Използваш правилния метод :)
             if (i == N - 1) {
                 System.out.printf("%d", newIntArray[i]);
             } else {

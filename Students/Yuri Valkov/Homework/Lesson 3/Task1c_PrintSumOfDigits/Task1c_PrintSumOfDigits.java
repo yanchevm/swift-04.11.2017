@@ -7,6 +7,7 @@ import java.util.Scanner;
             System.out.println("Please, enter your number: ");
             int number = sc.nextInt();
             short amount = 0;
+            //Милен: БРАВО! Използваш и правилен тип на променливата!
                 while (number != 0) {
                     byte digit = (byte)(number % 10);
                     amount += digit;

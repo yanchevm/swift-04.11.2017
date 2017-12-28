@@ -13,6 +13,8 @@ public class Person {
             this.age = -1;
             }
     Person(String name, int age){
+        //Милен: Защо не използваш направо set методите които вече имаш ?
+        // По този начин ще си спестиш двойната проверка :)
         if(!name.equals("") && age>0 ){
             this.name = name;
             this.age = age;
@@ -36,7 +38,7 @@ public class Person {
     }
 
     public void setAge(int age) {
-        if(age <0 ){
+        if(age <0 ){ //Милен: Според мен си искал да напишеш > 
             this.age = age;
         }
     }

@@ -5,7 +5,7 @@ public class Credentials {
     private String pass;
     private boolean wrongPass= false;
 
-    String[] passwords = new String[100];
+    String[] passwords = new String[100]; //Милен: Това нужно ли е да не бъде private ?
 
             public Credentials(String name, String password){
                 this.username = name;
@@ -14,9 +14,12 @@ public class Credentials {
 
             public void setPassword(String pass1, String pass2) {
                 if (this.checkPassword(pass1)){
+            //Милен: Подреждай си кода!
             for (int i = 0; i <passwords.length; i++) {
-                if (passwords[i]==pass) {
-                    this.wrongPass = true;
+                if (passwords[i]==pass) { //Милен: Това нужно ли ти е ?
+                    // Защо не сетваш направо паролата тук, а метода да връща true/false в зависимост от това
+                    // дали операцията е била успешна...
+                    this.wrongPass = true; 
                     break;
                 }
             }

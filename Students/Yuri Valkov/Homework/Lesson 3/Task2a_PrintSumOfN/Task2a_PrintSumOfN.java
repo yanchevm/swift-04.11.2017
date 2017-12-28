@@ -8,6 +8,7 @@ public class Task2a_PrintSumOfN {
         System.out.println("Please, enter your number:  ");
         int n = sc.nextInt();
             int sum = 0;
+            //Милен: БРАВО!
             for (int i=0; i < n; i++) {
                 int number = sc.nextInt();
                 sum += number;

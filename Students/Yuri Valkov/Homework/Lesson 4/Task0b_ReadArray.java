@@ -8,7 +8,7 @@ public class Task0b_ReadArray {
         String numb = sc.next();
         System.out.print("Please, enter "+numb +"  numbers: ");
         String numb2 = sc.nextLine();
-        String numb2Arr[] =  numb2.split(" ");
+        String numb2Arr[] =  numb2.split(" "); //Милен: Къде е гаранцията, че потебителя в въвел точно толкова числа ?
         int arr2[] = new int[Integer.parseInt(numb)];
             for (int i = 0; i< arr2.length; i++ ) {
                 arr2[i] = Integer.parseInt(numb2Arr[i]);

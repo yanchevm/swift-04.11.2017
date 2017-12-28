@@ -23,7 +23,7 @@ public class Task3b_PrintLetterCount {
                 }
                 System.out.printf("%s(%d)%n", arr[a],count);
             }
-
+            //Милен: Добре си се справил!
         }
 
     }

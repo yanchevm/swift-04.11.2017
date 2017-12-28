@@ -14,7 +14,7 @@ public class Task4d_SumOfNumbersInString {
             if (sentenceSplit[i].matches("[0-9]+")){
                 number += Integer.parseInt(sentenceSplit[i]);
                 } else {
-                continue;
+                continue; //Милен: Нямаш нужда от това тук. Така или иначе, това е последното изречение в този цикъл. 
 
             }
         }

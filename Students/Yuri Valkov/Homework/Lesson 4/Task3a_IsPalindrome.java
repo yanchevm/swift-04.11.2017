@@ -9,6 +9,7 @@ public class Task3a_IsPalindrome {
         String str = sc.nextLine();
 
         boolean palindrom = true;
+        //Милен - БРАВО! Много добро решение
         for (int i = 0, k = str.length()-1; i <= str.length()/2; i++, k--) {
             if(str.charAt(i) != str.charAt(k)){
                 palindrom = false;

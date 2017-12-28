@@ -7,7 +7,7 @@ public class Task4c_PrintEverySentence {
 
         System.out.println("Please enter your text: ");
         String text = sc.nextLine();
-        String[] arr = text.split("[.?!]");
+        String[] arr = text.split("[.?!]"); //Милен: БРАВО!
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i].trim());
         }

@@ -13,7 +13,7 @@ public class Task3d_BracketMatching {
         System.out.println(text2.equals("")? true : false);
 
     }
-
+    //Милен: Добро решение!
     public static String reduceStr (String str){
         String newStr = str.replace("()", "").replace("[]", "").
                 replace("{}", "");

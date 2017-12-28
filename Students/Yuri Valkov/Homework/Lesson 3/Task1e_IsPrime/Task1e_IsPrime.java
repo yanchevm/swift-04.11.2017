@@ -8,6 +8,7 @@ public class Task1e_IsPrime {
         System.out.println("Please, enter your number: ");
             int num = scan.nextInt();
             int temp =2;
+            //Милен: БРАВО, алгоритъма е правилен!
             while (temp < num) {
                 if (num % temp == 0) {
                     isPrime = false;
