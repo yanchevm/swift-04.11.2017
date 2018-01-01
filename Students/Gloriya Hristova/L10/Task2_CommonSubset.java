@@ -9,7 +9,7 @@ import java.util.Objects;
 public class Task2_CommonSubset {
     
     private static void printList(List<Integer> list) {
-        list.forEach((i) -> {
+        list.forEach((i) -> { //Милен: БРАВО!
             System.out.print(i + " ");
         });
         
@@ -45,12 +45,20 @@ public class Task2_CommonSubset {
         List <Integer> common = new ArrayList<>();
         listM.forEach((i)->{
             for(Integer j:listN){
-               if(Objects.equals(i, j)){
+               if(Objects.equals(i, j)){ //Милен: Няма нужда от това. Можеш да използваш просто: i == j
                    common.add(i);
                }
             }
         });
-        
+
+
+	// Милен: Вижда, че използваш ламбра изрази, но си го направила полвинчато. Ето как можеш да го направиш изцяло:
+	/*
+	List<T> common = listM.stream()
+		                 .filter(listN::contains)
+		                 .collect(Collectors.toList());
+        */
+
         if(common.isEmpty()){
             System.out.println("NO");
         }

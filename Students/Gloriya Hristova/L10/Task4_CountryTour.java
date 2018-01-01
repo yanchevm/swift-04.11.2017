@@ -7,7 +7,7 @@ public class Task4_CountryTour {
     public static void main(String [] args){
         Scanner input = new Scanner(System.in);
         Scanner line = new Scanner(System.in);
-        int N;
+        int N; // Милен: Имената на променливите започват с малка буква!
         String info;
         N = input.nextInt();
         int[] distance= new int[N];
@@ -19,13 +19,13 @@ public class Task4_CountryTour {
             distance[i] = Integer.parseInt(facts[0]);
             food[i] = Integer.parseInt(facts[1]);
         }
-        int index = 0,counter = 0,sum = 0;
+        int index = 0,counter = 0,sum = 0; //Милен: Хубаво е да дефинираш променливите там където ще ги използваш. В случая, counter и index ги ползваш след 8 реда.
         for(int i = 0; i < N; i++){
             sum = sum - distance[i] + food[i];
         }
         if(sum<0){
             System.out.println("NO.");
-            System.exit(0);
+            System.exit(0); //Милен: Не е добър подход. Използвай вместо това return;
         }
         sum=0;
         for(int i = index; counter < N; i++){

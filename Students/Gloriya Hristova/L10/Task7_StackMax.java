@@ -5,7 +5,7 @@ import java.util.Stack;
 import java.util.TreeSet;
 
 class NStack{
-    Scanner input = new Scanner(System.in);
+    Scanner input = new Scanner(System.in); // Милен: Имаш ли причина да сложиш всички променливи private ?
     Stack <Integer> stack = new Stack <>();
     TreeSet <Integer> m = new TreeSet <>();
     String text, command;
@@ -18,6 +18,7 @@ class NStack{
             text=input.nextLine();
             push=text.trim().split(" ");
             command=push[0];
+		// Милен: БРАВО!
             switch(command){
                 case "PUSH":
                     p=Integer.parseInt(push[1]);

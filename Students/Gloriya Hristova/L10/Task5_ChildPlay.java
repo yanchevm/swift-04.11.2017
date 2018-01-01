@@ -12,11 +12,12 @@ public class Task5_ChildPlay {
     
         Scanner input = new Scanner(System.in);
         Scanner h = new Scanner(System.in);
-        List <Integer> kids = new LinkedList();
+        List <Integer> kids = new LinkedList<>();
         
-        int N;
-        N = input.nextInt();
-        String heights;
+        int N; // Милен: Променливите започват с малка буква. Защо не я дефинираш и инициализираш направо на един ред ?
+			   // Пример: int n = input.nextInt();         
+		N = input.nextInt();
+        String heights; // Милен: Същото и тук.
         
         heights=h.nextLine();
         String[] heightOfKids = heights.trim().split(" ");
@@ -24,14 +25,14 @@ public class Task5_ChildPlay {
             kids.add(Integer.parseInt(heightOfKids[i]));
         }
         for(int k=0;k<kids.size();k++){
-            result=true;
+            result=true; // Милен: БРАВО, добър подход!
             for(int j = 0;j<kids.size()-1;j++){
                 if(kids.get(j) < kids.get(j+1)){
                     kids.remove(j+1);
                     result = false;
                 }  
             }
-            if(result==true){
+            if(result==true){ // Милен: Нямаш нужда от това. Можеш просто да напишеш if (result) { ...
                 break;
             }
             else{
