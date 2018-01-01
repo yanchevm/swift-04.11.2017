@@ -11,10 +11,10 @@ public class Task0_NumberNotANumber {
         String number = "";
         System.out.println("Enter number: ");
 
-        while (!number.equals("END")){
+        while (!number.equals("END")){ // Милен: Тук може да използваш do-while! Ще ти бъде по-лесно и ще спестиш тази гимнастика която се опитваш да направиш :)
             number = sc.nextLine();
 
-            if(number.equals("END")){return;}
+            if(number.equals("END")){return;} // Милен: Тук предполагам, че си искал да напишеш break;
 
             try {
                 Integer.parseInt(number);
@@ -23,7 +23,7 @@ public class Task0_NumberNotANumber {
             }
             catch (NumberFormatException e) {
                 System.out.println("Enter number: ");
-                System.err.println("Not a number.");
+                System.err.println("Not a number."); // Това трябва да бъде преди "Enter number."
             }
         }//когато разделя със спейс изкарва съобщението преди съобщението за грешка
         // и не знам как да го оправя

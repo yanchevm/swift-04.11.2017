@@ -7,6 +7,8 @@ import java.util.NoSuchElementException;
 import java.util.Scanner;
 public class Task1_SumNumber {
 
+   // Милен: Тук не си изпълнил правилно условието на задачата. Трябва ако имаш един от двата грешни слуая, да хвърлиш грешка, която да я прихванеш 
+   // в извикващия код
    static void twoNumbers(double number1,double number2){
         if (number1==number2){
             System.err.println("The numbers couldn't be equal.");
@@ -29,7 +31,7 @@ public class Task1_SumNumber {
             num2=sc.nextDouble();
             twoNumbers(num1,num2);
         }
-        catch (InputMismatchException e){
+        catch (InputMismatchException e){ // Кога очакваш да получиш такава грешка ? 
             System.err.println("The numbers must be type witch can be represent as double.");
             e.printStackTrace(System.out);
         }

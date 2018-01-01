@@ -10,7 +10,7 @@ public class Person {
     }
 
     public Person(String nameValue) {
-        name = nameValue;
+        name = nameValue; // Милен: Направил си такива хубави сет методи! Защо не ги използваш и тук ? Какво ще стане ако клиента на кода ти, въведе невалидно име или невалидни години ?
         years = -1;
     }
 
