@@ -3,6 +3,88 @@ package generics;
 import java.util.Scanner;
 
 
+// Много сложно решение! :) 
+// Предлагам ти малко по-лесно:
+/*
+* public class Card implements Comparable<Card> {
+*    CardSuit suit;
+*    CardRank rank;
+*
+*    public enum CardSuit {
+*        Clubs(1),
+*        Diamonds(2),
+*        Hearts(3),
+*        Spades(4);
+*
+*        int index;
+*
+*        CardSuit(int index) {
+*            this.index = index;
+*        }
+*
+*        static CardSuit getByIndex(int index) {
+*            CardSuit[] arr = CardSuit.values();
+*
+*            for (CardSuit cardSuit : arr) {
+*                if (cardSuit.index == index) {
+*                    return cardSuit;
+*                }
+*            }
+*
+*            return null;
+*        }
+*    }
+*
+*    public enum CardRank {
+*        Two(1),
+*        Three(2),
+*        Four(3),
+*        Five(4),
+*        Six(5),
+*        Seven(6),
+*        Eight(7),
+*        Nine(8),
+*        Ten(9),
+*        Jack(10),
+*        Queen(11),
+*        King(12),
+*        Ace(13);
+*
+*        int index;
+*
+*        CardRank(int index) {
+*            this.index = index;
+*        }
+*
+*        static CardRank getByIndex(int index) {
+*            CardRank[] arr = CardRank.values();
+*
+*            for (CardRank cardRang : arr) {
+*                if (cardRang.index == index) {
+*                    return cardRang;
+*                }
+*            }
+*            return null;
+*        }
+*    }
+*
+*    public Card(Integer s, Integer r) {
+*        this.suit = CardSuit.getByIndex(s);
+*        this.rank = CardRank.getByIndex(r);
+*    }
+*
+*    public String toString() {
+*        return (rank + " of " + this);
+*    }
+*
+*    @Override
+*    public int compareTo(Card card) {
+*        return rank.compareTo(card.rank);
+*    }
+*}
+*/
+// Сега трябва само да имплементираш клиента на този клас който разпечатва всички карти в тестето. :) Успех
+
 class MyClass{
     static int i;
     static String name;
