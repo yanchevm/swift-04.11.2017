@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 class Calculator{
     
-    double sum,sub,mul,div,per;
-    Scanner input = new Scanner(System.in);
+    double sum,sub,mul,div,per; //Милен: Има ли причина да не бъдат private ?
+    Scanner input = new Scanner(System.in); //Милен: Тук също.
     
     void setCommand(){
         String text="default"; 
-        while (!text.equals("END")){
+        while (!text.equals("END")){ //Милен: Тук можеш да го оптимизираш малко, за да не се налага да правиш проверката 2 пъти
             text = input.nextLine();
             if(text.equals("END")){
                 System.exit(0);
@@ -35,6 +35,7 @@ class Calculator{
                 }
         }  
     }
+	//Милен: БРАВО, много добре си го направила!
     double sum(double a,double b){
         sum = a+b;
         String num = String.format("%.3f", sum);

@@ -26,6 +26,9 @@ public class Task0_Cards {
    }
    
    public static void main(String []args){
+	//Милен: БРАВО! 
+	// Какво ще стане ако се наложи да добавиш по още един запис в двата ENUM-a ? 
+        // Така както си написала цикъла, ще ги разпечаташ ли ? :)
        for(int i=0;i<4;i++){
            if(i!=3){
                System.out.print(CardSuit.values()[i]+", ");

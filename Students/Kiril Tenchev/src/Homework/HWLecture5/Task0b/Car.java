@@ -17,7 +17,7 @@ public class Car {
     }
 
     public int insuranceCategory(){
-        int age = Year.now().getValue() - year;
+        int age = Year.now().getValue() - year; // Милен: БРАВО!
         if (age>=0) {
             if (age <= 8) {
                 return 1;
@@ -38,16 +38,14 @@ public class Car {
         switch (insuranceCategory()){
             case 0:  System.err.println("Incorrect data input. Age must be positive number.This car didn't exist already.");
             break;//как да го изкарам при самия модел?
-            case 1: if (horsePower<=80){
-                duty=150+(150*0.2);
-            }
-            else if (horsePower<=140){
-                duty=150;
-            }
-            else{
-                duty = 150+(150*0.45);
-            }
-            break;
+            case 1: if (horsePower<=80) {
+                	duty=150+(150*0.2);
+    		    } else if (horsePower<=140){
+                        duty=150;
+		    } else {
+                	duty = 150+(150*0.45);
+            	    }
+		    break;
             case 2:  if (horsePower<=80){
                 duty=200+(200*0.2);
             }
@@ -80,6 +78,35 @@ public class Car {
             break;
 
         }
+	
+	// Милен: Не е нужн да правиш цялата сметка в switch-a.
+	// Ето един пример:
+        int category = insuranceCategory();
+        double tax = 0.0;
+        switch (category) {
+            case 1:
+                tax = 150;
+                break;
+            case 2:
+                tax = 200;
+                break;
+            case 3:
+                tax = 300;
+                break;
+            case 4:
+                tax = 500;
+                break;
+        }
+        if (power < 80) {
+            tax += + 0.2 * tax;
+        }
+        else if (power > 140) {
+            tax += 0.45 * tax;
+        }
+        return tax;
+	
+        // -----------------------------
+
         return  duty;
     }
     public void print(){
@@ -97,7 +124,7 @@ public class Car {
         this.brand = brandValue;
     }
 
-    public void setHorsePower(int horsePower) {
+    public void setHorsePower(int horseP	ower) {
         this.horsePower = horsePower;
     }
 

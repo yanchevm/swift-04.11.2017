@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Task6_WordReplacement {
     
     public static void main(String[] args){
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in); // Милен: Защо не използваш само един скенер ?
         Scanner n = new Scanner(System.in);
         String text,txt;
         String[] parts = null;
