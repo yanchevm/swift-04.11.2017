@@ -11,6 +11,7 @@ public class Task2a_PrintSumOfN {
         System.out.println("Please enter your number");
         int num = sc.nextInt();
         int sum = 0;
+	// Милен: БРАВО!
         for (int i=0;i<num;i++){
             int num1 = sc.nextInt();
             sum+=num1;

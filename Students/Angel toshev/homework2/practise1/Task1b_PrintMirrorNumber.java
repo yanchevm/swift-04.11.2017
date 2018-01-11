@@ -9,10 +9,11 @@ public class Task1b_PrintMirrorNumber {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int first = input.nextInt();
-        while(first > 0)
+	//Милен: БРАВО!        
+	while(first > 0)
         {
             System.out.print(first%10);
-            first = first / 10;//
+            first = first / 10;
         }
     }
 }

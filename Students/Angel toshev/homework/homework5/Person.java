@@ -11,7 +11,7 @@ public class Person {
         age=-1;
     }
     public Person(String name){
-       this.name=name;
+       this.name=name; //Милен: Тук не си изпълнил условието от задачата. При това положение, age олко ще бъде? По условие, трябва да бъде -1
     }
    public Person(String name,int age){
         this.name=name;

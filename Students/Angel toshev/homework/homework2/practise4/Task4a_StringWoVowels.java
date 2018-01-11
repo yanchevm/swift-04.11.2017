@@ -11,6 +11,7 @@ public class Task4a_StringWoVowels {
         System.out.println("Please enter your String");
         String str = sc.nextLine();
         for (int i = 0; i < str.length(); i++) {
+	    // Милен: Добро решение!
             switch (str.charAt(i)) {
                 case 'a':
                 case 'A':

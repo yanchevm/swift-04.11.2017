@@ -11,7 +11,7 @@ public class Task0c_ReadAge {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter your age");
         int age = input.nextInt();
-        if (age<18)
+        if (age<18) //Милен: Добре е да слагаш скоби
             System.out.println("You are underage");
         else{
             System.out.println("You are adult");

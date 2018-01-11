@@ -13,7 +13,7 @@ public class Task2c_PrintOnlyEvenNumbers {
 
         for (int i=0;i<num;i++){
             int num1 = sc.nextInt();
-            if (num1%2==0){
+            if (num1%2==0){ //Милен: БРАВО!
                 System.out.println(num1);
             }
         }

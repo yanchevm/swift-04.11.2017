@@ -32,6 +32,7 @@ public class Task1а_PrintMatrix {
         }
     }
     public static void main(String[] args) {
+	// Милен: БРАВО, добре си се справил!
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
@@ -42,7 +43,7 @@ public class Task1а_PrintMatrix {
         {
             for(int c = 0; c<matrix[r].length; c++)
             {
-                if (r==0)
+                if (r==0) //Милен: Слагай скобички :)
                     godown(matrix,r,c);
                 else
                     goup(matrix,matrix.length-1,c);

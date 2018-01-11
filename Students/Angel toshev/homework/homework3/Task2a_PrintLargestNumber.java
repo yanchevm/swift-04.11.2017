@@ -10,7 +10,8 @@ public class Task2a_PrintLargestNumber {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter length of array");
         int num = sc.nextInt();
-        int max=0;
+	// Милен: тази променлива е използваш чак при втория цикъл. Добра практира е да бъде дефинирана там.         
+	int max=0;
         int [] arr = new int[num];
         for (int i = 0;i<arr.length;i++){
             arr[i] = sc.nextInt();
@@ -19,6 +20,7 @@ public class Task2a_PrintLargestNumber {
             System.out.printf("%d\t",arr[i]);
         }
         System.out.println();
+	// Милен: БРАВО, алгоритъма е правилен.
         for (int i = 0;i<arr.length;i++){
             if (max<arr[i]){
                 max=arr[i];
