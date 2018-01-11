@@ -6,10 +6,10 @@ public class Task1_SumNumber {
 
     static void myMethod(int num1, int num2) throws Exception {
             if (num1 == num2) {
-            throw new Exception("The numbers are equal");
+            throw new Exception("The numbers are equal"); //Милен: Правилната грешка е: IllegalArgumentException
             }
             if( num1<0 || num2<0 ){
-                throw new Exception("Positive numbers required");
+                throw new Exception("Positive numbers required"); // Милен: Тук също
             }
 
         System.out.println(num1+num2);
@@ -29,7 +29,7 @@ public class Task1_SumNumber {
         }
         catch(Exception exc)
         {
-            System.out.println("Error: " + exc.getMessage());
+            System.out.println("Error: " + exc.getMessage()); //Милен: Отново, БРАВО. Добро решение!
         }
 
     }

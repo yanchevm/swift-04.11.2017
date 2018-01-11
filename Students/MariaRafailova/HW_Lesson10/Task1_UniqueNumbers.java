@@ -7,6 +7,8 @@ public class Task1_UniqueNumbers {
         Scanner sc = new Scanner(System.in);
 
         HashSet<String> set = new LinkedHashSet();
+//      Set<String> set = new LinkedHashSet<>(); Така трябва да го записваш. 
+//      Тук ползваш какво ?               //Диамантените скобички също се слагат, но без тип.
 
         System.out.println("Please enter a number N: ");
         int num = sc.nextInt();

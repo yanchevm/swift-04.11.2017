@@ -14,6 +14,7 @@ public class Task5_ChildPlay {
 
         String[] arr = str.split(" ");
 
+	// Милен: Отново, полиморфизъм...
         ArrayList<Integer> arrL = new ArrayList<>();
 
         for (int i = 0; i < arr.length; i++) {
@@ -23,6 +24,7 @@ public class Task5_ChildPlay {
         int count = 0;
         for (int i = 0; i < arrL.size(); i++) {
             boolean removed = false;
+	// Милен: БРАВО, алгоритъма е правилен
             for (int j = 0; j < arrL.size()-1; j++) {
                 if(arrL.get(j) < arrL.get(j+1)){
                     arrL.remove(j+1);
