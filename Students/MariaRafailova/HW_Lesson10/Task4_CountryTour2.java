@@ -18,6 +18,7 @@ public class Task4_CountryTour2 {
         String input = sc.nextLine();
         int towns = 0;
         int ind = 0;
+	// Милен: Кога ще свърши този цикъл ?
         while (true) {
             if (towns >= n){
                 break;
@@ -27,7 +28,7 @@ public class Task4_CountryTour2 {
 
             distances[ind] =Integer.parseInt(parts[0]);// NumberFormatException???
             foods[ind] = Integer.parseInt(parts[1]);
-            ind ++;
+            ind ++; 
            input = sc.nextLine();
         }
 
