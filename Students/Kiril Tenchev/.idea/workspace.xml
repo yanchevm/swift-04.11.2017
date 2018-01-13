@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb6257dc-d072-4478-a178-d42221e0bf8f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Homework/HWLecture10/Task1_UniqueMembers.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Homework/HWLecture10/Task2_CommonSubset.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Homework/HWLecture10/Task3_ParenthesesMatching.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Homework/HWLecture10/Task4_CountryTour.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Homework/HWLecture10/Task5_ChildPlay.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Homework/HWLecture10/Task6_WordReplacement.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Homework/HWLecture10/Task7_StackMax.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Homework/HWLecture11/Task0_Cards.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Homework/HWLecture11/Task1/Card.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Homework/HWLecture11/Task1/Task1_Deck.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Homework/HWLecture12/Task0/Movie.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Homework/HWLecture12/Task1_ListFileStructure.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Homework/HWLecture12/Task2_ListRelativeFileStructure.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Homework/HWLecture8/Task1_School/ClassA.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Homework/HWLecture8/Task1_School/Discipline.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Homework/HWLecture8/Task1_School/Student.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Homework/HWLecture8/Task1_School/Teacher.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Homework/HWLecture8/Task1_School/main_school.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/HWLecture6/Calculator/CalculatorClient.java" afterPath="$PROJECT_DIR$/src/Homework/HWLecture6/Calculator/CalculatorClient.java" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/HWLecture11/Task1/Card.java" afterPath="$PROJECT_DIR$/src/Homework/HWLecture11/Task1/Card.java" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/HWLecture11/Task1/Task1_Deck.java" afterPath="$PROJECT_DIR$/src/Homework/HWLecture11/Task1/Task1_Deck.java" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/HWLecture5/Task0b/Car.java" afterPath="$PROJECT_DIR$/src/Homework/HWLecture5/Task0b/Car.java" />
       <change beforePath="$PROJECT_DIR$/src/Homework/HWLecture6/Credentials/Credentials.java" afterPath="$PROJECT_DIR$/src/Homework/HWLecture6/Credentials/Credentials.java" />
       <change beforePath="$PROJECT_DIR$/src/Homework/HWLecture6/Credentials/CredentialsManager.java" afterPath="$PROJECT_DIR$/src/Homework/HWLecture6/Credentials/CredentialsManager.java" />
     </list>
@@ -35,33 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Movie.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture12/Task0/Movie.java">
+      <file leaf-file-name="Credentials.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture6/Credentials/Credentials.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CredentialsManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture6/Credentials/CredentialsManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="49" column="90" lean-forward="false" selection-start-line="49" selection-start-column="90" selection-end-line="49" selection-end-column="90" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#591#592#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#725#726#0" expanded="true" />
-                <element signature="e#778#779#0" expanded="true" />
-                <element signature="e#823#824#0" expanded="true" />
-                <element signature="e#870#871#0" expanded="true" />
-                <element signature="e#909#910#0" expanded="true" />
-                <element signature="e#966#967#0" expanded="true" />
-                <element signature="e#1017#1018#0" expanded="true" />
-                <element signature="e#1052#1053#0" expanded="true" />
-                <element signature="e#1088#1089#0" expanded="true" />
-                <element signature="e#1132#1133#0" expanded="true" />
-                <element signature="e#1161#1162#0" expanded="true" />
-                <element signature="e#1193#1194#0" expanded="true" />
-                <element signature="e#1226#1227#0" expanded="true" />
-                <element signature="e#1262#1263#0" expanded="true" />
-                <element signature="e#1301#1302#0" expanded="true" />
-                <element signature="e#1336#1337#0" expanded="true" />
-                <element signature="e#1367#1368#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,7 +85,6 @@
         <option value="$PROJECT_DIR$/src/Homework/HWLecture5/Task0b/main.java" />
         <option value="$PROJECT_DIR$/src/Homework/HWLecture5/Task0b/main1.java" />
         <option value="$PROJECT_DIR$/src/Homework/HWLecture5/Task0b/mainCar.java" />
-        <option value="$PROJECT_DIR$/src/Homework/HWLecture5/Task0b/Car.java" />
         <option value="$PROJECT_DIR$/src/Homework/HWLecture6/Calculator/main.java" />
         <option value="$PROJECT_DIR$/src/Homework/HWLecture6/Calculator/Calculator.java" />
         <option value="$PROJECT_DIR$/src/Homework/HWLecture9/Task0_NumberNotANumber.java" />
@@ -128,20 +100,21 @@
         <option value="$PROJECT_DIR$/src/Homework/HWLecture10/Task5_ChildPlay.java" />
         <option value="$PROJECT_DIR$/src/Homework/HWLecture6/Credentials/test.java" />
         <option value="$PROJECT_DIR$/src/Homework/HWLecture6/Calculator/CalculatorClient.java" />
-        <option value="$PROJECT_DIR$/src/Homework/HWLecture6/Credentials/Credentials.java" />
-        <option value="$PROJECT_DIR$/src/Homework/HWLecture6/Credentials/CredentialsManager.java" />
         <option value="$PROJECT_DIR$/src/Homework/HWLecture10/Task6_WordReplacement.java" />
         <option value="$PROJECT_DIR$/src/Homework/HWLecture10/Task7_StackMax.java" />
         <option value="$PROJECT_DIR$/src/Homework/HWLecture11/Task0_Cards.java" />
-        <option value="$PROJECT_DIR$/src/Homework/HWLecture11/Task1/Card.java" />
-        <option value="$PROJECT_DIR$/src/Homework/HWLecture11/Task1/Task1_Deck.java" />
         <option value="$PROJECT_DIR$/src/Homework/HWLecture12/Task1_ListFileStructure.java" />
         <option value="$PROJECT_DIR$/src/Homework/HWLecture12/Task2_ListRelativeFileStructure.java" />
         <option value="$PROJECT_DIR$/src/Homework/HWLecture12/Task0/Movie.java" />
+        <option value="$PROJECT_DIR$/src/Homework/HWLecture11/Task1/Card.java" />
+        <option value="$PROJECT_DIR$/src/Homework/HWLecture5/Task0b/Car.java" />
+        <option value="$PROJECT_DIR$/src/Homework/HWLecture11/Task1/Task1_Deck.java" />
+        <option value="$PROJECT_DIR$/src/Homework/HWLecture6/Credentials/Credentials.java" />
+        <option value="$PROJECT_DIR$/src/Homework/HWLecture6/Credentials/CredentialsManager.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -180,9 +153,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,13 +177,38 @@
               <item name="Kiril Tenchev" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Homework" type="462c0819:PsiDirectoryNode" />
+              <item name="HWLecture6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kiril Tenchev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kiril Tenchev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework" type="462c0819:PsiDirectoryNode" />
+              <item name="HWLecture6" type="462c0819:PsiDirectoryNode" />
+              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kiril Tenchev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kiril Tenchev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework" type="462c0819:PsiDirectoryNode" />
+              <item name="HWLecture6" type="462c0819:PsiDirectoryNode" />
+              <item name="Credentials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kiril Tenchev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kiril Tenchev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework" type="462c0819:PsiDirectoryNode" />
               <item name="HWLecture12" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task2_ListRelativeFileStructure">
+  <component name="RunManager" selected="Application.Task1_Deck">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -420,9 +416,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Task2_ListRelativeFileStructure" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Task1_ListFileStructure" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Task1_Deck" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Task1_Deck" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Task2_ListRelativeFileStructure" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Task1_ListFileStructure" />
         <item index="3" class="java.lang.String" itemvalue="Application.Task0_Cards" />
         <item index="4" class="java.lang.String" itemvalue="Application.Task7_StackMax" />
       </list>
@@ -450,22 +446,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18094218" sideWeight="0.48329854" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17921527" sideWeight="0.48125" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32762313" sideWeight="0.25887266" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32661718" sideWeight="0.26197916" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32762313" sideWeight="0.7411274" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32661718" sideWeight="0.73802084" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.348643" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09166667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -576,27 +573,6 @@
     <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture6/Calculator.java" />
     <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture6/Calculator/main.java" />
     <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture6/Credentials/main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture5/Task0b/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="39" column="54" lean-forward="false" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture9/Task0_NumberNotANumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture9/Task1_SumNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture10/Task1_UniqueMembers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -721,33 +697,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture6/Calculator/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture6/Credentials/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture6/Credentials/test.java" />
     <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture10/Task6_WordReplacement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,36 +712,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" column="42" lean-forward="false" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture6/Calculator/CalculatorClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture6/Credentials/CredentialsManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture11/gfs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture11/gfs.java" />
     <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture11/Task0_Cards.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
@@ -801,22 +732,6 @@
             <element signature="e#10065#10066#0" expanded="false" />
             <element signature="e#10148#10149#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture11/Task1/Task1_Deck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture11/Task1/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -840,48 +755,126 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture12/Task0/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#591#592#0" expanded="false" />
+            <element signature="e#627#628#0" expanded="false" />
+            <element signature="e#680#681#0" expanded="false" />
+            <element signature="e#725#726#0" expanded="false" />
+            <element signature="e#778#779#0" expanded="false" />
+            <element signature="e#823#824#0" expanded="false" />
+            <element signature="e#870#871#0" expanded="false" />
+            <element signature="e#909#910#0" expanded="false" />
+            <element signature="e#966#967#0" expanded="false" />
+            <element signature="e#1017#1018#0" expanded="false" />
+            <element signature="e#1052#1053#0" expanded="false" />
+            <element signature="e#1088#1089#0" expanded="false" />
+            <element signature="e#1132#1133#0" expanded="false" />
+            <element signature="e#1161#1162#0" expanded="false" />
+            <element signature="e#1193#1194#0" expanded="false" />
+            <element signature="e#1226#1227#0" expanded="false" />
+            <element signature="e#1262#1263#0" expanded="false" />
+            <element signature="e#1301#1302#0" expanded="false" />
+            <element signature="e#1336#1337#0" expanded="false" />
+            <element signature="e#1367#1368#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture5/Task0b/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="98" column="9" lean-forward="true" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
+          <folding>
+            <element signature="e#3220#3221#0" expanded="true" />
+            <element signature="e#3264#3265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture5/Task0a/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture9/Task0_NumberNotANumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture9/Task1_SumNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture6/Calculator/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture11/Task1/Task1_Deck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture11/Task1/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#1397#1398#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture6/Calculator/CalculatorClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture6/Credentials/Credentials.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture12/Task0/Movie.java">
+    <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture6/Credentials/CredentialsManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="366">
+          <caret line="49" column="90" lean-forward="false" selection-start-line="49" selection-start-column="90" selection-end-line="49" selection-end-column="90" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
-            <element signature="e#966#967#0" expanded="true" />
-            <element signature="e#1017#1018#0" expanded="true" />
-            <element signature="e#1052#1053#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#1161#1162#0" expanded="true" />
-            <element signature="e#1193#1194#0" expanded="true" />
-            <element signature="e#1226#1227#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
-            <element signature="e#1301#1302#0" expanded="true" />
-            <element signature="e#1336#1337#0" expanded="true" />
-            <element signature="e#1367#1368#0" expanded="true" />
           </folding>
         </state>
       </provider>

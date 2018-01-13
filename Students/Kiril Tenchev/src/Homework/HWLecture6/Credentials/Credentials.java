@@ -31,11 +31,10 @@ public class Credentials {
             return;
         }
 
-        if (! password.equals(currentPassword)) {
+        if (!password.equals(currentPassword)) {
             System.out.println("AUTH fail");
             return;
         }
-
 
         System.out.println("AUTH success");
     }
@@ -43,32 +42,23 @@ public class Credentials {
 
 
     //Милен: Трябва да проверяваш и името! Може, потребител с грешно име да смени паролата!
-    public void chpass(String username,String newPassword){
+    public void chpass(String newPassword){
         // Милен: Един метод ТРЯБВА да прави само ЕДНО нещо! При теб, ти освен бизнес логиката, четеш и от конзолата!
         // Защо четеш от конзолата нова парола, при положение, че си я подал като параметър ?
-       // newPassword=sc.nextLine();
-        if(!allPasswords.contains(newPassword)&&!newPassword.equals(currentPassword)){
-            currentPassword=newPassword;
+
+        if (newPassword.equals(currentPassword)){ //Милен: Аз бих сложил това условие първо. По този начин, ако е равна, няма да си преминал 2 пъти през лист-а от пароли да сравняваш. Ще стане по-оптимално.
+            System.err.println("New password must be different form current!");
         }
         else if (allPasswords.contains(newPassword)){
             System.err.println("New password must be different from others!");
         }
-        else if (newPassword.equals(currentPassword)){ //Милен: Аз бих сложил това условие първо. По този начин, ако е равна, няма да си преминал 2 пъти през лист-а от пароли да сравняваш. Ще стане по-оптимално.
-            System.err.println("New password must be different form current!");
+        else if(!allPasswords.contains(newPassword)&&!newPassword.equals(currentPassword)){
+            currentPassword=newPassword;
         }
 
+
+
     }
-
-
-    // Милен: При ENROLL, това което трябва да направиш е да създадеш нов обект от Credentials с име и парола.
-    // Предполагам, че ще ги държиш в един списък, точно както си направиш с паролите! :)
-    // Мисля, че добре си го почнал, давай смело!
-
-    // П.П. Незнам защо ти е метод setAllPasswords ?
-    public void setAllPasswords(ArrayList<String> allPasswords){
-        allPasswords.add(this.password);
-    }
-
 
     public String getUsername() {
         return username;
