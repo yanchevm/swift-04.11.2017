@@ -8,8 +8,9 @@ import java.util.Scanner;
 public class Task3a_PrintSquare {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        int n = sc.nextInt(); 
         int n1 = sc.nextInt();
+	//Милен: БРАВО, алгоритъма е правилен
         for (int a = 0; a < n1; a++)
         {
             if (a == 0 || a == n1 - 1) {

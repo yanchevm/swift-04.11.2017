@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package src;
 
 public class Task0d_Print2dArray {
     public static void main(String[] args) {
@@ -7,10 +7,10 @@ public class Task0d_Print2dArray {
 
         int number = 1;
 
-        for (int rows = 0; rows < 4; rows++){ //Милен: Тук вмето 4 е добре да използваш new2dArray.length
+        for (int rows = 0; rows < new2dArray.length; rows++){
             System.out.println();
 
-            for (int columns = 0; columns < 4; columns++){ //Милен: Тук вместо 4 е добре да използваш new2dArray[0].length
+            for (int columns = 0; columns < new2dArray[0].length; columns++){
 
             new2dArray[rows][columns] = number++;
             System.out.printf("%d" + " ", new2dArray[rows][columns]);

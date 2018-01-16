@@ -26,6 +26,7 @@ public class Task2d_PrintSplitIndex {
         for(int i = 0;i<arr.length;i++){
             allSum+=arr[i];
         }
+	// Милен: БРАВО, алгоритъма е правилен
         for (int i = 0;i<arr.length;i++){
             allSum-=arr[i];
             leftSum+=arr[i];

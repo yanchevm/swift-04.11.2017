@@ -24,12 +24,13 @@ public class Task2_CommonSubset {
 
         String[] arrN = n.split(" ");
         HashSet<String> hsN = new HashSet<>();
+        // Ползвай полиморфизъм :)
         for (int i = 0; i < arrN.length ; i++) {
             if (hsM.contains(arrN[i])){
                 hsN.add(arrN[i]);
             }
         }
-
+	// Милен: БРАВО, добро решение!
         if (hsN.isEmpty()){
             System.out.println("NO");
         }

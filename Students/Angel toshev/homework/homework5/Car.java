@@ -7,7 +7,7 @@ public class Car {
     private String mark;
     private String model;
     private int yearOfManufacture;
-    private final int lastYearOfManufactoru = 2017;
+    private final int lastYearOfManufactoru = 2017; //Милен: Тува тук защо е нужно ?
     private int hoursePower;
 
 
@@ -65,7 +65,7 @@ public class Car {
             return 4;
 
     }
-
+ //Милен: БРАВО!
     public void sumOfTax() {
         int categoria = insuranceCategory();
         double tax=0.0 ;

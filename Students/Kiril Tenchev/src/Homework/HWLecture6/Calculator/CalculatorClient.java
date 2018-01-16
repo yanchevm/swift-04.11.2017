@@ -8,8 +8,7 @@ public class CalculatorClient {
         String str = sc.nextLine();
         while (!str.equals("END")) {
 
-            String[] arr = new String[3];
-            arr = str.split(" ");
+            String[] arr =  str.split(" ");
             double a = Double.parseDouble(arr[1]);
             double b = Double.parseDouble(arr[2]);
             if (arr[0].equals("SUB")||arr[0].equals("SUM") || arr[0].equals("DIV") || arr[0].equals("PER") || arr[0].equals("MUL")) {

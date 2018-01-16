@@ -12,7 +12,9 @@ public class Task1a_PrintFirstDigit {
         System.out.println("Please enter your number");
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        if (num<=99){
+	//Милен: Интересен подход :) Какво ще стане ако числото е много голямо ? 
+        // Защо не пробваш с % ?        
+	if (num<=99){
 
             System.out.println(num/10);
         }else if (num>99&&num<=999){

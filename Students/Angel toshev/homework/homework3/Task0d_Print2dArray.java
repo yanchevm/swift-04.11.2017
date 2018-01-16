@@ -24,7 +24,7 @@ public class Task0d_Print2dArray {
                 n++;
             }
         }
-        prnt2dArray(matrix);
+        prnt2dArray(matrix); //Милен: БРАВО, много добър подход!
 
 
 

@@ -97,17 +97,17 @@ public class Car {
                 tax = 500;
                 break;
         }
-        if (power < 80) {
+        if (horsePower < 80) {
             tax += + 0.2 * tax;
         }
-        else if (power > 140) {
+        else if (horsePower > 140) {
             tax += 0.45 * tax;
         }
         return tax;
 	
         // -----------------------------
 
-        return  duty;
+       // return  duty;
     }
     public void print(){
         System.out.println(brand+" "+model+" "+horsePower+" "+year);
@@ -124,7 +124,7 @@ public class Car {
         this.brand = brandValue;
     }
 
-    public void setHorsePower(int horseP	ower) {
+    public void setHorsePower(int horsePower) {
         this.horsePower = horsePower;
     }
 

@@ -12,7 +12,7 @@ public class Task0_NumberNotANumber {
             String num = sc.next();
             try{
                 Integer.parseInt(num);
-                System.out.println("ok");
+                System.out.println("ok"); //Милен: БРАВО, точно така се прави!
                 break;
             }catch(NumberFormatException e){
                 System.out.println("Please try again.");

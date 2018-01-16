@@ -1,0 +1,41 @@
+package Homework.HWLecture12;
+
+import java.io.File;
+import java.util.Scanner;
+
+public class Task2_ListRelativeFileStructure {
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter path: ");
+        String pathName = sc.nextLine();
+        listFiles(pathName);
+    }
+
+    private static void listFiles(String path) {
+        File folder = new File(path);
+        File[] files = folder.listFiles();
+        for (File file : files)
+        {
+            if (file.isFile())
+            {
+            System.out.println(file.getName());
+            }
+            else if (file.isDirectory())
+            {
+               System.out.print(file.getName()+"\\");
+               listFiles(file.getAbsolutePath());
+                //когато влезе в този цикъл веднъж после седи в дадената папака и
+                // върти горния if и след като изкара всички файлове от папката без пътя,
+                // дегакто трябвада показва постоянно поддиректориите, ако нее в главната директория
+                //тествам програмата с папката на Angel toshev от гит-а и не знам дали изпълнието на програмата е
+                //точно като описанието ?
+
+
+            }
+        }
+    }
+
+
+}
+

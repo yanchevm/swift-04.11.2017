@@ -1,49 +1,62 @@
-//package Homework.HWLecture6.Credentials;
-//import com.sun.org.apache.xpath.internal.SourceTree;
-//
-//import java.util.Scanner;
-//public class CredentialsManager {
-//    public static void main(String[] args) {
-////        Scanner sc = new Scanner(System.in);
-//        System.out.println("What would you like to do (create user,change password,check password): ");
-//        String str=sc.nextLine();
-//        String array [] = new String[200];
-//        while (!str.equals("END")) {
-//            String[] arr = new String[4];
-//            arr = str.split(" ");
-//           String name = arr[1];
-//           String pass = arr[2];
-//           String change = arr[3];
-//
-//
-//            if (arr[0].equals("ENROLL")||arr[0].equals("CHPASS") || arr[0].equals("AUTH")) {
-//                switch (arr[0]) {
-//                    case "ENROLL":
-//                        Credentials p1= new Credentials ("ivan","123456");
-//                        break;
-//                    case "CHPASS":
-//                        System.out.printf("%.3f%n", calculator.subtract(a, b));
-//                        break;
-//                    case "AUTH":
-//                        p1.auth("123456");
-//                        break;
-//
-//                }
-//                System.out.println("Enter operation: ");
-//                str = sc.nextLine();
-//            }
-//            else{
-//
-//                System.out.println("Enter operation: ");
-//                System.err.println("Wrong command.");
-//                str = sc.nextLine();
-//
-//            }
-//
-//
-//        }
-//
-//
-//
-//    }
-//}
+package Homework.HWLecture6.Credentials;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class CredentialsManager {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("What would you like to do (create user,change password,check password): ");
+        String str=sc.nextLine();
+        List <Credentials> credentialsList = new ArrayList<>(200);
+        while (!str.equals("END")) {
+            String[] arr = str.split(" ");
+            String opearation  = arr[0];
+            String name;
+            String pass;
+                switch (opearation) {
+                    case "ENROLL":
+                        // Enshure capacity!!!
+//                        credentialsList.size() == 200 -- notify user!
+//                        Credentials p1 = new Credentials(name, pass);
+                        name = arr[1];
+                        pass = arr[2];
+
+                        credentialsList.add(new Credentials(name, pass));
+                        break;
+                    case "CHPASS":
+                        name = arr[1];
+                        pass = arr[2];
+                        String newPass = arr[3];
+
+                        Credentials credentials = null;
+
+                        for (Credentials c : credentialsList) {
+                            if (c.getUsername().equals(name)) {
+                                credentials = c;
+                                break;
+                            }
+                        }
+
+                        credentials.chpass(newPass);
+
+                        break;
+                    case "AUTH":
+                        name = arr[1];
+                        pass = arr[2];
+                        credentialsList.get(credentialsList.lastIndexOf(credentialsList));
+
+                    default:
+                        System.out.println("some err");
+                }
+                System.out.println("Enter operation: ");
+                str = sc.nextLine();
+        }
+
+
+
+    }
+}
