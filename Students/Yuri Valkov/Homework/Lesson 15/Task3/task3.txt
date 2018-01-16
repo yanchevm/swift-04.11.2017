@@ -1,0 +1,107 @@
+-- MySQL Workbench Forward Engineering
+
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
+
+-- -----------------------------------------------------
+-- Schema mydb
+-- -----------------------------------------------------
+-- -----------------------------------------------------
+-- Schema addressesdb
+-- -----------------------------------------------------
+
+-- -----------------------------------------------------
+-- Schema addressesdb
+-- -----------------------------------------------------
+CREATE SCHEMA IF NOT EXISTS `addressesdb` DEFAULT CHARACTER SET utf8 ;
+USE `addressesdb` ;
+
+-- -----------------------------------------------------
+-- Table `addressesdb`.`addresses`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `addressesdb`.`addresses` (
+  `id` INT(11) NOT NULL,
+  `street_id` INT(11) NOT NULL,
+  `number` INT(11) NULL DEFAULT NULL,
+  `apartamentNo` INT(11) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`, `street_id`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
+
+
+-- -----------------------------------------------------
+-- Table `addressesdb`.`countries`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `addressesdb`.`countries` (
+  `id` INT(11) NOT NULL,
+  `name` VARCHAR(45) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
+
+
+-- -----------------------------------------------------
+-- Table `addressesdb`.`municipalities`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `addressesdb`.`municipalities` (
+  `id` INT(11) NOT NULL,
+  `name` VARCHAR(45) NULL DEFAULT NULL,
+  `postal_code` INT(11) NOT NULL,
+  `populated_area_id` INT(11) NOT NULL,
+  PRIMARY KEY (`id`, `postal_code`, `populated_area_id`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
+
+
+-- -----------------------------------------------------
+-- Table `addressesdb`.`populated_area_type`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `addressesdb`.`populated_area_type` (
+  `id` INT(11) NOT NULL,
+  `name` VARCHAR(45) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
+
+
+-- -----------------------------------------------------
+-- Table `addressesdb`.`populated_areas`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `addressesdb`.`populated_areas` (
+  `id` INT(11) NOT NULL,
+  `name` VARCHAR(45) NULL DEFAULT NULL,
+  `type_id` INT(11) NULL DEFAULT NULL,
+  `region_id` INT(11) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
+
+
+-- -----------------------------------------------------
+-- Table `addressesdb`.`regions`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `addressesdb`.`regions` (
+  `id` INT(11) NOT NULL,
+  `name` VARCHAR(45) NULL DEFAULT NULL,
+  `country_id` INT(11) NOT NULL,
+  PRIMARY KEY (`id`, `country_id`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
+
+
+-- -----------------------------------------------------
+-- Table `addressesdb`.`streets`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `addressesdb`.`streets` (
+  `id` INT(11) NOT NULL,
+  `name` VARCHAR(45) NULL DEFAULT NULL,
+  `municipality_id` INT(11) NOT NULL,
+  PRIMARY KEY (`id`, `municipality_id`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
