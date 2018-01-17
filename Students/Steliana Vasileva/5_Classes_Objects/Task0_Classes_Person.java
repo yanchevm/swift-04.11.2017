@@ -3,14 +3,17 @@ public class Task0_Classes_Person {
     int age;
 
     void Task0_Classes_Person() {
+// Милен: Тук не изпълняваш условието на задачата!
     }
 
     void Task0_Classes_Person(String name) {
+	// Милен: Също тук!
         this.name = name;
     }
 
     public void Task0_Classes_Person(String name, int age) {
-        this.name = name;
+	// Милен: Имаш написани много хубави set методи! Защо не ги използваш тук за да провериш дали стойностите са валидни ?        
+	this.name = name;
         this.age = age;
     }
 

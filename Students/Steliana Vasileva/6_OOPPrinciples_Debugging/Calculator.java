@@ -1,13 +1,16 @@
 package com.company;
 
 public class Calculator {
+	// Милен: Защо ти трябват тези стойности ? Ти ги подаваш като параметри на методите :)
         private String command;
         private double a;
        private double b;
 
     Calculator(String command, double a, double b){
-        command = this.command;
-        a = this.a;
+	// Милен: Тук е обратно! :)
+	// this.command = command; -> записваш новата стойност на променливата на обекта.         
+	command = this.command; 
+        a = this.a; 
         b = this.b;
     }
 

@@ -23,7 +23,7 @@ public class Credentials {
     }
 
     public void changepass(String password, String username, String newPassword) {
-
+	// Милен: Ами ако има двама потребителя с еднаква парола ?
         if (usersAndPasswords.containsKey(password)) {
             usersAndPasswords.replace(password, username, newPassword);
             System.out.printf("CHPASS success%n");
