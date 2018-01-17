@@ -8,7 +8,7 @@ public class Task1_UniqueMembers {
         Scanner sc = new Scanner(System.in);
         System.out.print("How many elements would you like to enter: ");
         int size = sc.nextInt();
-        Set<Integer> s = new LinkedHashSet<>(size);
+        Set<Integer> s = new LinkedHashSet<>(size); //Милен: При колекцийте, няма нужда да посочваш начален размер.
         for (int i = 0; i < size; i++) {
             System.out.print("Please enter number: ");
             s.add(sc.nextInt());

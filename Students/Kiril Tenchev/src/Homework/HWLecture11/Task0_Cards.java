@@ -2,8 +2,9 @@ package Homework.HWLecture11;
 
 public class Task0_Cards {
     public static void main(String[] args) {
+	//Милен: БРАВО!
        // System.out.print(java.util.Arrays.asList(CardSuit.values()));
-        for (CardSuit e:CardSuit.values()) {
+        for (CardSuit e:CardSuit.values()) { 
             System.out.print(e+" ");
         }
         System.out.println();

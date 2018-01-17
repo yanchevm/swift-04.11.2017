@@ -12,9 +12,11 @@ public class Task5_ChildPlay {
         int counter = 0;
         List<Integer> childPlay = new LinkedList<Integer>();
         for (int i = 0; i < n; i++) {
-            childPlay.add(i, sc.nextInt());
+            childPlay.add(i, sc.nextInt()); //Милен: Тук защо поставяш елементите по индекс ?
+					    // Кой индекс ще бъде елемента ако не го посочиш изрично ?
         }
 
+	// Милен: БРАВО, алгоритъма е супер!
         for (int i = n-1; i !=0 ; i--) {
             if (childPlay.get(i)>childPlay.get(i-1)){
                 childPlay.remove(i);

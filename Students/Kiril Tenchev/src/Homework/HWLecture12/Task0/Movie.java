@@ -8,9 +8,10 @@ public class Movie {
     private String title;
     private String director;
     private String setActor;
-    private ArrayList<String> actors;
+    private ArrayList<String> actors; //Милен: Тук използвай полиморфизъм! 
     private Date realiseDate;
 
+// Милен: Къде е втората част от задачата ? Трябва да запишеш този обект и след това да го прочетеш!
    public Movie (String titleValue,String directorValue,String setActorValue,Date realiseDateValue){
         title=titleValue;
         director=directorValue;

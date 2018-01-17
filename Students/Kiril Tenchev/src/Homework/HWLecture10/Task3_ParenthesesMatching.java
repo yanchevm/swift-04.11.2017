@@ -12,6 +12,7 @@ public class Task3_ParenthesesMatching {
         System.out.println(checkBrackets(str));
 
     }
+	//Милен: БРАВО!
     public static boolean checkBrackets(String str) {
         if (str.isEmpty())
             return true;

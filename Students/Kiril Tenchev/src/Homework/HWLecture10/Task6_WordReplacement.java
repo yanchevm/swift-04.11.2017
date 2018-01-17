@@ -17,7 +17,10 @@ public class Task6_WordReplacement {
             }
         }
         String words [] = str.split(" ");
+	// Милен: Малко неконсистентно ги пишеш тези масиви... 
+	// Най-добрата практира е : String[] words
 
+	// Милен: БРАВО, алгоритъма е правилен
         for (int i = 0; i <replaceWords.length ; i++) {
             for (int j = 0; j <words.length ; j++) {
                 if (words[j].equalsIgnoreCase(replaceWords[i][0])){

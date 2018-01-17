@@ -3,8 +3,7 @@ import java.io.File;
 import java.util.Scanner;
 
 public class Task1_ListFileStructure {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter path: ");
         String pathName = sc.nextLine();
@@ -13,6 +12,7 @@ public class Task1_ListFileStructure {
 
     private static void listFiles(String path){
         File folder = new File(path);
+	// Милен: Ами ако файла не съществува ?
         File[] files = folder.listFiles();
         for (File file : files)
         {
