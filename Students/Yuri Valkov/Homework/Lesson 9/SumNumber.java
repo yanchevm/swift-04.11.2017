@@ -4,10 +4,10 @@ public class SumNumber {
 
     static void myMethod(int num1, int num2) throws Exception {
         if (num1 == num2) {
-            throw new Exception("The numbers are equal");
+            throw new Exception("The numbers are equal"); 
         }
         if( num1<0 || num2<0 ){
-            throw new Exception("Positive numbers required");
+            throw new Exception("Positive numbers required"); //Милен: Хубаво е да сложиш като част от грешката и какви са числата. Ще помогнеш на потербителя да се ориентира по-бързо!
         }
 
         System.out.println(num1+num2);
@@ -22,6 +22,7 @@ public class SumNumber {
         System.out.println("Please enter second number:");
         int num2 = sc.nextInt();
 
+        //Милен: БРАВО!
         try {
             myMethod(num1, num2);
         }

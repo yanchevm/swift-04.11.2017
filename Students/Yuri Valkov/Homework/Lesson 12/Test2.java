@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class Test2 {
-
+    //Милен: БРАВО, много яко!
     private Deque<File> queue = new ArrayDeque<File>();
 
     public void Lister(String pathname) throws IOException {

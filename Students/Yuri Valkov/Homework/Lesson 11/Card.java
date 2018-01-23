@@ -58,7 +58,7 @@ public class Card implements Comparable<Card> {
             return null;
         }
     }
-
+    //Милен: Много добре си го направил!
     public Card(Integer s, Integer r){
         this.suit = CardSuit.getCardSuitByIndex(s);
         this.rank = CardRank.getCardRankByIndex(r);

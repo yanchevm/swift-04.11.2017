@@ -3,10 +3,11 @@ import java.util.LinkedHashSet;
 import java.util.Scanner;
 
 public class UniqueMembers {
+    //Милен: БРАВО! Правилната структира си избрал!
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        HashSet<String> set = new LinkedHashSet();
+        HashSet<String> set = new LinkedHashSet(); //Милен: Полиморфизъм! Set<String> set = new LinkedHashSet(); 
 
         System.out.println("Please enter a number X: ");
         int num = sc.nextInt();

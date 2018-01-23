@@ -8,6 +8,7 @@ public class Task0_NumberNotANumber {
 
         do{
             String num = sc.next();
+            //Милен: Супер!
             try{
                 Integer.parseInt(num);
                 System.out.println("go ahead");
