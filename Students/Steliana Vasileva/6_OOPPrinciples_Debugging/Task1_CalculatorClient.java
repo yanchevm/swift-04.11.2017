@@ -9,7 +9,7 @@ public class Task1_CalculatorClient {
 
         Scanner sc = new Scanner(System.in);
 
-        Calculator calculator1 = new Calculator(sc.next(), sc.nextDouble(), sc.nextDouble());
+        Calculator calculator1 = new Calculator();
 
         String command;
 
