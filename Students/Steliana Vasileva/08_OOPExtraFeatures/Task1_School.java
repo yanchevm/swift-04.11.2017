@@ -4,7 +4,7 @@ public class Task1_School {
 
 
    class Class{
-       
+
         private int classNumber;
     }
 
