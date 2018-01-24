@@ -1,0 +1,266 @@
+// IBDDP3.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+
+typedef struct Node *po;
+
+struct Node {
+	int Data;
+	po Left,Right;
+	
+};
+
+po root;
+int index = 0;
+int *arr;
+
+void DDP(int input) { // функцията претърсва текущото дърво, за да намери къде да вмъкне нов елемент
+	po newEl = new Node(); // заделяме памет за нов елемент
+	newEl->Data = input; // задаваме стойността на новия елемнт
+	newEl->Left = NULL; // лявата част сочи NULL
+	newEl->Right = NULL; // дясната част сочи NULL
+
+	if (root == NULL) {
+		root = newEl; // ако няма нищо в корена на дървото, приемаме новия елемент директно на негово място
+	}
+	else {
+		po loc = root; // управляваща променлива
+		po insert = root; // добавяща променлива
+
+		while (loc != NULL && loc->Data != input) { // докато управляващата променлива не стигне NULL и не е равна на подадената данна
+			insert = loc; // пазим предната инстанция на управляващата променлива
+
+			if (input < loc->Data) { // ако входът е по-малък от текущата данна
+				loc = loc->Left;	 // мести управляващата поменлива в левия клон
+			}
+			else {
+				loc = loc->Right;	 // в противен случай мести в десния
+			}
+		}
+
+		// в този момент добавящата променлива ще има стойност адреса, на който трябва да добавим новия елемент
+		if (loc == NULL) { // проверяваме дали предния цикъл е приключил, защото управляващата променлива е стигнала NULL
+			if (input < insert->Data) { // ако входът е по-малък от стойността на подкорена в който трябва да се сложи елемента го закачаме от лявата му стана
+				insert->Left = newEl;
+			}
+			else {
+				insert->Right = newEl;  // в противен случай  в дясната
+			}
+		}
+		else { // ако цикълът не е приклююил заради това, то той е прилкючил, защото е стигнал елемент равен на входния
+			cout << "The element already exist!" << endl;
+			return;
+		}
+	}
+}
+
+void printCore(Node *root, int space)
+{
+	// Дъно
+	if (root == NULL)
+		return;
+
+	//Увеличава разсточнието между нивата (възлите)
+	space += 10;
+
+	// Обравотва дясно "листо"
+	printCore(root->Right, space);
+
+	//Печата текущия възел след броене на интервал/ите
+	printf("\n");
+	for (int i = 10; i < space; i++)
+		printf(" ");
+	printf("%d\n", root->Data);
+
+	// Обравотва ляво "листо"
+	printCore(root->Left, space);
+}
+
+void print(Node *root)
+{
+	//подава първоначално интервал = 0 
+	printCore(root, 0);
+}
+
+void arrayMaker(po root,int arr[]) {//Прави масив от  ДДП
+	if (root == NULL) {
+		return;
+	}
+	else {
+		arrayMaker(root->Left,arr);
+		arr[index++] = root->Data;
+		arrayMaker(root->Right,arr);
+	}
+}
+
+po IBDDP(int leftIndex, int rightIndex, int arr[]) {//Създава ИБДДП
+	if (rightIndex - leftIndex < 0) {
+		return NULL;
+	}
+	else {
+		int middleOfArray = (leftIndex + rightIndex) / 2;
+		po newElForIBDDP = new Node;
+		newElForIBDDP->Data = arr[middleOfArray];
+		newElForIBDDP->Left = IBDDP(leftIndex, middleOfArray - 1, arr);
+		newElForIBDDP->Right = IBDDP(middleOfArray + 1, rightIndex, arr);
+		return newElForIBDDP;
+	}
+}
+
+po minValueNode(struct Node* node) {
+	struct Node* current = node;
+	if (current->Left != NULL) {
+		current = current->Left;
+	}
+	return current;
+}
+
+
+po deleteNode(Node *root, int Data) {
+	if (root == NULL)return root;
+
+	if (Data < root->Data) {
+		root->Left = deleteNode(root->Left, Data);
+	}
+
+	else if (Data > root->Data) {
+		root->Right = deleteNode(root->Right, Data);
+	}
+
+	else {
+		if (root->Left == NULL) {
+			po temp = root->Right;
+			free(root);
+			return temp;
+		}
+
+		else if (root->Right == NULL) {
+			po temp = root->Left;
+			free(root);
+			return temp;
+		}
+		else {
+			po temp = minValueNode(root->Right);
+			root->Data = temp->Data;
+			root->Right= deleteNode(root->Right, temp->Data);
+			
+		}
+
+	}
+
+	return root;
+
+}
+
+/*po minValue(Node* root) {
+
+	if (root == NULL) {
+		return root;
+	}
+	else if (root->Left!=NULL){
+		return minValue(root->Left);
+	}
+
+	return root;
+}
+
+
+po deleteNode(Node *root, int Data) {//функция която трие елемент и връща новото дърво
+	if (root == NULL)return NULL; //дъно
+
+	if (Data < root->Data) {//ако елементът за триене е по-малък от елемента ,към който се сочи в момента тогава се търси в лявото поддърво
+		root->Left = deleteNode(root->Left, Data);
+	}
+
+	else if (Data > root->Data) {//ако елементът за триене е по-голям от елемента ,към който се сочи в момента тогава се търси в дясното поддърво
+		root->Right = deleteNode(root->Right, Data);
+	}
+
+	else {//ако елементът за триене е равен на елементът към който се сочи в момента, това е елементът за изтриване
+		
+		if (root->Left == NULL&&root->Right == NULL) {
+			delete (root);
+			root = NULL;
+		}
+		
+		else if (root->Left==NULL) { //ако елементът има 1 дете или няма такива
+			po temp = root;
+			root = root->Right;
+			delete temp;
+		}
+
+		else if (root->Right == NULL) {
+			po temp = root;
+			root=root->Left;
+			delete temp;
+		}
+		else {
+			po temp = minValue(root->Right);
+			root->Data = temp->Data;
+			root->Right = deleteNode(root->Right, temp->Data);
+		}
+		
+		
+	}
+
+	return root;
+
+}
+*/
+int main() {
+	int input;
+	int elements;
+	cout << "Enter number of elements: ";
+	cin >> elements;
+
+	int *arr = new int[elements];
+	int inCounter = elements;//Променлива равна на броя на елементите, която да прекрати цикъла, който върти въвеждането на елементите. Имаме я понеже не можем да намаляваме променливата държаща броя ел.
+	
+	while (inCounter) {
+		cout << "Please enter element: ";
+		cin >> input;
+		DDP(input);//създава ДДП
+		cout << endl << "Printing tree: " << endl;
+		print(root);//принтира дървото 
+		cout << endl;
+		inCounter--;
+	}
+	
+	arrayMaker(root,arr);
+	cout << "This is the array formed from binary tree: " << endl;
+	for (int i = 0; i < elements; i++)
+	{
+		cout << arr[i] << " ";
+	}
+	cout << endl << endl;
+	cout << "This is the new tree which is ideal balanced: " << endl;
+	po newTree = IBDDP(0, elements - 1, arr);
+	print(newTree);
+
+	cout << "Delete elements: " << endl;
+	
+	int answer=1;
+	while (answer == 1) {
+		cout << "Do you want to delete elements ? (1=yes/0=no): ";
+		cin >> answer;
+		switch (answer) {
+		case 1:
+			cout << "Enter element you want to delete: ";
+			cin >> elements;
+			root = deleteNode(root, elements);
+			cout << "This is the new tree: " << endl;
+			print(root);
+			break;
+		default:
+			print(root);
+			cout << endl << "Bye!";
+			break;
+		}
+
+	}
+	
+	return 0;
+}
