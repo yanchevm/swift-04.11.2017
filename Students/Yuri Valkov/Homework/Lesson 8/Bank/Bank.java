@@ -14,7 +14,8 @@ public class Bank {
 
         System.out.println("Please enter a command and information needed: ");
         String str = sc.nextLine();
-
+        
+        //Милен: БРАВО, много ми харесва!
         while (true){
             if(str.equals("END")){
                 break;
@@ -23,9 +24,10 @@ public class Bank {
             String[] parts = str.split(" ");
 
             switch (parts[0]){
+                //Милен: Това защо не го изнесеш в един метод ?
                 case "OPEN":
                     for (int i = 0; i < clients.length; i++) {
-                        if(clients[i]==null){
+                        if(clients[i]==null){ //Милен: Тук това можеш ли да го направиш с ArrayList структура ?
                             if(parts[2].equals("1")){
                                 clients[i] = new Client(parts[1]) {
                                 };

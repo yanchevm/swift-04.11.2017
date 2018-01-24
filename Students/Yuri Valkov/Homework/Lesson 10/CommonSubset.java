@@ -14,16 +14,16 @@ public class CommonSubset {
         String m = sc.nextLine();
 
         String[] arrM = m.split(" ");
-        HashSet<String> hsM = new HashSet<>();
+        HashSet<String> hsM = new HashSet<>(); //Милен: Използвай полиморфизъм тук! Set<String> hsM = new HashSet<>();
         for (int i = 0; i < arrM.length ; i++) {
             hsM.add(arrM[i]);
         }
-
+        //Милен: Хубаво е да направиш една проверка за коректно на въвеждането от страна на потребителя. Какво ще стане ако е въвел само едно число ?
         System.out.println("please enter "+ arr[1]+" numbers, separated by space:");
         String n = sc.nextLine();
 
         String[] arrN = n.split(" ");
-        HashSet<String> hsN = new HashSet<>();
+        HashSet<String> hsN = new HashSet<>(); //Милен: Отново, полиморфизъм.
         for (int i = 0; i < arrN.length ; i++) {
             if (hsM.contains(arrN[i])){
                 hsN.add(arrN[i]);

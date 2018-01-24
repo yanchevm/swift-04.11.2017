@@ -20,6 +20,7 @@ public abstract class Account {
     }
 
     public static String createIBAN(){
+        //Милен: Защо не използваш Randоm класа ? Ще стане доста по-лесно. Освен това, избягвай да записваш такава специфична информация за обекта като статична!
         iban = "";
         for (int i = ibanArr.length-1; i>= 0; i--) {
             if(ibanArr[i]<9){
