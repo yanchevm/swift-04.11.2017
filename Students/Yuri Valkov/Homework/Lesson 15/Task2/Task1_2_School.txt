@@ -1,0 +1,171 @@
+-- MySQL Workbench Forward Engineering
+
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
+
+-- -----------------------------------------------------
+-- Schema mydb
+-- -----------------------------------------------------
+-- -----------------------------------------------------
+-- Schema animaldb
+-- -----------------------------------------------------
+
+-- -----------------------------------------------------
+-- Schema animaldb
+-- -----------------------------------------------------
+CREATE SCHEMA IF NOT EXISTS `animaldb` DEFAULT CHARACTER SET utf8 ;
+USE `animaldb` ;
+
+-- -----------------------------------------------------
+-- Table `animaldb`.`disciplines`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `animaldb`.`disciplines` (
+  `id` INT(11) NOT NULL,
+  `name` VARCHAR(45) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
+
+
+-- -----------------------------------------------------
+-- Table `animaldb`.`teachers`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `animaldb`.`teachers` (
+  `id` INT(11) NOT NULL,
+  `name` VARCHAR(45) NULL DEFAULT NULL,
+  `email` VARCHAR(45) NULL DEFAULT NULL,
+  `address_id` VARCHAR(45) NULL DEFAULT NULL,
+  `addresses_id` INT(11) NOT NULL,
+  `addresses_teachers_id` INT(11) NOT NULL,
+  `addresses_students_id` INT(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  INDEX `fk_teachers_addresses1_idx` (`addresses_id` ASC, `addresses_teachers_id` ASC, `addresses_students_id` ASC),
+  CONSTRAINT `fk_teachers_addresses1`
+    FOREIGN KEY (`addresses_id` , `addresses_teachers_id` , `addresses_students_id`)
+    REFERENCES `animaldb`.`addresses` (`id` , `teachers_id` , `students_id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
+
+
+-- -----------------------------------------------------
+-- Table `animaldb`.`students`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `animaldb`.`students` (
+  `id` INT(11) NOT NULL,
+  `name` VARCHAR(45) NULL DEFAULT NULL,
+  `enrollment_date` DATETIME NULL DEFAULT NULL,
+  `address_id` VARCHAR(45) NULL DEFAULT NULL,
+  `addresses_id` INT(11) NOT NULL,
+  `addresses_teachers_id` INT(11) NOT NULL,
+  `addresses_students_id` INT(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  INDEX `fk_students_addresses1_idx` (`addresses_id` ASC, `addresses_teachers_id` ASC, `addresses_students_id` ASC),
+  CONSTRAINT `fk_students_addresses1`
+    FOREIGN KEY (`addresses_id` , `addresses_teachers_id` , `addresses_students_id`)
+    REFERENCES `animaldb`.`addresses` (`id` , `teachers_id` , `students_id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
+
+
+-- -----------------------------------------------------
+-- Table `animaldb`.`students`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `animaldb`.`students` (
+  `id` INT(11) NOT NULL,
+  `name` VARCHAR(45) NULL DEFAULT NULL,
+  `enrollment_date` DATETIME NULL DEFAULT NULL,
+  `address_id` VARCHAR(45) NULL DEFAULT NULL,
+  `addresses_id` INT(11) NOT NULL,
+  `addresses_teachers_id` INT(11) NOT NULL,
+  `addresses_students_id` INT(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  INDEX `fk_students_addresses1_idx` (`addresses_id` ASC, `addresses_teachers_id` ASC, `addresses_students_id` ASC),
+  CONSTRAINT `fk_students_addresses1`
+    FOREIGN KEY (`addresses_id` , `addresses_teachers_id` , `addresses_students_id`)
+    REFERENCES `animaldb`.`addresses` (`id` , `teachers_id` , `students_id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
+
+
+-- -----------------------------------------------------
+-- Table `animaldb`.`disciplines_studied`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `animaldb`.`disciplines_studied` (
+  `students_id` INT(11) NOT NULL,
+  `disciplines_id` INT(11) NOT NULL,
+  `disciplines_id1` INT(11) NOT NULL,
+  `students_id1` INT(11) NOT NULL,
+  PRIMARY KEY (`students_id`, `disciplines_id`, `disciplines_id1`, `students_id1`),
+  INDEX `fk_disciplines_studied_disciplines1_idx` (`disciplines_id1` ASC),
+  INDEX `fk_disciplines_studied_students1_idx` (`students_id1` ASC),
+  CONSTRAINT `fk_disciplines_studied_disciplines1`
+    FOREIGN KEY (`disciplines_id1`)
+    REFERENCES `animaldb`.`disciplines` (`id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_disciplines_studied_students1`
+    FOREIGN KEY (`students_id1`)
+    REFERENCES `animaldb`.`students` (`id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
+
+
+-- -----------------------------------------------------
+-- Table `animaldb`.`teachers`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `animaldb`.`teachers` (
+  `id` INT(11) NOT NULL,
+  `name` VARCHAR(45) NULL DEFAULT NULL,
+  `email` VARCHAR(45) NULL DEFAULT NULL,
+  `address_id` VARCHAR(45) NULL DEFAULT NULL,
+  `addresses_id` INT(11) NOT NULL,
+  `addresses_teachers_id` INT(11) NOT NULL,
+  `addresses_students_id` INT(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  INDEX `fk_teachers_addresses1_idx` (`addresses_id` ASC, `addresses_teachers_id` ASC, `addresses_students_id` ASC),
+  CONSTRAINT `fk_teachers_addresses1`
+    FOREIGN KEY (`addresses_id` , `addresses_teachers_id` , `addresses_students_id`)
+    REFERENCES `animaldb`.`addresses` (`id` , `teachers_id` , `students_id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
+
+
+-- -----------------------------------------------------
+-- Table `animaldb`.`disciplines_taught`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `animaldb`.`disciplines_taught` (
+  `teachers_id` INT(11) NOT NULL,
+  `disciplines_id` INT(11) NOT NULL,
+  `disciplines_id1` INT(11) NOT NULL,
+  `teachers_id1` INT(11) NOT NULL,
+  PRIMARY KEY (`teachers_id`, `disciplines_id`, `disciplines_id1`, `teachers_id1`),
+  INDEX `fk_disciplines_taught_disciplines1_idx` (`disciplines_id1` ASC),
+  INDEX `fk_disciplines_taught_teachers1_idx` (`teachers_id1` ASC),
+  CONSTRAINT `fk_disciplines_taught_disciplines1`
+    FOREIGN KEY (`disciplines_id1`)
+    REFERENCES `animaldb`.`disciplines` (`id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_disciplines_taught_teachers1`
+    FOREIGN KEY (`teachers_id1`)
+    REFERENCES `animaldb`.`teachers` (`id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;

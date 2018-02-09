@@ -20,6 +20,7 @@ public class Task2_CommonSubset {
             System.out.print("Please enter number: ");
             array2[i]=sc.nextInt();
         }
+	//Милен: Алгоритъма ти е правилен, но е малко сложен. Можеш ли да се досетиш за начин да го оптимизираш ?
         for (int i = 0; i <size ; i++) {
             for (int j = 0; j <size2 ; j++) {
 

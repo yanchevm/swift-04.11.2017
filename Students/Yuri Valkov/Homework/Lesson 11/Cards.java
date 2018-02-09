@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Cards {
     public static void main(String[] args) {
-
+    //Милен: БРАВО
         System.out.println(Arrays.asList(CardSuit.values()));
 
         System.out.println(Arrays.asList(CardRank.values()));

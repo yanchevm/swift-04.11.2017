@@ -1,3 +1,4 @@
+package src;
 import java.util.Scanner;
 
 public class Task0c_PrintString {

@@ -1,7 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb6257dc-d072-4478-a178-d42221e0bf8f" name="Default" comment="" />
+    <list default="true" id="bb6257dc-d072-4478-a178-d42221e0bf8f" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/10_DataStructures/Task1_UniqueNumbers.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/10_DataStructures/Task2_CommonSubset.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/11_Generics_Enums_Annotations/Card.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/11_Generics_Enums_Annotations/Task0_Cards.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/11_Generics_Enums_Annotations/Task1_Deck.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/15_DBMS/SQL queries Task3.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/15_DBMS/Task1_2_School.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/15_DBMS/Task3_Address.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/18_Regex_Lambda_JUnit/Task0a_FindIntegers.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/18_Regex_Lambda_JUnit/Task0b_FindFunnyCharacters.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/18_Regex_Lambda_JUnit/Task0c_IsCorrectSQLInsert.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/18_Regex_Lambda_JUnit/Task1_FilterFiles.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/3_ConsoleIO_ConditionalOperators_Loops/Task5_PersonCharacteristics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/4_Arrays_Strings_Memory_SourceControl/.idea/4_Arrays_Strings_Memory_SourceControl.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/4_Arrays_Strings_Memory_SourceControl/.idea/4_Arrays_Strings_Memory_SourceControl_.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/4_Arrays_Strings_Memory_SourceControl/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/4_Arrays_Strings_Memory_SourceControl/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/4_Arrays_Strings_Memory_SourceControl/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/4_Arrays_Strings_Memory_SourceControl/Task2a_PrintLargestNumber.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/4_Arrays_Strings_Memory_SourceControl/Task2b_PrintSortedNumbers.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/4_Arrays_Strings_Memory_SourceControl/Task2c_PrintClusterCount.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/4_Arrays_Strings_Memory_SourceControl/Task2d_PrintSplitIndex.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/4_Arrays_Strings_Memory_SourceControl/Task2h_PrintOddFrequencyNumber.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/4_Arrays_Strings_Memory_SourceControl/Task2i_FindKInSorted.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/4_Arrays_Strings_Memory_SourceControl/Task3a_IsPalindrom.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/4_Arrays_Strings_Memory_SourceControl/Task5_PersonCharacteristics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/5_Classes_Objects/.idea/description.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/5_Classes_Objects/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/5_Classes_Objects/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/5_Classes_Objects/.idea/project-template.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/5_Classes_Objects/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/5_Classes_Objects/5_Classes_Objects.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/5_Classes_Objects/Task0_Classes_Car.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/5_Classes_Objects/Task0_Classes_Person.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/5_Classes_Objects/src/com/company/Main.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/6_OOPPrinciples_Debugging/Calculator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/6_OOPPrinciples_Debugging/Credentials.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/6_OOPPrinciples_Debugging/Task1_CalculatorClient.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/6_OOPPrinciples_Debugging/Task2_CredentialsManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/8_OOPExtraFeatures/Task1_School.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/9_ExceptionManagement/NegativeNumbersExc.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/9_ExceptionManagement/Task0_NumberNotANumber.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/9_ExceptionManagement/Task1_SumNumber.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Steliana Vasileva/9_ExceptionManagement/newException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 15/Task1/task1.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 15/Task1/task1.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 15/Task2/Task1_2_School.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 15/Task2/task 1,2.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 15/Task3/task3.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 15/Task3/task3.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/StaticWebApp/build.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/StaticWebApp/build/web/META-INF/MANIFEST.MF" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/StaticWebApp/build/web/META-INF/context.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/StaticWebApp/build/web/Yuri.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/StaticWebApp/build/web/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/StaticWebApp/build/web/kolega.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/StaticWebApp/nbproject/ant-deploy.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/StaticWebApp/nbproject/build-impl.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/StaticWebApp/nbproject/genfiles.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/StaticWebApp/nbproject/private/private.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/StaticWebApp/nbproject/project.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/StaticWebApp/nbproject/project.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/StaticWebApp/src/conf/MANIFEST.MF" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/StaticWebApp/web/META-INF/context.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/StaticWebApp/web/Yuri.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/StaticWebApp/web/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/StaticWebApp/web/kolega.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/Yuri(Task 0, 1)/build.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/Yuri(Task 0, 1)/build/web/META-INF/MANIFEST.MF" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/Yuri(Task 0, 1)/build/web/META-INF/context.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/Yuri(Task 0, 1)/build/web/WEB-INF/classes/.netbeans_automatic_build" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/Yuri(Task 0, 1)/build/web/WEB-INF/classes/.netbeans_update_resources" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/Yuri(Task 0, 1)/build/web/Yuri.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/Yuri(Task 0, 1)/build/web/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/Yuri(Task 0, 1)/build/web/kolega.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/Yuri(Task 0, 1)/nbproject/ant-deploy.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/Yuri(Task 0, 1)/nbproject/build-impl.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/Yuri(Task 0, 1)/nbproject/genfiles.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/Yuri(Task 0, 1)/nbproject/private/private.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/Yuri(Task 0, 1)/nbproject/project.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/Yuri(Task 0, 1)/nbproject/project.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/Yuri(Task 0, 1)/src/conf/MANIFEST.MF" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/Yuri(Task 0, 1)/web/META-INF/context.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/Yuri(Task 0, 1)/web/Yuri.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/Yuri(Task 0, 1)/web/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 18/Yuri(Task 0, 1)/web/kolega.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/HWLecture10/Task1_UniqueMembers.java" afterPath="$PROJECT_DIR$/src/Homework/HWLecture10/Task1_UniqueMembers.java" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/HWLecture10/Task2_CommonSubset.java" afterPath="$PROJECT_DIR$/src/Homework/HWLecture10/Task2_CommonSubset.java" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/HWLecture10/Task3_ParenthesesMatching.java" afterPath="$PROJECT_DIR$/src/Homework/HWLecture10/Task3_ParenthesesMatching.java" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/HWLecture10/Task4_CountryTour.java" afterPath="$PROJECT_DIR$/src/Homework/HWLecture10/Task4_CountryTour.java" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/HWLecture10/Task5_ChildPlay.java" afterPath="$PROJECT_DIR$/src/Homework/HWLecture10/Task5_ChildPlay.java" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/HWLecture10/Task6_WordReplacement.java" afterPath="$PROJECT_DIR$/src/Homework/HWLecture10/Task6_WordReplacement.java" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/HWLecture10/Task7_StackMax.java" afterPath="$PROJECT_DIR$/src/Homework/HWLecture10/Task7_StackMax.java" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/HWLecture11/Task0_Cards.java" afterPath="$PROJECT_DIR$/src/Homework/HWLecture11/Task0_Cards.java" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/HWLecture11/Task1/Card.java" afterPath="$PROJECT_DIR$/src/Homework/HWLecture11/Task1/Card.java" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/HWLecture12/Task0/Movie.java" afterPath="$PROJECT_DIR$/src/Homework/HWLecture12/Task0/Movie.java" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/HWLecture12/Task1_ListFileStructure.java" afterPath="$PROJECT_DIR$/src/Homework/HWLecture12/Task1_ListFileStructure.java" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/HWLecture12/Task2_ListRelativeFileStructure.java" afterPath="$PROJECT_DIR$/src/Homework/HWLecture12/Task2_ListRelativeFileStructure.java" />
+      <change beforePath="$PROJECT_DIR$/../Steliana Vasileva/4_Arrays_Strings_Memory_SourceControl/Task0a_CreateArray.java" afterPath="$PROJECT_DIR$/../Steliana Vasileva/4_Arrays_Strings_Memory_SourceControl/Task0a_CreateArray.java" />
+      <change beforePath="$PROJECT_DIR$/../Steliana Vasileva/4_Arrays_Strings_Memory_SourceControl/Task0b_ReadArray.java" afterPath="$PROJECT_DIR$/../Steliana Vasileva/4_Arrays_Strings_Memory_SourceControl/Task0b_ReadArray.java" />
+      <change beforePath="$PROJECT_DIR$/../Steliana Vasileva/4_Arrays_Strings_Memory_SourceControl/Task0c_PrintString.java" afterPath="$PROJECT_DIR$/../Steliana Vasileva/4_Arrays_Strings_Memory_SourceControl/Task0c_PrintString.java" />
+      <change beforePath="$PROJECT_DIR$/../Steliana Vasileva/4_Arrays_Strings_Memory_SourceControl/Task0d_Print2dArray.java" afterPath="$PROJECT_DIR$/../Steliana Vasileva/4_Arrays_Strings_Memory_SourceControl/Task0d_Print2dArray.java" />
+      <change beforePath="$PROJECT_DIR$/../Steliana Vasileva/4_Arrays_Strings_Memory_SourceControl/Task1а_PrintMatrix.java" afterPath="$PROJECT_DIR$/../Steliana Vasileva/4_Arrays_Strings_Memory_SourceControl/Task1а_PrintMatrix.java" />
+      <change beforePath="$PROJECT_DIR$/../Steliana Vasileva/4_Arrays_Strings_Memory_SourceControl/Тask1b_PrintMatrix.java" afterPath="$PROJECT_DIR$/../Steliana Vasileva/4_Arrays_Strings_Memory_SourceControl/Тask1b_PrintMatrix.java" />
+      <change beforePath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 10/CommonSubset.java" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 10/CommonSubset.java" />
+      <change beforePath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 10/ParenthesesMatching.java" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 10/ParenthesesMatching.java" />
+      <change beforePath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 10/UniqueMembers.java" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 10/UniqueMembers.java" />
+      <change beforePath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 11/Card.java" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 11/Card.java" />
+      <change beforePath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 11/Cards.java" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 11/Cards.java" />
+      <change beforePath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 12/ListFileStructure.java" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 12/ListFileStructure.java" />
+      <change beforePath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 12/ListFileStructure1.java" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 12/ListFileStructure1.java" />
+      <change beforePath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 12/Test2.java" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 12/Test2.java" />
+      <change beforePath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 8/Bank/Account.java" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 8/Bank/Account.java" />
+      <change beforePath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 8/Bank/Bank.java" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 8/Bank/Bank.java" />
+      <change beforePath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 9/SumNumber.java" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 9/SumNumber.java" />
+      <change beforePath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 9/Task0_NumberNotANumber.java" afterPath="$PROJECT_DIR$/../Yuri Valkov/Homework/Lesson 9/Task0_NumberNotANumber.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,13 +129,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Task4_CountryTour.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Task4_CountryTour.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture10/Task4_CountryTour.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+            <state relative-caret-position="493">
+              <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Movie.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture12/Task0/Movie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="74" column="35" lean-forward="true" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#3228#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,8 +265,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,13 +291,6 @@
               <item name="Kiril Tenchev" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Homework" type="462c0819:PsiDirectoryNode" />
-              <item name="HWLecture10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kiril Tenchev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kiril Tenchev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Homework" type="462c0819:PsiDirectoryNode" />
               <item name="HWLecture12" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -182,11 +306,10 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="E:/ProjectSwift/project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -425,7 +548,6 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17921527" sideWeight="0.48125" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -447,6 +569,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17921527" sideWeight="0.48125" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -694,9 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -704,9 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -784,23 +901,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="32" column="42" lean-forward="false" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture10/Task4_CountryTour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture12/Task0/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="69" column="41" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Homework/HWLecture10/Task4_CountryTour.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="68">
+          <caret line="74" column="35" lean-forward="true" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#3228#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

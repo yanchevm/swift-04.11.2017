@@ -18,9 +18,10 @@ public class Card implements Comparable<Card> {
 
     @Override
     public String toString() {
-        return (this.rank+" of "+this.suit);
+        return (this.rank+" of "+this.suit); //Милен: Нямаш нужда от скоби тук. Също и от this. 
     }
-
+	
+	//Милен: Добре си направил енъмите! 
         public enum Suit {
             Clubs(1),
             Diamonds(2),

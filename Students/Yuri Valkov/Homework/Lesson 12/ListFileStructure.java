@@ -2,7 +2,7 @@
 import java.io.*;
 
 public class ListFileStructure {
-
+    //Милен: БРАВО, добре си се справил.
     public static void main (String[] args)
     {
         if (args.length == 0)args = new String [] {".."};

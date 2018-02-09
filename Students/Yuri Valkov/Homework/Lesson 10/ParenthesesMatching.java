@@ -1,13 +1,14 @@
 import java.util.Scanner;
 import java.util.Stack;
 
+//Милен: БРАВО, алгоритъма ти е правилен!
 public class ParenthesesMatching {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+    
         System.out.println("Please enter a math expression:");
         String str = sc.nextLine();
-
+    
         Stack<String> stack = new Stack();
 
         for (int i = 0; i < str.length(); i++) {
